@@ -387,6 +387,7 @@ nav.navbar {
 }
 
 .logo {
+    width: 200px ;
 }
 
 .cover-mobile { display: none; }
