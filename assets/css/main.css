@@ -185,7 +185,7 @@ header.top-bar {
     line-height: 60px;
     width: 100%;
     clear: both;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .podcast-bar {
