@@ -318,43 +318,12 @@
 
 <script>
     jQuery(document).ready(function ($) {
-//        dzsap_init(".aptest", {
-//            autoplay: "off"
-//            ,init_each: "on"
-//            ,disable_volume: "on"
-//            ,skinwave_mode: 'normal'
-////            ,sample_time_start: '30' // --- if this is a sample to a complete song, you can write here start times, if not, leave to 0.
-////            ,sample_time_end: '87'
-////            ,sample_time_total: '120'
-//            ,settings_backup_type: 'light' // == light or full
-//            ,skinwave_: 'light' // == light or full
-//            ,skinwave_enableSpectrum: "off"
-//            ,embed_code: 'light' // == light or full
-//            ,skinwave_wave_mode_canvas_waves_number: "3"
-//            ,skinwave_wave_mode_canvas_waves_padding: "1"
-//            ,skinwave_wave_mode_canvas_reflection_size: '0' // == light or full
-//            ,design_color_bg: '999999,ffffff' // --  light or full
-//            ,skinwave_wave_mode_canvas_mode: 'reflecto' // --  light or full
-//            ,preview_on_hover: 'on' // --  light or full
-//            ,design_wave_color_progress: 'ff657a,ffffff' // -- light or full
-//            ,settings_php_handler:'publisher.php'
-//            ,pcm_data_try_to_generate:'on'
-//            ,skinwave_comments_enable: 'on' // -- enable the comments, publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
-//            ,skinwave_comments_retrievefromajax: 'on'// --- retrieve the comment form ajax
-//            ,failsafe_repair_media_element: 500 // == light or full
-//            ,settings_extrahtml_in_float_right: '<div class="player-but dzstooltip-con" style=";"><div class="the-icon-bg"></div> <span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Add to Cart</span><i class=" svg-icon fa fa-shopping-cart"></i></div>  <div class="player-but dzstooltip-con" style=";"><div class="the-icon-bg"></div>  <span class="dzstooltip arrow-from-start transition-slidein arrow-bottom skin-black align-right" style="width: auto; white-space: nowrap;">Download</span>  <i class="svg-icon fa fa-download"></i>  </div>'
-//        });
-
-
 
         dzsap_init(".aptest-with-play", {
             autoplay: "off"
             ,init_each: "on"
             ,disable_volume: "on"
             ,skinwave_mode: 'normal'
-//            ,sample_time_start: '30' // --- if this is a sample to a complete song, you can write here start times, if not, leave to 0.
-//            ,sample_time_end: '87'
-//            ,sample_time_total: '120'
             ,settings_backup_type: 'light' // == light or full
             ,skinwave_: 'light' // == light or full
             ,skinwave_enableSpectrum: "off"
@@ -367,9 +336,8 @@
             ,skinwave_wave_mode_canvas_mode: 'reflecto' // --  light or full
             ,preview_on_hover: 'off' // --  light or full
             ,design_wave_color_progress: 'ff657a,ffffff' // -- light or full
-            ,settings_php_handler:'publisher.php'
+            // ,settings_php_handler:'publisher.php'
             ,pcm_data_try_to_generate:'on'
-//            ,controls_external_scrubbar:'.zoomsounds-external-scrubbar-for-with-play'
             ,skinwave_comments_enable: 'off' // -- enable the comments, publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
             ,skinwave_comments_retrievefromajax: 'off'// --- retrieve the comment form ajax
             ,failsafe_repair_media_element: 500 // == light or full
@@ -378,7 +346,6 @@
         });
 
         setTimeout(function(){
-//            $('.the-media').html('alceva');
         },100);
     });
 </script>
