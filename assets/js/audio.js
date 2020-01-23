@@ -2,10 +2,10 @@
 
 // Create an instance
 var wavesurfer = {};
-
+window.alert ('test');
 // Init & load audio file
 document.addEventListener('DOMContentLoaded', function() {
-    window.alert ('test')
+
     wavesurfer = WaveSurfer.create({
         container: document.querySelector('#waveform'),
         waveColor: '#D9DCFF',
