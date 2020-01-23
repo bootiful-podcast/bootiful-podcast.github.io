@@ -5,7 +5,7 @@
 
 /*
 
-+ Josh Long website
++ josh Long website
 + Design, Front-end : Sam osiris
 + https://samosiris.com
 
@@ -39,6 +39,8 @@ body {
 }
 
 .container-fluid {
+    /*padding-left:50px;
+     padding-right: 50px; */
     width: 90%;
 }
 
@@ -152,8 +154,11 @@ img {
     text-decoration: underline !important;
 }
 
-/*
----------------------------------------------------
+/* ::-moz-selection { background: #0461BF; }
+::selection { background: #0461BF; }
+*/
+
+/* ---------------------------------------------------
      1. Guidelines ( UI Design elements )
 ----------------------------------------------------- */
 
@@ -556,10 +561,6 @@ nav.navbar {
 
 .latest-ep-item .photo {
     width: 100%;
-}
-
-.latest-ep-item .photo img {
-    height: 200px;
 }
 
 .latest-ep-item .content {
