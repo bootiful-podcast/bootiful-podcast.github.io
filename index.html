@@ -18,6 +18,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel='stylesheet' type="text/css" href="assets/soundplugin/audioplayer/audioplayer.css"/>
 
     <title>
         A Bootiful Podcast with Josh Long
@@ -25,61 +26,67 @@
 </head>
 <body>
 
+
 <header class="top-bar" id="topBar">
     <div class="container-fluid">
+        <div class="row">
 
-        <div class="podcast-bar">
-            <ul>
-                <li>
-                    <div class="pod-thumbnail"><img
-                            src="assets/images/thumbnail.png" alt=""></div>
-                </li>
-                <li>
-                    <button class="play-btn"><i class="fas fa-play"></i>
-                    </button>
-                </li>
-                <li>
-                    <div class="player-waves"><img
-                            src="assets/images/player-waves.png" alt=""></div>
-                </li>
-            </ul>
-        </div><!-- /.podcast bar -->
 
-        <div class="right-menu">
+            <div class="col-md-9">
 
-            <button class="navbar-toggler mobile-nav-btn" type="button"
-                    data-toggle="collapse"
-                    data-target="#mobile-menu"
-                    aria-controls="mobile menu" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <div class="hamburger-menu">
-                    <span></span><span></span><span></span></div>
-            </button>
 
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse mobile-menu-collapse" id="mobile-menu">
+                <!--   data-playfrom="last"  -->
+                <div id="ap1" data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg" data-type="audio"
+                     class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir     "
+                     data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
+                     data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
+                     data-source="assets/audio/itsabeautifulday.mp3">
+                    <div class="meta-artist">
+                        <span class="the-artist">Mick Jagger - Revenge</span>
+                    </div>
+                </div>
 
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
+            </div><!-- /.podcast bar -->
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PodCasts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://twitter.com/BootifulPodcast">Twitter (@BootifulPodcast)</a>
-                    </li>
-                </ul>
+            <div class="col-md-3">
 
-            </div>
-            <!-- Collapsible content -->
-        </div><!-- /.mobile menu -->
+                <button class="navbar-toggler mobile-nav-btn" type="button" data-toggle="collapse"
+                        data-target="#mobile-menu"
+                        aria-controls="mobile menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger-menu"><span></span><span></span><span></span></div>
+                </button>
 
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse mobile-menu-collapse" id="mobile-menu">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Linkedin </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">twitter </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">facebook </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">youtube </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RSS </a>
+                        </li>
+                    </ul>
+
+                    <!-- Links -->
+                </div>
+                <!-- Collapsible content -->
+            </div><!-- /.col x 3 -->
+
+        </div><!-- /.row -->
     </div><!-- /.container fluid -->
 </header><!-- /.podcast top bar-->
 
