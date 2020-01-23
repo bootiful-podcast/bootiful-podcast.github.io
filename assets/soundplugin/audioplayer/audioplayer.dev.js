@@ -15030,7 +15030,7 @@ function can_history_api() {
   return !!(window.history && history.pushState);
 }
 
-
+/*
 window.dzsap_wp_send_contor_60_secs = function(argcthis, argtitle){
 
   var data = {
@@ -15058,9 +15058,6 @@ window.dzsap_wp_send_contor_60_secs = function(argcthis, argtitle){
       if(typeof window.console != "undefined" ){
         // console.log('Ajax - submit view - ' + response);
       }
-
-
-
     },
     error:function(arg){
       if(typeof window.console != "undefined" ){
@@ -15068,7 +15065,7 @@ window.dzsap_wp_send_contor_60_secs = function(argcthis, argtitle){
       };
     }
   });
-}
+}*/
 
 // console.log('window.dzsap_init_calls - ', window.dzsap_init_calls);
 
