@@ -32,7 +32,10 @@
         <div class="row">
             <div class="col-md-9">
                 <div id="containerOfDataSources">
-                    <div id="ap1" data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg" data-type="audio"
+
+                    <div id="ap1"
+                         data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
+                         data-type="audio"
                          class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir"
                          data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
                          data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
@@ -44,6 +47,7 @@
                             </span>
                         </div>
                     </div>
+
                 </div>
 
             </div><!-- /.podcast bar -->
@@ -307,18 +311,12 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-<script src="assets/soundplugin/audioplayer/audioplayer.dev.js"
-        type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="assets/soundplugin/audioplayer/audioplayer.dev.js" type="text/javascript"></script>
+<script src="assets/soundplugin/audioplayer/wavesurfer.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="assets/js/custom.js"></script>
-
 <script>
 
     // var playerId = '.aptest-with-play';
@@ -349,9 +347,7 @@
             , skinwave_comments_retrievefromajax: 'off'// --- retrieve the comment form ajax
             , failsafe_repair_media_element: 500 // == light or full
         });
-
-
-    })
+    });
 
     jQuery(document).ready(function () {
 
