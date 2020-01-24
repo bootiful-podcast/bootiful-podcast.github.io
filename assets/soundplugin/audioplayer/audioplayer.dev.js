@@ -3852,7 +3852,7 @@ function register_dzsap_plugin() {
                     }
 
 
-                    // console.log(' src_real_mp3 - '+src_real_mp3, src_real_mp3);
+                    console.log(' src_real_mp3 - '+src_real_mp3, src_real_mp3);
                     try {
                         wavesurfer.load(src_real_mp3);
                     } catch (err) {
