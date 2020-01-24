@@ -362,17 +362,6 @@
             });
         }
 
-        // jQuery('#playLink').click(function () {
-        /*  <div id="ap1"
-                                 data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
-                                 data-type="audio"
-                                 class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir"
-                                 data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
-                                 data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
-                                 data-source="assets/audio/itsabeautifulday.mp3"
-                            >
-                                <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
-                            </div>*/
         var mp3s = {};
         var uris = [
             {url: 'audiosampletest.mp3', artist: 'One'},
@@ -396,8 +385,6 @@
                 e.addClass(clz.trim());
             });
             container.append(e);
-
-
             mp3s[uri] = uid;
             console.log('associating ' + uid + ' to ' + uri);
         }
