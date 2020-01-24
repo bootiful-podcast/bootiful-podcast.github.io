@@ -352,6 +352,16 @@
     })
 
     jQuery(document).ready(function () {
+
+        var container = document.getElementById('containerOfDataSources');
+
+        function uuidv4() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
         // jQuery('#playLink').click(function () {
         /*  <div id="ap1"
                                  data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
@@ -363,15 +373,6 @@
                             >
                                 <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
                             </div>*/
-        var container = document.getElementById('containerOfDataSources');
-
-        function uuidv4() {
-            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-                return v.toString(16);
-            });
-        }
-
         var mp3s = {};
         var uris = ['itsabeautifulday.mp3', 'audiosampletest.mp3'].map(function (x) {
             return 'http://bootifulpodcast.fm/assets/audio/' + x;
@@ -385,7 +386,15 @@
             var e = $("<div></div>");
             e.attr('data-source', e);
             e.attr('id', uid);
+            e.attr('data-type', 'audio');
+            e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
+            e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
+            e.attr('data-thumb', 'assets/soundplugin/audioplayer/img/adg3.jpg');
+            'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
+                e.addClass(clz);
+            });
             container.append(e);
+            
             mp3s[uri] = uid;
             console.log('associating ' + uid + ' to ' + e)
         }
