@@ -26,23 +26,22 @@
 </head>
 <body>
 
+<a id="playLink" href="#">Play</a>
+
 
 <header class="top-bar" id="topBar">
     <div class="container-fluid">
         <div class="row">
-
-
             <div class="col-md-9">
-
-
-                <div id="ap1" data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg" data-type="audio"
-                     class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir     "
+                <div id="ap1"
+                     data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
+                     data-type="audio"
+                     class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir"
                      data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
                      data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
-                     data-source="assets/audio/itsabeautifulday.mp3">
-                    <div class="meta-artist">
-                        <span class="the-artist">Mick Jagger - Revenge</span>
-                    </div>
+                     data-source="assets/audio/itsabeautifulday.mp3"
+                >
+                    <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
                 </div>
 
             </div><!-- /.podcast bar -->
@@ -310,7 +309,7 @@
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
-<script src="assets/soundplugin/audioplayer/audioplayer.js"
+<script src="assets/soundplugin/audioplayer/audioplayer.dev.js"
         type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -319,9 +318,14 @@
 <script src="assets/js/custom.js"></script>
 
 <script>
+
+    // var playerId = '.aptest-with-play';
+    var playerId = '#ap1';
+
     jQuery(document).ready(function ($) {
 
-        dzsap_init(".aptest-with-play", {
+
+        dzsap_init(playerId, {
             autoplay: "off"
             , init_each: "on"
             , disable_volume: "on"
@@ -338,16 +342,31 @@
             , skinwave_wave_mode_canvas_mode: 'reflecto' // --  light or full
             , preview_on_hover: 'off' // --  light or full
             , design_wave_color_progress: 'ff657a,ffffff' // -- light or full
-            // ,settings_php_handler:'publisher.php'
             , pcm_data_try_to_generate: 'on'
             , skinwave_comments_enable: 'off' // -- enable the comments, publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
             , skinwave_comments_retrievefromajax: 'off'// --- retrieve the comment form ajax
             , failsafe_repair_media_element: 500 // == light or full
         });
 
-        setTimeout(function () {
-        }, 100);
+
+    })
+
+    jQuery(document).ready(function () {
+        // jQuery('#playLink').click(function () {
+
+        var uris = ['itsabeautifulday.mp3', 'audiosampletest.mp3'].map(function (x) {
+            return 'http://bootifulpodcast.fm/assets/audio/' + x;
+        });
+
+        document.getElementById(playerId.substr(1)).api_change_media(uris[0], {
+            type: "audio",
+            fakeplayer_is_feeder: "off"
+        });
+
+
     });
+
+
 </script>
 
 
