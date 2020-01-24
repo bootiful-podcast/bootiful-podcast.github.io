@@ -26,22 +26,22 @@
 </head>
 <body>
 
-<a id="playLink" href="#">Play</a>
-
 
 <header class="top-bar" id="topBar">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-9">
-                <div id="ap1"
-                     data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
-                     data-type="audio"
-                     class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir"
-                     data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
-                     data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
-                     data-source="assets/audio/itsabeautifulday.mp3"
-                >
-                    <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
+                <div id="containerOfDataSources">
+                    <div id="ap1"
+                         data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
+                         data-type="audio"
+                         class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir"
+                         data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
+                         data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
+                         data-source="assets/audio/itsabeautifulday.mp3"
+                    >
+                        <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
+                    </div>
                 </div>
 
             </div><!-- /.podcast bar -->
@@ -353,12 +353,47 @@
 
     jQuery(document).ready(function () {
         // jQuery('#playLink').click(function () {
+        /*  <div id="ap1"
+                                 data-thumb="assets/soundplugin/audioplayer/img/adg3.jpg"
+                                 data-type="audio"
+                                 class="aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir"
+                                 data-scrubbg="assets/soundplugin/audioplayer/img/dzsplugins.png"
+                                 data-scrubprog="assets/soundplugin/audioplayer/img/bgminion.jpg"
+                                 data-source="assets/audio/itsabeautifulday.mp3"
+                            >
+                                <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
+                            </div>*/
+        var container = document.getElementById('containerOfDataSources');
 
+        function uuidv4() {
+            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+        }
+
+        var mp3s = {};
         var uris = ['itsabeautifulday.mp3', 'audiosampletest.mp3'].map(function (x) {
             return 'http://bootifulpodcast.fm/assets/audio/' + x;
         });
+        for (var i = 0; i < uris.length; i++) {
+            var uri = uris [i];
+            console.log('the element should be ' + uri);
+            // var d = container.createElement('div').attr('data-source' , e ) ;
+            var uid = 'data-source-' + uuidv4();
 
-        document.getElementById(playerId.substr(1)).api_change_media(uris[0], {
+            var e = $("<div></div>");
+            e.attr('data-source', e);
+            e.attr('id', uid);
+            container.append(e);
+            mp3s[uri] = uid;
+            console.log('associating ' + uid + ' to ' + e)
+        }
+
+        var mp3 = mp3s[uris[1]];
+        var mp3DS = jQuery(mp3);
+        console.log(mp3 + ' is the .mp3');
+        document.getElementById(playerId.substr(1)).api_change_media(mp3DS, {
             type: "audio",
             fakeplayer_is_feeder: "off"
         });
