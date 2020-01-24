@@ -21,7 +21,7 @@
     <link rel='stylesheet' type="text/css" href="assets/soundplugin/audioplayer/audioplayer.css"/>
 
     <title>
-      BootifulPodcast.fm - A Bootiful Podcast with Josh Long
+        BootifulPodcast.fm - A Bootiful Podcast with Josh Long
     </title>
 </head>
 <body>
@@ -371,7 +371,7 @@
             {url: 'itsabeautifulday.mp3', artist: 'Two'}
         ]
                 .map(function (x) {
-                    return 'http://bootifulpodcast.fm/assets/audio/' + x.url ;
+                    return 'http://bootifulpodcast.fm/assets/audio/' + x.url;
                 });
         for (var i = 0; i < uris.length; i++) {
             var uri = uris[i].url;
@@ -392,7 +392,7 @@
             console.log('associating ' + uid + ' to ' + uri);
         }
 
-        var mp3 = mp3s[uris[1]];
+        var mp3 = mp3s[uris[0]];
         var mp3DS = jQuery(mp3);
         document.getElementById(playerId.substr(1)).api_change_media(mp3DS, {
             type: "audio",
