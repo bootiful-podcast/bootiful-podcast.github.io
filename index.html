@@ -374,11 +374,16 @@
                                 <div class="meta-artist"><span class="the-artist">Mick Jagger - Revenge</span></div>
                             </div>*/
         var mp3s = {};
-        var uris = ['itsabeautifulday.mp3', 'audiosampletest.mp3'].map(function (x) {
-            return 'http://bootifulpodcast.fm/assets/audio/' + x;
-        });
+        var uris = [
+            {url: 'audiosampletest.mp3', artist: 'One'},
+            {url: 'itsabeautifulday.mp3', artist: 'Two'}
+        ]
+                .map(function (x) {
+                    return 'http://bootifulpodcast.fm/assets/audio/' + x;
+                });
         for (var i = 0; i < uris.length; i++) {
-            var uri = uris[i];
+            var uri = uris[i].url;
+            var artist = uris[i].artist;
             var uid = 'data-source-' + uuidv4();
             var e = $("<div></div>");
             e.attr('data-source', e);
@@ -391,6 +396,10 @@
                 e.addClass(clz.trim());
             });
             container.append(e);
+
+            var metaArtist = $('<div class="meta-artist"><span class="the-artist"> ' + artist + '</span></div>');
+            e.append(metaArtist);
+
             mp3s[uri] = uid;
             console.log('associating ' + uid + ' to ' + uri);
         }
