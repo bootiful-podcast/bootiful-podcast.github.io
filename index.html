@@ -378,11 +378,8 @@
             return 'http://bootifulpodcast.fm/assets/audio/' + x;
         });
         for (var i = 0; i < uris.length; i++) {
-            var uri = uris [i];
-            console.log('the element should be ' + uri);
-            // var d = container.createElement('div').attr('data-source' , e ) ;
+            var uri = uris[i];
             var uid = 'data-source-' + uuidv4();
-
             var e = $("<div></div>");
             e.attr('data-source', e);
             e.attr('id', uid);
@@ -394,19 +391,16 @@
                 e.addClass(clz.trim());
             });
             container.append(e);
-
             mp3s[uri] = uid;
             console.log('associating ' + uid + ' to ' + uri);
         }
 
         var mp3 = mp3s[uris[1]];
         var mp3DS = jQuery(mp3);
-        console.log(mp3 + ' is the .mp3');
         document.getElementById(playerId.substr(1)).api_change_media(mp3DS, {
             type: "audio",
             fakeplayer_is_feeder: "off"
         });
-
 
     });
 
