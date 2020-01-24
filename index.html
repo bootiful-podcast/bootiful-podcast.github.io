@@ -395,7 +395,7 @@
             console.log('associating ' + uid + ' to ' + uri);
         }
 
-        var mp3 = mp3s[uris[1]];
+        var mp3 = mp3s[uris[0]];
         var mp3DS = jQuery(mp3);
         document.getElementById(playerId.substr(1)).api_change_media(mp3DS, {
             type: "audio",
