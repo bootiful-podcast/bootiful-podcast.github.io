@@ -391,12 +391,12 @@
             e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
             e.attr('data-thumb', 'assets/soundplugin/audioplayer/img/adg3.jpg');
             'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
-                e.addClass(clz);
+                e.addClass(clz.trim());
             });
             container.append(e);
 
             mp3s[uri] = uid;
-            console.log('associating ' + uid + ' to ' + e)
+            console.log('associating ' + uid + ' to ' + uri);
         }
 
         var mp3 = mp3s[uris[1]];
