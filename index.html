@@ -385,7 +385,7 @@
             var uri = uris[i].url;
             var artist = uris[i].artist;
             var uid = 'data-source-' + uuidv4();
-            var e = $("<div></div>");
+            var e = $("<div><div class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></div></div>");
             e.attr('data-source', e);
             e.attr('id', uid);
             e.attr('data-type', 'audio');
@@ -397,8 +397,6 @@
             });
             container.append(e);
 
-            var metaArtist = $('<div class="meta-artist"><span class="the-artist"> ' + artist + '</span></div>');
-            e.append(metaArtist);
 
             mp3s[uri] = uid;
             console.log('associating ' + uid + ' to ' + uri);
