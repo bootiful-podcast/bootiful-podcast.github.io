@@ -2621,9 +2621,9 @@ function register_dzsap_plugin() {
 
                     if (_feed_fakeButton) {
 
-                        console.log('the fake button is ' + _c)
-                      var _c = jQuery(_feed_fakeButton);
-                      margs.source = _c.attr('data-source');
+                        console.log('the fake button is ' + _feed_fakeButton)
+                        var _c = jQuery(_feed_fakeButton);
+                        margs.source = _c.attr('data-source');
 
                         if (_c.attr('data-pcm')) {
                             margs.pcm = _c.attr('data-pcm');
