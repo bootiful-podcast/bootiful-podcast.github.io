@@ -342,13 +342,14 @@
 
         var container = jQuery('#containerOfDataSources');
         this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uuidv4();
-        console.log( 'the uid that came in was ' + uid + ', and the element that results is ' + this.uid )
+        console.log('the uid that came in was ' + uid + ', and the element that results is ' + this.uid)
         this.title = title;
         this.artist = artist;
         this.uri = uri;
 
+
         var e = $("<span><span class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></span></span>");
-        e.attr('data-source', e);
+        e.attr('data-source', this.uri);
         e.attr('id', this.uid);
         e.attr('data-type', 'audio');
         e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
