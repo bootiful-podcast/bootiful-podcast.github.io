@@ -358,16 +358,17 @@
         'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
             e.addClass(clz.trim());
         });
-        var pargs = {
-            type: "audio",
-            fakeplayer_is_feeder: "off"
-        };
         container.append(e);
+        this.element = e;
 
         this.play = function () {
+            var pargs = {
+                type: "audio",
+                fakeplayer_is_feeder: "off"
+            };
             console.log('play(): ' + this.uid);
-            var dataSource = jQuery(this.uid);
-            document.getElementById(playerId.substr(1)).api_change_media(dataSource, pargs);
+            // var dataSource = jQuery(this.uid);
+            document.getElementById(playerId.substr(1)).api_change_media(this.element, pargs);
         }
     }
 
