@@ -344,10 +344,9 @@
         this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uuidv4();
         this.title = title;
         this.artist = artist;
-        this.uri = /*http://bootifulpodcast.fm*/ '/assets/audio/' + uri;
+        this.uri = '/assets/audio/' + uri;
 
-
-        var e = $("<span><span class=\"meta-artist\"><span class=\"the-artist\"> "  + artist +  "</span></span></span>");
+        var e = $("<span><span class=\"meta-artist\"><span class=\"the-artist\"> " + artist + "</span></span></span>");
         e.attr('data-source', this.uri);
         e.attr('id', this.uid);
         e.attr('data-type', 'audio');
