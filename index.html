@@ -400,7 +400,7 @@
                 })
                 .forEach(function (value) {
                     var a = $('<a>Click to play ' + value.title + ' ' + ' by ' + value.artist + '</a> ');
-                    a.addEventListener('click', function (evt) {
+                    a.click(function (evt) {
                         value.play();
                     });
                     $('#playlistLinks').append(a);
