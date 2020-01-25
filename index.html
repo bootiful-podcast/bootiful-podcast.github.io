@@ -363,7 +363,7 @@
                 type: "audio",
                 fakeplayer_is_feeder: "off"
             };
-            console.log('play(): ' + this.title + '/' + this.uri);
+            console.log('playing ' + this.title + ' with URI ' + this.uri);
             // var dataSource = jQuery(this.uid);
             document.getElementById(playerId.substr(1)).api_change_media(this.element, pargs);
         }
@@ -408,7 +408,6 @@
                     var uri = p.uri;
                     var a = $('<LI><a>Click to play ' + p.title + ' ' + ' by ' + p.artist + '</a></li>');
                     a.click(function () {
-                        console.log('-> playing (' + p.uid + ') ' + p.uri);
                         p.play();
                     });
                     $('#playlistLinks').append(a);
