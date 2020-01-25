@@ -324,37 +324,6 @@
 <script>
 
 
-    // init the player
-    jQuery(document).ready(function ($) {
-
-
-        dzsap_init(playerId, {
-            autoplay: "off"
-            , init_each: "on"
-            , disable_volume: "on"
-            , skinwave_mode: 'normal'
-            , settings_backup_type: 'light' // == light or full
-            , skinwave_: 'light' // == light or full
-            , skinwave_enableSpectrum: "off"
-            , embed_code: 'light' // == light or full
-            , skinwave_wave_mode: "canvas"
-            , skinwave_wave_mode_canvas_waves_number: "3"
-            , skinwave_wave_mode_canvas_waves_padding: "1"
-            , skinwave_wave_mode_canvas_reflection_size: '0' // == light or full
-            , design_color_bg: '999999,ffffff' // --  light or full
-            , skinwave_wave_mode_canvas_mode: 'reflecto' // --  light or full
-            , preview_on_hover: 'off' // --  light or full
-            , design_wave_color_progress: 'ff657a,ffffff' // -- light or full
-            , pcm_data_try_to_generate: 'on'
-            , skinwave_comments_enable: 'off' // -- enable the comments, publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
-            , skinwave_comments_retrievefromajax: 'off'// --- retrieve the comment form ajax
-            , failsafe_repair_media_element: 500 // == light or full
-        });
-
-
-    });
-
-
     function Podcast(uid, title, artist, uri) {
         function uuidv4() {
             return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
@@ -385,15 +354,46 @@
             fakeplayer_is_feeder: "off"
         };
         container.append(e);
+
         this.play = function () {
             var dataSource = jQuery(this.uid);
             document.getElementById(playerId.substr(1)).api_change_media(dataSource, pargs);
         }
     }
 
-    jQuery(document).ready(function () {
 
-        [new Podcast('Title 1', 'Artist 1', 'audiosampletest.mp3'), new Podcast('Title 1', 'Artist 1', 'itsabeautifulday.mp3')]
+    // init the player
+    jQuery(document).ready(function ($) {
+
+
+        dzsap_init(playerId, {
+            autoplay: "off"
+            , init_each: "on"
+            , disable_volume: "on"
+            , skinwave_mode: 'normal'
+            , settings_backup_type: 'light' // == light or full
+            , skinwave_: 'light' // == light or full
+            , skinwave_enableSpectrum: "off"
+            , embed_code: 'light' // == light or full
+            , skinwave_wave_mode: "canvas"
+            , skinwave_wave_mode_canvas_waves_number: "3"
+            , skinwave_wave_mode_canvas_waves_padding: "1"
+            , skinwave_wave_mode_canvas_reflection_size: '0' // == light or full
+            , design_color_bg: '999999,ffffff' // --  light or full
+            , skinwave_wave_mode_canvas_mode: 'reflecto' // --  light or full
+            , preview_on_hover: 'off' // --  light or full
+            , design_wave_color_progress: 'ff657a,ffffff' // -- light or full
+            , pcm_data_try_to_generate: 'on'
+            , skinwave_comments_enable: 'off' // -- enable the comments, publisher.php must be in the same folder as this html, also if you want the comments to automatically be taken from the database remember to set skinwave_comments_retrievefromajax to ON
+            , skinwave_comments_retrievefromajax: 'off'// --- retrieve the comment form ajax
+            , failsafe_repair_media_element: 500 // == light or full
+        });
+
+
+        [
+            new Podcast('Title 1', 'Artist 1', 'audiosampletest.mp3'),
+            new Podcast('Title 1', 'Artist 1', 'itsabeautifulday.mp3')
+        ]
                 .map(function (value) {
                     value.uri = 'http://bootifulpodcast.fm/assets/audio' + value.uri;
                     return value;
