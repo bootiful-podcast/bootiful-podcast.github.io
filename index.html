@@ -344,7 +344,7 @@
         this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uuidv4();
         this.title = title;
         this.artist = artist;
-        this.uri = uri;
+        this.uri = 'http://bootifulpodcast.fm/assets/audio/' + uri;
 
 
         var e = $("<span><span class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></span></span>");
@@ -403,10 +403,7 @@
             new Podcast(null, 'Title 1', 'Artist 1', 'audiosampletest.mp3'),
             new Podcast(null, 'Title 2', 'Artist 2', 'itsabeautifulday.mp3')
         ]
-                .map(function (value) {
-                    value.uri = 'http://bootifulpodcast.fm/assets/audio/' + value.uri;
-                    return value;
-                })
+
                 .forEach(function (value) {
                     var p = value;
                     var uri = p.uri;
