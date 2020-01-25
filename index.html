@@ -342,6 +342,7 @@
 
         var container = jQuery('#containerOfDataSources');
         this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uuidv4();
+        console.log( 'the uid that came in was ' + uid + ', and the element that results is ' + this.uid )
         this.title = title;
         this.artist = artist;
         this.uri = uri;
