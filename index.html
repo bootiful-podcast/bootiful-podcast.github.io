@@ -409,13 +409,12 @@
                     value.uri = 'http://bootifulpodcast.fm/assets/audio/' + value.uri;
                     return value;
                 })
-                .forEach(function (value) {
+                .forEach(function(value) {
                     var p = value;
                     var uri = p.uri;
-                    var a = $('<LI><a>Click to play ' + p.title + ' ' + ' by ' + p.artist + '</a></li> ');
-                    a.click(function (evt) {
-                        console.log(' you want to play ' + uri);
-                        console.log(' you want to play ' + p.uri);
+                    var a = $('<LI><a>Click to play ' + p.title + ' ' + ' by ' + p.artist + '</a></li>');
+                    a.click(function () {
+                        console.log('you are trying to play ' + p.uri);
                         p.play();
                     });
                     $('#playlistLinks').append(a);
