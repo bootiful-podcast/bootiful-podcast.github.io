@@ -340,7 +340,7 @@
         this.artist = artist;
         this.uri = uri;
 
-        var e = $("<div><div class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></div></div>");
+        var e = $("<span><span class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></span></span>");
         e.attr('data-source', e);
         e.attr('id', this.uid);
         e.attr('data-type', 'audio');
@@ -392,7 +392,8 @@
 
 
         [
-            
+            new Podcast('Title 1', 'Artist 1', 'audiosampletest.mp3'),
+            new Podcast('Title 1', 'Artist 1', 'itsabeautifulday.mp3')
         ]
                 .map(function (value) {
                     value.uri = 'http://bootifulpodcast.fm/assets/audio' + value.uri;
