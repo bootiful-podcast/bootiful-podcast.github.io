@@ -26,7 +26,6 @@
 </head>
 <body>
 
-<div id="playlistLinks"></div>
 
 <header class="top-bar" id="topBar">
     <div class="container-fluid">
@@ -124,6 +123,13 @@
 
 
     <div class="cover">
+
+        <ol id="playlistLinks">
+
+
+        </ol>
+
+
         <div class="container-fluid">
             <div class="row">
 
@@ -357,6 +363,7 @@
         container.append(e);
 
         this.play = function () {
+            console.log('play(): ' + this.uid);
             var dataSource = jQuery(this.uid);
             document.getElementById(playerId.substr(1)).api_change_media(dataSource, pargs);
         }
@@ -392,17 +399,21 @@
 
 
         [
-            new Podcast('Title 1', 'Artist 1', 'audiosampletest.mp3'),
-            new Podcast('Title 1', 'Artist 1', 'itsabeautifulday.mp3')
+            new Podcast(null, 'Title 1', 'Artist 1', 'audiosampletest.mp3'),
+            new Podcast(null, 'Title 2', 'Artist 2', 'itsabeautifulday.mp3')
         ]
                 .map(function (value) {
-                    value.uri = 'http://bootifulpodcast.fm/assets/audio' + value.uri;
+                    value.uri = 'http://bootifulpodcast.fm/assets/audio/' + value.uri;
                     return value;
                 })
                 .forEach(function (value) {
-                    var a = $('<a>Click to play ' + value.title + ' ' + ' by ' + value.artist + '</a> ');
+                    var p = value;
+                    var uri = p.uri;
+                    var a = $('<LI><a>Click to play ' + p.title + ' ' + ' by ' + p.artist + '</a></li> ');
                     a.click(function (evt) {
-                        value.play();
+                        console.log(' you want to play ' + uri);
+                        console.log(' you want to play ' + p.uri);
+                        p.play();
                     });
                     $('#playlistLinks').append(a);
                 });
