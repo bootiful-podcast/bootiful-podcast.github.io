@@ -323,8 +323,8 @@
 <script src="assets/js/custom.js"></script>
 <script>
 
-    // var playerId = '.aptest-with-play';
 
+    // init the player
     jQuery(document).ready(function ($) {
 
 
@@ -350,10 +350,10 @@
             , skinwave_comments_retrievefromajax: 'off'// --- retrieve the comment form ajax
             , failsafe_repair_media_element: 500 // == light or full
         });
+
+
     });
 
-
-    var playlist = [];
 
     function Podcast(uid, title, artist, uri) {
         function uuidv4() {
@@ -393,23 +393,18 @@
 
     jQuery(document).ready(function () {
 
-
-        var podcasts = [
-            new Podcast('Title 1', 'Artist 1', 'audiosampletest.mp3'),
-            new Podcast('Title 1', 'Artist 1', 'itsabeautifulday.mp3')
-        ].map(function (value) {
-            value.uri = 'http://bootifulpodcast.fm/assets/audio' + value.uri;
-            return value;
-        });
-
-        podcasts.forEach(function (value) {
-            var a = $('<a>Click to play ' + value.title + ' ' + ' by ' + value.artist + '</a> ');
-            a.addEventListener('click', function (evt) {
-                value.play();
-            });
-            $('#playlistLinks').append(a);
-
-        });
+        [new Podcast('Title 1', 'Artist 1', 'audiosampletest.mp3'), new Podcast('Title 1', 'Artist 1', 'itsabeautifulday.mp3')]
+                .map(function (value) {
+                    value.uri = 'http://bootifulpodcast.fm/assets/audio' + value.uri;
+                    return value;
+                })
+                .forEach(function (value) {
+                    var a = $('<a>Click to play ' + value.title + ' ' + ' by ' + value.artist + '</a> ');
+                    a.addEventListener('click', function (evt) {
+                        value.play();
+                    });
+                    $('#playlistLinks').append(a);
+                });
     });
 
 
