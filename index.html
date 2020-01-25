@@ -364,7 +364,7 @@
                 type: "audio",
                 fakeplayer_is_feeder: "off"
             };
-            console.log('play(): ' + this.title +'/' + this.title );
+            console.log('play(): ' + this.title + '/' + this.uri);
             // var dataSource = jQuery(this.uid);
             document.getElementById(playerId.substr(1)).api_change_media(this.element, pargs);
         }
@@ -407,7 +407,7 @@
                     value.uri = 'http://bootifulpodcast.fm/assets/audio/' + value.uri;
                     return value;
                 })
-                .forEach(function(value) {
+                .forEach(function (value) {
                     var p = value;
                     var uri = p.uri;
                     var a = $('<LI><a>Click to play ' + p.title + ' ' + ' by ' + p.artist + '</a></li>');
