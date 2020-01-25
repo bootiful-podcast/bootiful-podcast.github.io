@@ -323,7 +323,6 @@
 <script>
 
     // var playerId = '.aptest-with-play';
-    var playerId = '#ap1';
 
     jQuery(document).ready(function ($) {
 
@@ -352,10 +351,10 @@
         });
     });
 
-    jQuery(document).ready(function () {
 
-        var container = document.getElementById('containerOfDataSources');
+    var playlist = [];
 
+    function Podcast(uid, title, artist, uri) {
         function uuidv4() {
             return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
                 var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
@@ -363,30 +362,49 @@
             });
         }
 
-        var mp3s = {};
-        var uris = [
-            {file: 'audiosampletest.mp3', artist: 'One'},
-            {file: 'itsabeautifulday.mp3', artist: 'Two'}
-        ]
-                .map(function (x) {
-                    x.url = 'http://bootifulpodcast.fm/assets/audio/' + x.file;
-                    return x;
-                });
+        var container = document.getElementById('containerOfDataSources');
+        var playerId = '#ap1';
+        this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uuidv4();
+        this.title = title;
+        this.artist = artist;
+        this.uri = uri;
+
+        var e = $("<div><div class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></div></div>");
+        e.attr('data-source', e);
+        e.attr('id', this.uid);
+        e.attr('data-type', 'audio');
+        e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
+        e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
+        e.attr('data-thumb', 'assets/soundplugin/audioplayer/img/adg3.jpg');
+        'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
+            e.addClass(clz.trim());
+        });
+        var pargs = {
+            type: "audio",
+            fakeplayer_is_feeder: "off"
+        };
+        container.append(e);
+        this.play = function () {
+            var dataSource = jQuery(this.uid);
+            document.getElementById(playerId.substr(1)).api_change_media(dataSource, pargs);
+        }
+    }
+
+    jQuery(document).ready(function () {
+
+
+        var root = 'http://bootifulpodcast.fm/assets/audio';
+        var podcasts = [
+            new Podcast('Title 1', 'Artist 1', root + 'audiosampletest.mp3'),
+            new Podcast('Title 1', 'Artist 1', root + 'itsabeautifulday.mp3')
+        ];
+
+
         for (var i = 0; i < uris.length; i++) {
             var uri = uris[i].url;
             var artist = uris[i].artist;
-            var uid = 'data-source-' + uuidv4();
-            var e = $("<div><div class=\"meta-artist\"><span class=\"the-artist\"> ' + artist + '</span></div></div>");
-            e.attr('data-source', e);
-            e.attr('id', uid);
-            e.attr('data-type', 'audio');
-            e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
-            e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
-            e.attr('data-thumb', 'assets/soundplugin/audioplayer/img/adg3.jpg');
-            'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
-                e.addClass(clz.trim());
-            });
-            container.append(e);
+
+
             mp3s[uri] = uid.toString();
             console.log('associating ' + uid + ' to ' + uri);
         }
