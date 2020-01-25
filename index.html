@@ -408,7 +408,7 @@
                     var uri = p.uri;
                     var a = $('<LI><a>Click to play ' + p.title + ' ' + ' by ' + p.artist + '</a></li>');
                     a.click(function () {
-                        console.log('you are trying to play ' + p.uri);
+                        console.log('-> playing (' + p.uid + ') ' + p.uri);
                         p.play();
                     });
                     $('#playlistLinks').append(a);
