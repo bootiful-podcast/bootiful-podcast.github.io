@@ -342,7 +342,6 @@
 
         var container = jQuery('#containerOfDataSources');
         this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uuidv4();
-        console.log('the uid that came in was ' + uid + ', and the element that results is ' + this.uid)
         this.title = title;
         this.artist = artist;
         this.uri = uri;
@@ -360,13 +359,12 @@
         });
         container.append(e);
         this.element = e;
-
         this.play = function () {
             var pargs = {
                 type: "audio",
                 fakeplayer_is_feeder: "off"
             };
-            console.log('play(): ' + this.uid);
+            console.log('play(): ' + this.title +'/' + this.title );
             // var dataSource = jQuery(this.uid);
             document.getElementById(playerId.substr(1)).api_change_media(this.element, pargs);
         }
