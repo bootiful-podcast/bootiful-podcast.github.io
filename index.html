@@ -523,6 +523,9 @@
     var container = jQuery('#containerOfDataSources');
 
     function initializePlayerForLatest(podcast) {
+
+        console.log('initializing the latest with the episode information');
+
         container.attr('data-source', podcast.episodeUri);
         container.attr('data-thumb', podcast.episodePhotoUri);
 
