@@ -176,7 +176,7 @@
                         </div>
                         <div class="content">
                             <h4><a href="#"> Another test </a></h4>
-                            <P><strong> 01/25/2020</strong></P>
+                            <P><strong> 05/02/2020</strong></P>
                             <p> another test </p>
                             <a href="#" id="top3PlayFor253" class="listen-btn clicked"><span
                                     class="vid-icon-span"><i
@@ -191,7 +191,7 @@
                         </div>
                         <div class="content">
                             <h4><a href="#"> Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385 </a></h4>
-                            <P><strong> 01/25/2020</strong></P>
+                            <P><strong> 02/02/2020</strong></P>
                             <p> Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385 </p>
                             <a href="#" id="top3PlayFor245" class="listen-btn clicked"><span
                                     class="vid-icon-span"><i
@@ -206,7 +206,7 @@
                         </div>
                         <div class="content">
                             <h4><a href="#"> take 3 </a></h4>
-                            <P><strong> 01/25/2020</strong></P>
+                            <P><strong> 10/19/2019</strong></P>
                             <p> take 3 </p>
                             <a href="#" id="top3PlayFor249" class="listen-btn clicked"><span
                                     class="vid-icon-span"><i
@@ -289,6 +289,12 @@
                                    class="tab-pane-toggle active"
                                    role="tab">2020 Episodes</a>
                             </li>
+                            <li>
+                                <a id="2019-tab" data-toggle="tab"
+                                   href="#2019-content"
+                                   class="tab-pane-toggle "
+                                   role="tab">2019 Episodes</a>
+                            </li>
 
                     </ul>
                 </div><!-- tab nav archive -->
@@ -324,7 +330,7 @@
                                                         </button>
                                                     </div>
                                                     <P>
-                                                        01/25/2020
+                                                        05/02/2020
                                                     </P>
                                                     <p>  another test  </p>
                                                 </div>
@@ -374,7 +380,7 @@
                                                         </button>
                                                     </div>
                                                     <P>
-                                                        01/25/2020
+                                                        02/02/2020
                                                     </P>
                                                     <p>  Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385  </p>
                                                 </div>
@@ -404,6 +410,16 @@
                                         </div>
                                     </div>
                                 </div>
+                        </div>
+                        <!--
+                         to show the episodes, make this element have a class active
+                        -->
+                        <div class="tab-pane fade show tab-pane-content "
+                             id="2019-content" role="tabpanel"
+                             aria-labelledby="2019 tab">
+
+                            <!-- 2019 -->
+
                                 <div class="podcast-episode">
                                     <div class="row">
                                         <div class="col-lg-9 col-md-8">
@@ -424,7 +440,7 @@
                                                         </button>
                                                     </div>
                                                     <P>
-                                                        01/25/2020
+                                                        10/19/2019
                                                     </P>
                                                     <p>  take 3  </p>
                                                 </div>
@@ -604,10 +620,16 @@
             , failsafe_repair_media_element: 500 // == light or full
         });
 
-        jQuery.ajax('/podcasts.json').
+        fetch('podcasts.json')
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (myJson) {
+                    console.log(myJson);
+                });
+
 
         [
-            // new Podcast(null, 'Title 1', 'Artist 1', 'audiosampletest.mp3', 'assets/episode-photos/art-1.jpg'),
             new Podcast('1', 'Title 1', 'Artist 1', 'http://Joshuas-MacBook-Pro-2019.local:8080/podcasts/2866caf8-1836-4661-9613-681ace4a6432/produced-audio', 'assets/episode-photos/art-1.jpg'),
             new Podcast('2', 'Title 2', 'Artist 2', 'http://bootifulpodcast.fm/assets/audio/itsabeautifulday.mp3', 'assets/episode-photos/art-2.jpg')
         ]
