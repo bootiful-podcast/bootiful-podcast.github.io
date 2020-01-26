@@ -333,7 +333,8 @@
                                                     <li class="control-ep">
                                                         <a id="episode-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a" href="#">
                                                             <div class="icon"><i class="fas fa-play"></i></div>
-                                                            <span class="play-status" id="episode-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a-status"></span>
+                                                            <span class="play-status"
+                                                                  id="episode-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a-status"></span>
                                                         </a>
                                                     </li>
                                                     <li class="control-ep">
@@ -377,7 +378,8 @@
                                                     <li class="control-ep">
                                                         <a id="episode-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07" href="#">
                                                             <div class="icon"><i class="fas fa-play"></i></div>
-                                                            <span class="play-status" id="episode-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07-status"></span>
+                                                            <span class="play-status"
+                                                                  id="episode-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07-status"></span>
                                                         </a>
                                                     </li>
                                                     <li class="control-ep">
@@ -431,7 +433,8 @@
                                                     <li class="control-ep">
                                                         <a id="episode-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc" href="#">
                                                             <div class="icon"><i class="fas fa-play"></i></div>
-                                                            <span class="play-status" id="episode-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc-status"></span>
+                                                            <span class="play-status"
+                                                                  id="episode-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc-status"></span>
                                                         </a>
                                                     </li>
                                                     <li class="control-ep">
@@ -615,11 +618,12 @@
                 .then(function (podcasts) {
                     console.log(podcasts);
                     resetEpisodePlayStatus();
-                    for (var i = 0; i < podcasts.length; i++) {
-                        var p = podcasts [i];
+                    // for (var i = 0; i < podcasts.length; i++) {
+                    podcasts.forEach(function (p) {
                         var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
+                        console.log('the podcast is ' + podcast);
                         renderPodcast(podcast);
-                    }
+                    });
                 });
     });
 
