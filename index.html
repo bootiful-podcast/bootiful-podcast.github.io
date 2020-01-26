@@ -597,7 +597,7 @@
             $('.play-status').html('Listen Now');
         }
 
-        resetEpisodePlayStatus();
+
 
         function renderPodcast(value) {
             var p = value;
@@ -619,6 +619,7 @@
                 })
                 .then(function (podcasts) {
                     console.log(podcasts);
+                    resetEpisodePlayStatus();
                     for (var i = 0; i < podcasts.length; i++) {
                         var p = podcasts [i];
                         var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
