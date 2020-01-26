@@ -625,9 +625,15 @@
                         renderPodcast(podcast);
                     });
 
-                    podcasts.sort (function (a,b){
+                    podcasts.sort(function (a, b) {
+                        return b.when - a.when;
+                    });
 
-                    })
+                    if (podcasts.left > 0) {
+                        var max = podcasts [0];
+                        console.log('the latest podcast is ', max);
+                        
+                    }
 
                 });
     });
