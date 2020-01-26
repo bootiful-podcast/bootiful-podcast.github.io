@@ -315,13 +315,9 @@
                                                 <div class="content-ep">
                                                     <span class="cat-ep">Development</span>
                                                     <div class="heading-episode">
-                                                        <h4><a href="#"
-                                                               class="active">Another test</a>
-                                                        </h4>
-                                                        <button type="button"
-                                                                class="btn-light-green">
-                                                            <i class="fas fa-share"></i>
-                                                            share this
+                                                        <h4><a href="#" class="active">Another test</a></h4>
+                                                        <button type="button" class="btn-light-green"><i
+                                                                class="fas fa-share"></i> share this
                                                         </button>
                                                     </div>
                                                     <P>
@@ -337,9 +333,9 @@
                                                     <li class="control-ep">
                                                         <a id="episode-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a" href="#">
                                                             <div class="icon"><i
-                                                                                 class="fas fa-play"></i>
+                                                                    class="fas fa-play"></i>
                                                             </div>
-                                                            <span>Listening now</span>
+                                                            <span class="play-status"  id="episode-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a-status" >Listening now</span>
                                                         </a>
                                                     </li>
                                                     <li class="control-ep">
@@ -365,13 +361,9 @@
                                                 <div class="content-ep">
                                                     <span class="cat-ep">Development</span>
                                                     <div class="heading-episode">
-                                                        <h4><a href="#"
-                                                               class="active">Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385</a>
-                                                        </h4>
-                                                        <button type="button"
-                                                                class="btn-light-green">
-                                                            <i class="fas fa-share"></i>
-                                                            share this
+                                                        <h4><a href="#" class="active">Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385</a></h4>
+                                                        <button type="button" class="btn-light-green"><i
+                                                                class="fas fa-share"></i> share this
                                                         </button>
                                                     </div>
                                                     <P>
@@ -387,9 +379,9 @@
                                                     <li class="control-ep">
                                                         <a id="episode-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07" href="#">
                                                             <div class="icon"><i
-                                                                                 class="fas fa-play"></i>
+                                                                    class="fas fa-play"></i>
                                                             </div>
-                                                            <span>Listening now</span>
+                                                            <span class="play-status"  id="episode-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07-status" >Listening now</span>
                                                         </a>
                                                     </li>
                                                     <li class="control-ep">
@@ -425,13 +417,9 @@
                                                 <div class="content-ep">
                                                     <span class="cat-ep">Development</span>
                                                     <div class="heading-episode">
-                                                        <h4><a href="#"
-                                                               class="active">take 3</a>
-                                                        </h4>
-                                                        <button type="button"
-                                                                class="btn-light-green">
-                                                            <i class="fas fa-share"></i>
-                                                            share this
+                                                        <h4><a href="#" class="active">take 3</a></h4>
+                                                        <button type="button" class="btn-light-green"><i
+                                                                class="fas fa-share"></i> share this
                                                         </button>
                                                     </div>
                                                     <P>
@@ -447,9 +435,9 @@
                                                     <li class="control-ep">
                                                         <a id="episode-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc" href="#">
                                                             <div class="icon"><i
-                                                                                 class="fas fa-play"></i>
+                                                                    class="fas fa-play"></i>
                                                             </div>
-                                                            <span>Listening now</span>
+                                                            <span class="play-status"  id="episode-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc-status" >Listening now</span>
                                                         </a>
                                                     </li>
                                                     <li class="control-ep">
@@ -620,9 +608,13 @@
             $('#top3-play-' + value.uid).click(function () {
                 p.play();
             });
+            $('.play-status').hide();
+            $('#episode-play-' + value.uid + '-status').show();
             $('#episode-play-' + value.uid).click(function () {
                 p.play();
-            })
+            });
+
+
             // $('#playlistLinks').append(a);
         }
 
