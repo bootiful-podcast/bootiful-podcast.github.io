@@ -593,6 +593,12 @@
             , failsafe_repair_media_element: 500 // == light or full
         });
 
+        function resetEpisodePlayStatus() {
+            $('.play-status').html('Listen Now');
+        }
+
+        resetEpisodePlayStatus();
+
         function renderPodcast(value) {
             var p = value;
             var playFunction = function (e) {
@@ -601,8 +607,8 @@
                 e.preventDefault();
                 return false;
             };
+            resetEpisodePlayStatus();
             $('#top3-play-' + value.uid).click(playFunction);
-            $('.play-status').html('Listen Now');
             $('#episode-play-' + value.uid + '-status').html('Listening Now');
             $('#episode-play-' + value.uid).click(playFunction);
         }
