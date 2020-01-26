@@ -182,6 +182,7 @@ img {
 
 
 
+
 header.top-bar {
     position: fixed;
     top: 0;
@@ -192,6 +193,7 @@ header.top-bar {
     clear: both;
     z-index: 99999;
 }
+
 
 /*
 header.top-bar {
@@ -385,13 +387,14 @@ header.top-bar .navbar-mobile button:focus {
 /* main here */
 
 header.header {
-    background: #0dac50;
+    background:#0dac50;
     position: relative;
     clear: both;
     overflow: hidden;
-    width: 100%;
-    height: 100vh;
+    width:100%;
+    height:100vh;
     max-height: 1080px;
+    margin-top:60px;
 }
 
 nav.navbar {
