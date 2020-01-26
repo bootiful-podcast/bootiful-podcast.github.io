@@ -178,7 +178,7 @@
                             <h4><a href="#"> Another test </a></h4>
                             <P><strong> 05/02/2020</strong></P>
                             <p> another test </p>
-                            <a href="#" id="top3PlayFor253" class="listen-btn clicked"><span
+                            <a href="#" id="top3-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a" class="listen-btn clicked"><span
                                     class="vid-icon-span"><i
                                     class="fas fa-play"></i></span>Listen
                                 Now</a>
@@ -193,7 +193,7 @@
                             <h4><a href="#"> Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385 </a></h4>
                             <P><strong> 02/02/2020</strong></P>
                             <p> Josh Long (@starbuxman) talks to another amazing guest @ 01/25/2020 15:26:41.385 </p>
-                            <a href="#" id="top3PlayFor245" class="listen-btn clicked"><span
+                            <a href="#" id="top3-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07" class="listen-btn clicked"><span
                                     class="vid-icon-span"><i
                                     class="fas fa-play"></i></span>Listen
                                 Now</a>
@@ -208,7 +208,7 @@
                             <h4><a href="#"> take 3 </a></h4>
                             <P><strong> 10/19/2019</strong></P>
                             <p> take 3 </p>
-                            <a href="#" id="top3PlayFor249" class="listen-btn clicked"><span
+                            <a href="#" id="top3-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc" class="listen-btn clicked"><span
                                     class="vid-icon-span"><i
                                     class="fas fa-play"></i></span>Listen
                                 Now</a>
@@ -341,8 +341,8 @@
                                                 <ul>
                                                     <li class="control-ep">
                                                         <a href="">
-                                                            <div class="icon"><i
-                                                                    class="fas fa-play"></i>
+                                                            <div class="icon"><i id="episode-play-628ff672-9f2c-43fb-b2a5-d5d2ad86117a"
+                                                                                 class="fas fa-play"></i>
                                                             </div>
                                                             <span>Listening now</span>
                                                         </a>
@@ -391,8 +391,8 @@
                                                 <ul>
                                                     <li class="control-ep">
                                                         <a href="">
-                                                            <div class="icon"><i
-                                                                    class="fas fa-play"></i>
+                                                            <div class="icon"><i id="episode-play-1b11d0a8-3646-439e-8024-5ac4fc39bf07"
+                                                                                 class="fas fa-play"></i>
                                                             </div>
                                                             <span>Listening now</span>
                                                         </a>
@@ -451,8 +451,8 @@
                                                 <ul>
                                                     <li class="control-ep">
                                                         <a href="">
-                                                            <div class="icon"><i
-                                                                    class="fas fa-play"></i>
+                                                            <div class="icon"><i id="episode-play-91f7d3b1-d724-4c2c-b2b9-a750420470dc"
+                                                                                 class="fas fa-play"></i>
                                                             </div>
                                                             <span>Listening now</span>
                                                         </a>
@@ -621,10 +621,13 @@
 
         function renderPodcast(value) {
             var p = value;
-            var uri = p.uri;
-            $('#top3PlayFor' + value.id).click(function () {
+
+            $('#top3-play-' + value.uid).click(function () {
                 p.play();
             });
+            $('#episode-play-' + value.uid).click(function () {
+                p.play();
+            })
             $('#playlistLinks').append(a);
         }
 
