@@ -524,12 +524,11 @@
     var container = jQuery('#containerOfDataSources');
 
     function initializePlayerForLatest(podcast) {
-
         console.log('initializing the latest with the episode information');
-
         var playerNode = jQuery(playerId);
         playerNode.attr('data-source', podcast.episodeUri);
         playerNode.attr('data-thumb', podcast.episodePhotoUri);
+        playerNode.html ("<span class=\"meta-artist\"><span class=\"the-artist\"> " + podcast.title + "</span></span>")
 
         dzsap_init(playerId, {
             autoplay: "off"
