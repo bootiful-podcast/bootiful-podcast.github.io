@@ -605,9 +605,10 @@
                 p.play();
                 e.stopPropagation();
                 e.preventDefault();
+                resetEpisodePlayStatus();
                 return false;
             };
-            resetEpisodePlayStatus();
+
             $('#top3-play-' + value.uid).click(playFunction);
             $('#episode-play-' + value.uid + '-status').html('Listening Now');
             $('#episode-play-' + value.uid).click(playFunction);
