@@ -559,13 +559,13 @@
 
     var playerId = '#globalPlayerDataSource';
 
-    function Podcast ( id, uid, title, uri, photo) {
+    function Podcast(id, uid, title, uri, photo) {
 
         var container = jQuery('#containerOfDataSources');
         this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uid;
         this.title = title;
         this.uri = uri;
-        this.id = id ;
+        this.id = id;
         this.episodePhotoUri = photo;
 
         var e = $("<span><span class=\"meta-artist\"><span class=\"the-artist\"> " + title + "</span></span></span>");
@@ -634,9 +634,8 @@
                 .then(function (response) {
                     return response.json();
                 })
-                .then(function (podcastsJsonResult) {
-                    var podcasts = JSON.parse(podcastsJsonResult);
-                    console.log (podcasts);
+                .then(function (podcasts) {
+                    console.log(podcasts);
                     for (var i = 0; i < podcasts.length; i++) {
                         var p = podcasts [i];
                         var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
