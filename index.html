@@ -602,7 +602,7 @@
                 e.stopPropagation();
                 e.preventDefault();
                 resetEpisodePlayStatus();
-                $('#episode-play-' + value.uid + '-status').html('Listening Now');
+                $('#episode-play-' + p.uid + '-status').html('Listening Now');
                 return false;
             };
             $('#top3-play-' + value.uid).click(playFunction);
