@@ -594,7 +594,6 @@
             $('.play-status').html('Listen Now');
         }
 
-
         function renderPodcast(value) {
             var p = value;
             var playFunction = function (e) {
@@ -605,8 +604,8 @@
                 $('#episode-play-' + p.uid + '-status').html('Listening Now');
                 return false;
             };
-            $('#top3-play-' + value.uid).click(playFunction);
-            $('#episode-play-' + value.uid).click(playFunction);
+            $('#top3-play-' + p.uid).click(playFunction);
+            $('#episode-play-' + p.uid).click(playFunction);
         }
 
         fetch('/podcasts.json')
