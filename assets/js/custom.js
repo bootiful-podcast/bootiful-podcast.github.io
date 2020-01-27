@@ -152,3 +152,7 @@ jQuery(document).ready(function ($) {
             }
         });
 });
+
+jQuery (document).ready ( function (){
+    $('.nav-link').attr('target', '_blank')
+})
