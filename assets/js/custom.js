@@ -30,9 +30,6 @@ $(document).ready(function () {
 });
 
 
-
-
-
 var playerId = '#globalPlayerDataSource';
 var containerId = '#containerOfDataSources';
 var container = jQuery(containerId);
@@ -153,6 +150,6 @@ jQuery(document).ready(function ($) {
         });
 });
 
-jQuery (document).ready ( function (){
+jQuery(document).ready(function () {
     $('.nav-link').attr('target', '_blank')
 })
