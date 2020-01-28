@@ -4,7 +4,7 @@
   "title" : "Juergen Hoeller entertains and Informs",
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/f8e4gm/91f7d3b1-d724-4c2c-b2b9-a750420470dc.jpg",
   "dataAndTime" : "10/19/2019",
-  "episodeUri" : "http://bootiful-podcast-api.cfapps.io/podcasts/91f7d3b1-d724-4c2c-b2b9-a750420470dc/produced-audio",
+  "episodeUri" : "http://http://localhost:8080/podcasts/91f7d3b1-d724-4c2c-b2b9-a750420470dc/produced-audio",
   "date" : 1571468400000
 }, {
   "id" : "253",
@@ -12,7 +12,7 @@
   "title" : "The Amazing and most Secure Jod Grandja",
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/j9vpz3/628ff672-9f2c-43fb-b2a5-d5d2ad86117a.jpg",
   "dataAndTime" : "05/02/2020",
-  "episodeUri" : "http://bootiful-podcast-api.cfapps.io/podcasts/628ff672-9f2c-43fb-b2a5-d5d2ad86117a/produced-audio",
+  "episodeUri" : "http://http://localhost:8080/podcasts/628ff672-9f2c-43fb-b2a5-d5d2ad86117a/produced-audio",
   "date" : 1588402800000
 }, {
   "id" : "245",
@@ -20,6 +20,6 @@
   "title" : "The Amazing and Illuminating Dr. Syer",
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/uxbany/1b11d0a8-3646-439e-8024-5ac4fc39bf07.jpg",
   "dataAndTime" : "02/02/2020",
-  "episodeUri" : "http://bootiful-podcast-api.cfapps.io/podcasts/1b11d0a8-3646-439e-8024-5ac4fc39bf07/produced-audio",
+  "episodeUri" : "http://http://localhost:8080/podcasts/1b11d0a8-3646-439e-8024-5ac4fc39bf07/produced-audio",
   "date" : 1580630400000
 } ]
