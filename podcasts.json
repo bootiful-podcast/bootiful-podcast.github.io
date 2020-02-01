@@ -1,1 +1,8 @@
-[ ]
+[ {
+  "id" : "1",
+  "uid" : "f7a14fd4-a5f0-42e8-9ec9-acbaa310cce9",
+  "title" : "Codota's Dror Weiss",
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/u89kyp/f7a14fd4-a5f0-42e8-9ec9-acbaa310cce9.jpg",
+  "dataAndTime" : "02/07/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/f7a14fd4-a5f0-42e8-9ec9-acbaa310cce9/produced-audio"
+} ]
