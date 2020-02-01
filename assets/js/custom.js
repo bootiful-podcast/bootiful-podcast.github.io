@@ -134,7 +134,7 @@ jQuery(document).ready(function ($) {
             resetEpisodePlayStatus();
 
             podcasts.sort(function (a, b) {
-                return b.date - a.date;
+                return a.date - b.date;
             });
             podcasts.forEach(function (p) {
                 var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
