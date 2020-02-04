@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     $('.tab-pane-toggle')
         .each(function (evt) {
-            console.log('the id is ', evt);
+            console.log('the id is ', this.id);
         })
         .click(function (e) {
             var id = e.currentTarget.id;
