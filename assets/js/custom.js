@@ -89,9 +89,10 @@ function Podcast(id, uid, title, uri, photo) {
     this.id = id;
     this.episodePhotoUri = photo;
 
+    var dataSourceElementId = this.uid + '-data-source';
     var e = $("<span>" + buildMetaArtistHtml(this.title) + "</span>");
     e.attr('data-source', this.uri);
-    e.attr('id', this.uid);
+    e.attr('id', dataSourceElementId);
     e.attr('data-type', 'audio');
     e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
     e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
@@ -104,11 +105,11 @@ function Podcast(id, uid, title, uri, photo) {
     var elementId = playerId.substr(1);
 
     this.show = function () {
-        console.log  ('trying to initialize', this.uid);
-        $('#' + this.uid).show();
+        console.log('trying to show()', this.uid);
+        $('#' + dataSourceElementId).show();
     };
     this.hide = function () {
-        $('#' + this.uid).hide();
+        $('#' + dataSourceElementId ).hide();
     }
 
     this.play = function () {
