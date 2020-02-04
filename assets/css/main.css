@@ -282,7 +282,7 @@ header.top-bar .navbar-collapse > ul > li > a {
     margin-bottom: 5px;
 }
 
-.data-source-container {
+#containerOfDataSources, .data-source-container {
     height: 200px;
 }
 
