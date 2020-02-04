@@ -108,10 +108,10 @@ function Podcast(id, uid, title, uri, photo) {
     var elementId = playerId.substr(1);
 
     this.show = function () {
-        $('#' + uid).show();
+        $('#' + this.uid).show();
     };
     this.hide = function () {
-        $('#' + uid).hide();
+        $('#' + this.uid).hide();
     }
 
     this.play = function () {
