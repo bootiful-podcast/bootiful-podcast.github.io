@@ -5,11 +5,10 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    console.log('come on this should work...');
     $('.tab-pane-toggle').click(function (e) {
         var id = e.currentTarget.id;
         var contentDiv = id.split('-tab')[0] + '-content';
-        console.log('the contentDiv is ' + contentDiv);
+        console.log('the contentDiv is ', contentDiv);
         $('.tab-pane-content').removeClass('active');
         $('#' + contentDiv).addClass('active');
         console.log('toggling the panel for #' + contentDiv)
