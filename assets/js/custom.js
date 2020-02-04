@@ -10,8 +10,8 @@ $(document).ready(function () {
             console.log('the id is', id, 'and the contentDiv is', contentDiv);
 
             $('#' + id).click(function () {
-                $('.tab-pane-content').hide() //.removeClass('active');
-                $('#' + contentDiv).show(); //.addClass('active');
+                $('.tab-pane-content').hide();
+                $('#' + contentDiv).show();
                 console.log('toggling the panel for #' + contentDiv)
 
             });

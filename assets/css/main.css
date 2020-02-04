@@ -1017,6 +1017,8 @@ header.header-page {
 
 }
 
+.tab-pane-content {}
+
 header.header-page .logo {
     display: inline-block;
 }
