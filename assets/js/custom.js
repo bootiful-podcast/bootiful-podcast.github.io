@@ -81,13 +81,13 @@ function PodcastPlayerView(p) {
 
 
     function buildMetaArtistHtml(title) {
-        return "<span class=\"meta-artist\"><span class=\"the-artist\"> " + title + "</span></span>";
+        return;
     }
 
     function buildDataSourceForPodcast(podcast) {
-
+        var html = "<span class=\"meta-artist\"><span class=\"the-artist\"> " + podcast.title + "</span></span>";
         var dataSourceElementId = podcast.uid + '-data-source';
-        var e = $("<span>" + buildMetaArtistHtml(podcast.title) + "</span>");
+        var e = $("<span>" + html + "</span>");
         e.attr('data-source', podcast.uri);
         e.attr('id', dataSourceElementId);
         e.attr('data-type', 'audio');
