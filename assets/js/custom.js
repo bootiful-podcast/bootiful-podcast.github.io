@@ -106,8 +106,8 @@ function Podcast(id, uid, title, uri, photo) {
 
     this.show = function () {
         console.log('trying to show()', dataSourceElementId);
-        $('#' + dataSourceElementId).show();
-        container.show()
+        container.show();
+        this.element.show();
     };
     this.hide = function () {
         $('#' + dataSourceElementId).hide();
