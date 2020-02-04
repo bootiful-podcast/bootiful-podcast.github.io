@@ -10,9 +10,10 @@ $(document).ready(function () {
             console.log('the id is', id, 'and the contentDiv is', contentDiv);
 
             $('#' + id).click(function () {
-                console.log('clicking ' + id)
+                console.log('clicking ', id);
                 $('.tab-pane-content').hide();
                 $('#' + contentDiv).show();
+
 
             });
 
