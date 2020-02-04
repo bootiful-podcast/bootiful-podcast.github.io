@@ -99,7 +99,7 @@ function PodcastPlayerView(p) {
     this.podcast = p;
     this.uid = this.podcast.uid;
     this.dataSourceElement = buildDataSourceForPodcast(this.podcast);
-    this.container.append (this.dataSourceElement);
+    this.container.append(this.dataSourceElement);
 
     this.play = function () {
         console.log('playing (' + this.uid + ')');
@@ -158,6 +158,7 @@ jQuery(document).ready(function ($) {
                     $('#episode-play-' + p1.uid + '-status').html('Listening Now');
                     return false;
                 };
+                var p1 = podcasts[podcast.uid].podcast;
                 $('#top3-play-' + p1.uid).click(playFunction);
                 $('#episode-play-' + p1.uid).click(playFunction);
             });
