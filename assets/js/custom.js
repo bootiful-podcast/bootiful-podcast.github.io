@@ -103,8 +103,14 @@ function Podcast(id, uid, title, uri, photo) {
     });
     container.append(e);
     this.element = e;
+    var elementId = playerId.substr(1);
 
-    
+    this.show = function () {
+        $('#' + elementId).show();
+    };
+    this.hide = function(){
+        $('#' +elementId).hide ();
+    }
 
     this.play = function () {
         var pargs = {
@@ -114,8 +120,8 @@ function Podcast(id, uid, title, uri, photo) {
         console.log('playing ' + this.title + ' with URI ' + this.uri);
         // var dataSource = jQuery(this.uid);
         $('.data-source-container').hide();
-        var elementId = playerId.substr(1);
-        $('#' + elementId).show();
+
+        this.show();
         document.getElementById(elementId).api_change_media(this.element, pargs);
     }
 }
