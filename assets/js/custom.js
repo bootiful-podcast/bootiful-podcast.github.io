@@ -94,12 +94,12 @@ function PodcastPlayerView(p) {
         return e;
     }
 
-    var containerId = '#containerOfDataSources';
-    this.container = jQuery(containerId);
+    var containerId = 'containerOfDataSources';
+    this.container = jQuery('#' + containerId);
     this.podcast = p;
     this.uid = this.podcast.uid;
     this.dataSourceElement = buildDataSourceForPodcast(this.podcast);
-    this.container.appendChild(this.dataSourceElement);
+    document.getElementById(containerId).appendChild(this.dataSourceElement);
 
     this.play = function () {
         console.log('playing (' + this.uid + ')');
