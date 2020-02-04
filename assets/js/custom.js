@@ -10,6 +10,7 @@ $(document).ready(function () {
         var contentDiv = id.split('-tab')[0] + '-content';
         $('.tab-pane-content').removeClass('active');
         $('#' + contentDiv).addClass('active');
+        console.log ( 'toggling the panel for #' + contentDiv)
     });
 });
 
@@ -136,6 +137,7 @@ jQuery(document).ready(function ($) {
             podcasts.sort(function (a, b) {
                 return b.date - a.date;
             });
+
             podcasts.forEach(function (p) {
                 var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
                 console.log('the podcast is ', podcast);
@@ -143,7 +145,7 @@ jQuery(document).ready(function ($) {
             });
 
             if (podcasts.length > 0) {
-                var max = podcasts [0];
+                var max = podcasts[0];
                 console.log('the latest podcast is ', max);
                 initializePlayerForLatest(max);
             }
