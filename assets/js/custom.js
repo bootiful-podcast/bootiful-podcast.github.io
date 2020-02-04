@@ -5,9 +5,9 @@ $(document).ready(function () {
 
     $('.tab-pane-toggle')
         .each(function (evt) {
-            var thisId = this.id;
+            var thisId =  this.id;
             console.log('the current pane is  ', thisId);
-            $('#' + this.id).click(function (e) {
+            $('#' + thisId).click(function (e) {
                 var id = e.currentTarget.id;
                 console.log('the id is ', id);
                 var contentDiv = id.split('-tab')[0] + '-content';
