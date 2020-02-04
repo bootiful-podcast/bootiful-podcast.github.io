@@ -5,15 +5,16 @@ $(document).ready(function () {
 
     $('.tab-pane-toggle')
         .each(function (evt) {
-            console.log('the id is ', this.id);
-        })
-        .click(function (e) {
-            var id = e.currentTarget.id;
-            var contentDiv = id.split('-tab')[0] + '-content';
-            console.log('the contentDiv is ', contentDiv);
-            $('.tab-pane-content').removeClass('active');
-            $('#' + contentDiv).addClass('active');
-            console.log('toggling the panel for #' + contentDiv)
+            $(this.id).click(function (e) {
+                var id = e.currentTarget.id;
+                var contentDiv = id.split('-tab')[0] + '-content';
+                console.log('the contentDiv is ', contentDiv);
+                $('.tab-pane-content').removeClass('active');
+                $('#' + contentDiv).addClass('active');
+                console.log('toggling the panel for #' + contentDiv)
+
+            });
+
         });
 });
 
