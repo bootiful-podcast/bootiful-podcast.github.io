@@ -105,11 +105,12 @@ function Podcast(id, uid, title, uri, photo) {
     var elementId = playerId.substr(1);
 
     this.show = function () {
-        console.log('trying to show()', this.uid);
+        console.log('trying to show()', dataSourceElementId);
         $('#' + dataSourceElementId).show();
+        container.show()
     };
     this.hide = function () {
-        $('#' + dataSourceElementId ).hide();
+        $('#' + dataSourceElementId).hide();
     }
 
     this.play = function () {
