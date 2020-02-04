@@ -1,1 +1,41 @@
-[ ]
+[ {
+  "id" : "97",
+  "uid" : "61e314c4-763a-4746-abdd-39406c14f08c",
+  "title" : "Matt Raible and James Ward at Devnexus 2019",
+  "date" : 1551945600000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/h64vnr/61e314c4-763a-4746-abdd-39406c14f08c.jpg",
+  "dataAndTime" : "03/07/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/61e314c4-763a-4746-abdd-39406c14f08c/produced-audio"
+}, {
+  "id" : "109",
+  "uid" : "9e69e673-3dbc-4860-9209-b2a6360e7f12",
+  "title" : "Dr. Venkat Subramaniam on Kotlin, Java, Spring, open-source, being productive, and so much more",
+  "date" : 1562223600000,
+  "episodePhotoUri" : null,
+  "dataAndTime" : "07/04/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/9e69e673-3dbc-4860-9209-b2a6360e7f12/produced-audio"
+}, {
+  "id" : "100",
+  "uid" : "484c3fea-c15c-4a6c-b7d6-05def2b9ee7c",
+  "title" : "Azul CTO Gil Tene on JVMs, Garbage Collection, Performance and so much More",
+  "date" : 1563519600000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/st9m3a/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c.jpg",
+  "dataAndTime" : "07/19/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c/produced-audio"
+}, {
+  "id" : "103",
+  "uid" : "47b9e94f-4314-4a52-8fb0-3c9ca317b48c",
+  "title" : "CQRS with AxonIQ's Steven van Beelen and Pivotal's Ben Wilcock",
+  "date" : 1553151600000,
+  "episodePhotoUri" : null,
+  "dataAndTime" : "03/21/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/47b9e94f-4314-4a52-8fb0-3c9ca317b48c/produced-audio"
+}, {
+  "id" : "106",
+  "uid" : "59f63044-5c25-40d9-8c9f-232083137be5",
+  "title" : "Spring Cloud Services teammate Bella (Yuxin) Bai",
+  "date" : 1579161600000,
+  "episodePhotoUri" : null,
+  "dataAndTime" : "01/16/2020",
+  "episodeUri" : "http://localhost:8080//podcasts/59f63044-5c25-40d9-8c9f-232083137be5/produced-audio"
+} ]
