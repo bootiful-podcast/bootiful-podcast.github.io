@@ -50,7 +50,7 @@ function buildMetaArtistHtml(title) {
 }
 
 function initializePlayerForLatest(podcast) {
-    $('#'  + containerOfDataSources).show();
+    $(containerId).show();
     console.log('initializing the latest with the episode information');
     var playerNode = jQuery(playerId);
     playerNode.attr('data-source', podcast.episodeUri);
@@ -112,7 +112,7 @@ function Podcast(id, uid, title, uri, photo) {
         // var dataSource = jQuery(this.uid);
         $('.data-source-container').hide();
         var elementId = playerId.substr(1);
-        $('#' +elementId).hide();
+        $('#' + elementId).hide();
         document.getElementById(elementId).api_change_media(this.element, pargs);
     }
 }
