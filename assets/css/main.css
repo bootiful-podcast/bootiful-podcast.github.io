@@ -283,8 +283,8 @@ header.top-bar .navbar-collapse > ul > li > a {
 }
 
 #containerOfDataSources, .data-source-container {
-    height: 200px;
-    display: none;
+    height: 100px;
+
 }
 
 header.top-bar .navbar-collapse > ul > li > a:hover {

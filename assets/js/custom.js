@@ -103,6 +103,9 @@ function Podcast(id, uid, title, uri, photo) {
     });
     container.append(e);
     this.element = e;
+
+    
+
     this.play = function () {
         var pargs = {
             type: "audio",
@@ -112,7 +115,7 @@ function Podcast(id, uid, title, uri, photo) {
         // var dataSource = jQuery(this.uid);
         $('.data-source-container').hide();
         var elementId = playerId.substr(1);
-        $('#' + elementId).hide();
+        $('#' + elementId).show();
         document.getElementById(elementId).api_change_media(this.element, pargs);
     }
 }
