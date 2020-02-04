@@ -1,1 +1,9 @@
-[ ]
+[ {
+  "id" : "64",
+  "uid" : "7528f57e-1775-444f-a878-87f3b6cbdad0",
+  "title" : "Matt Raible and James Ward at Devnexus 2019",
+  "date" : 1551945600000,
+  "episodePhotoUri" : null,
+  "dataAndTime" : "03/07/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/7528f57e-1775-444f-a878-87f3b6cbdad0/produced-audio"
+} ]
