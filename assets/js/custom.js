@@ -50,9 +50,10 @@ function buildMetaArtistHtml(title) {
 }
 
 function initializePlayerForLatest(podcast) {
-    
+
     console.log('initializing the latest with the episode information');
     var playerNode = jQuery(playerId);
+    playerNode.addClass('data-source-container')
     playerNode.attr('data-source', podcast.episodeUri);
     playerNode.attr('data-thumb', podcast.episodePhotoUri);
     playerNode.html(buildMetaArtistHtml(podcast.title));
