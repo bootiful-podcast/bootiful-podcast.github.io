@@ -109,7 +109,10 @@ function Podcast(id, uid, title, uri, photo) {
         };
         console.log('playing ' + this.title + ' with URI ' + this.uri);
         // var dataSource = jQuery(this.uid);
-        document.getElementById(playerId.substr(1)).api_change_media(this.element, pargs);
+        $('.data-source-container').hide();
+        var elementId = playerId.substr(1);
+        $('#' +elementId).hide();
+        document.getElementById(elementId).api_change_media(this.element, pargs);
     }
 }
 
