@@ -5,15 +5,13 @@ $(document).ready(function () {
 
     $('.tab-pane-toggle')
         .each(function (evt) {
-            var thisId =  this.id;
-            console.log('the current pane is  ', thisId);
-            $('#' + thisId).click(function (e) {
-                var id = e.currentTarget.id;
-                console.log('the id is ', id);
-                var contentDiv = id.split('-tab')[0] + '-content';
-                console.log('the contentDiv is ', contentDiv);
-                $('.tab-pane-content').removeClass('active');
-                $('#' + contentDiv).addClass('active');
+            var id = this.id;
+            var contentDiv = id.split('-tab')[0] + '-content';
+            console.log('the id is', id, 'and the contentDiv is', contentDiv);
+
+            $('#' + id).click(function () {
+                $('.tab-pane-content').hide() //.removeClass('active');
+                $('#' + contentDiv).show(); //.addClass('active');
                 console.log('toggling the panel for #' + contentDiv)
 
             });
