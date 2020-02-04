@@ -84,14 +84,11 @@ function initializePlayerForLatest(podcast) {
 }
 
 function Podcast(id, uid, title, uri, photo) {
-
-
-    this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uid;
+    this.uid = uid;
     this.title = title;
     this.uri = uri;
     this.id = id;
     this.episodePhotoUri = photo;
-
 
     var e = $("<span>" + buildMetaArtistHtml(this.title) + "</span>");
     e.attr('data-source', this.uri);
