@@ -51,12 +51,11 @@ function buildMetaArtistHtml(title) {
 
 function initializePlayerForLatest(podcast) {
 
-    console.log('initializing the latest with the episode information');
+    console.log('initializing the latest with the episode information in playerId', playerId);
     var playerNode = jQuery(playerId);
     playerNode.attr('data-source', podcast.episodeUri);
     playerNode.attr('data-thumb', podcast.episodePhotoUri);
     playerNode.html(buildMetaArtistHtml(podcast.title));
-
 
     dzsap_init(playerId, {
         autoplay: "off"
@@ -97,7 +96,7 @@ function Podcast(id, uid, title, uri, photo) {
     e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
     e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
     e.attr('data-thumb', this.episodePhotoUri);
-    'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir data-source-container '.split(' ').forEach(function (clz) {
+    'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir data-source-container'.split(' ').forEach(function (clz) {
         e.addClass(clz.trim());
     });
     container.append(e);
@@ -105,6 +104,7 @@ function Podcast(id, uid, title, uri, photo) {
     var elementId = playerId.substr(1);
 
     this.show = function () {
+        console.log  ('trying to initialize', this.uid);
         $('#' + this.uid).show();
     };
     this.hide = function () {
