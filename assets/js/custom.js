@@ -51,14 +51,6 @@ var podcasts = {};
 
 function initializePlayerForLatest(podcast) {
 
-    /*
-    console.log('initializing the latest with the episode information in playerId', playerId);
-    var playerNode = jQuery(playerId);
-    playerNode.attr('data-source', podcast.episodeUri);
-    playerNode.attr('data-thumb', podcast.episodePhotoUri);
-    playerNode.html(buildMetaArtistHtml(podcast.title));
-    playerNode.show();*/
-
     dzsap_init(playerId, {
         autoplay: "off"
         , init_each: "on"
@@ -111,38 +103,14 @@ function PodcastPlayerView(p) {
     var containerId = '#containerOfDataSources';
     this.container = jQuery(containerId);
     this.podcast = p;
-    this.uid = podcast.uid;
+    this.uid = this.podcast.uid;
     this.dataSourceElement = buildDataSourceForPodcast(this.podcast);
+    this.container.appendChild(this.dataSourceElement);
 
     this.play = function () {
-        /*
-            container.append(e);
-            this.element = e;
-            var elementId = playerId.substr(1);
 
-            this.show = function () {
-                console.log('trying to show()', dataSourceElementId);
-                container.show();
-                this.element.show();
-            };
-            this.hide = function () {
-                $('#' + dataSourceElementId).hide();
-            }
+        document.getElementById(elementId).api_change_media(this.element, pargs);
 
-
-            this.play = function () {
-
-                var pargs = {
-                    type: "audio",
-                    fakeplayer_is_feeder: "off"
-                };
-                console.log('playing ' + this.title + ' with URI ' + this.uri);
-                // var dataSource = jQuery(this.uid);
-                $('.data-source-container').hide();
-
-                this.show();
-                document.getElementById(elementId).api_change_media(this.element, pargs);
-            }*/
     };
 
 
@@ -154,8 +122,6 @@ function Podcast(id, uid, title, uri, photo) {
     this.uri = uri;
     this.id = id;
     this.episodePhotoUri = photo;
-
-
 }
 
 
