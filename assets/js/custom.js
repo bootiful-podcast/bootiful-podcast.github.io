@@ -2,20 +2,19 @@ $(document).ready(function () {
     $('.mobile-nav-btn').on('click', function () {
         $('.hamburger-menu').toggleClass('open');
     });
-});
 
-$(document).ready(function () {
-    $('.tab-pane-toggle').each(function (evt) {
-        console.log('the id is ' + evt.id);
-    })
-    $('.tab-pane-toggle').click(function (e) {
-        var id = e.currentTarget.id;
-        var contentDiv = id.split('-tab')[0] + '-content';
-        console.log('the contentDiv is ', contentDiv);
-        $('.tab-pane-content').removeClass('active');
-        $('#' + contentDiv).addClass('active');
-        console.log('toggling the panel for #' + contentDiv)
-    });
+    $('.tab-pane-toggle')
+        .each(function (evt) {
+            console.log('the id is ', evt.id);
+        })
+        .click(function (e) {
+            var id = e.currentTarget.id;
+            var contentDiv = id.split('-tab')[0] + '-content';
+            console.log('the contentDiv is ', contentDiv);
+            $('.tab-pane-content').removeClass('active');
+            $('#' + contentDiv).addClass('active');
+            console.log('toggling the panel for #' + contentDiv)
+        });
 });
 
 $(document).ready(function () {
@@ -144,7 +143,6 @@ jQuery(document).ready(function ($) {
 
             podcasts.forEach(function (p) {
                 var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
-                console.log('the podcast is ', podcast);
                 renderPodcast(podcast);
             });
 
