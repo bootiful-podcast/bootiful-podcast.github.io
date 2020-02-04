@@ -43,7 +43,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.data-source-container').hide();
-    $('#containerOfDataSources').hide();
+    // $('#containerOfDataSources').hide();
 });
 
 var playerId = '#globalPlayerDataSource';
@@ -58,6 +58,7 @@ function initializePlayerForLatest(podcast) {
 
     console.log('initializing the latest with the episode information in playerId', playerId);
     var playerNode = jQuery(playerId);
+    playerNode.show();
     playerNode.attr('data-source', podcast.episodeUri);
     playerNode.attr('data-thumb', podcast.episodePhotoUri);
     playerNode.html(buildMetaArtistHtml(podcast.title));
