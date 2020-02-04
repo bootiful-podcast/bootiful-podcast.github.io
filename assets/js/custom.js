@@ -53,10 +53,10 @@ function initializePlayerForLatest(podcast) {
 
     console.log('initializing the latest with the episode information');
     var playerNode = jQuery(playerId);
-    playerNode.addClass('data-source-container')
     playerNode.attr('data-source', podcast.episodeUri);
     playerNode.attr('data-thumb', podcast.episodePhotoUri);
     playerNode.html(buildMetaArtistHtml(podcast.title));
+
 
     dzsap_init(playerId, {
         autoplay: "off"
@@ -100,7 +100,7 @@ function Podcast(id, uid, title, uri, photo) {
     e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
     e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
     e.attr('data-thumb', this.episodePhotoUri);
-    'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
+    'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir data-source-container '.split(' ').forEach(function (clz) {
         e.addClass(clz.trim());
     });
     container.append(e);
@@ -115,6 +115,7 @@ function Podcast(id, uid, title, uri, photo) {
     }
 
     this.play = function () {
+
         var pargs = {
             type: "audio",
             fakeplayer_is_feeder: "off"
