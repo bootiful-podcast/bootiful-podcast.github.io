@@ -41,6 +41,11 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $('.data-source-container').hide();
+    $('#containerOfDataSources').hide();
+});
+
 var playerId = '#globalPlayerDataSource';
 var containerId = '#containerOfDataSources';
 var container = jQuery(containerId);
