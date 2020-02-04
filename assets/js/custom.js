@@ -99,7 +99,7 @@ function PodcastPlayerView(p) {
     this.podcast = p;
     this.uid = this.podcast.uid;
     this.dataSourceElement = buildDataSourceForPodcast(this.podcast);
-    document.getElementById(containerId).appendChild(this.dataSourceElement);
+    this.container.append (this.dataSourceElement);
 
     this.play = function () {
         console.log('playing (' + this.uid + ')');
