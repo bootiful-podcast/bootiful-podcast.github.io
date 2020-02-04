@@ -15,11 +15,19 @@
   "dataAndTime" : "02/07/2019",
   "episodeUri" : "http://localhost:8080//podcasts/9bd67750-0a79-44aa-9c8a-034cf071fb60/produced-audio"
 }, {
+  "id" : "25",
+  "uid" : "32b7e3fa-d6c2-4cce-a1e9-170fccab3466",
+  "title" : "I need to talk about my father, Clark \"Bud\" Long, who just passed away",
+  "date" : 1576137600000,
+  "episodePhotoUri" : null,
+  "dataAndTime" : "12/12/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/32b7e3fa-d6c2-4cce-a1e9-170fccab3466/produced-audio"
+}, {
   "id" : "19",
   "uid" : "5dcf8ba4-16ed-4d8f-b137-8dc8942b12f3",
   "title" : "Kylie Liang and Theresa Nguyen on Microsoft's Java and Spring integrations",
   "date" : 1554361200000,
-  "episodePhotoUri" : null,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fbtwhe/5dcf8ba4-16ed-4d8f-b137-8dc8942b12f3.jpg",
   "dataAndTime" : "04/04/2019",
   "episodeUri" : "http://localhost:8080//podcasts/5dcf8ba4-16ed-4d8f-b137-8dc8942b12f3/produced-audio"
 } ]
