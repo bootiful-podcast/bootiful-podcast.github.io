@@ -91,6 +91,7 @@ function Podcast(id, uid, title, uri, photo) {
     this.id = id;
     this.episodePhotoUri = photo;
 
+
     var e = $("<span>" + buildMetaArtistHtml(this.title) + "</span>");
     e.attr('data-source', this.uri);
     e.attr('id', this.uid);
@@ -106,10 +107,10 @@ function Podcast(id, uid, title, uri, photo) {
     var elementId = playerId.substr(1);
 
     this.show = function () {
-        $('#' + elementId).show();
+        $('#' + uid).show();
     };
-    this.hide = function(){
-        $('#' +elementId).hide ();
+    this.hide = function () {
+        $('#' + uid).hide();
     }
 
     this.play = function () {
