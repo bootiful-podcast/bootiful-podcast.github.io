@@ -8,6 +8,7 @@ $(document).ready(function () {
     $('.tab-pane-toggle').click(function (e) {
         var id = e.currentTarget.id;
         var contentDiv = id.split('-tab')[0] + '-content';
+        console.log ('the contentDiv is ' +  contentDiv)
         $('.tab-pane-content').removeClass('active');
         $('#' + contentDiv).addClass('active');
         console.log ( 'toggling the panel for #' + contentDiv)
