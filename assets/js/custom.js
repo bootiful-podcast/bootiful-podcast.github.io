@@ -118,6 +118,7 @@ function Podcast(id, uid, title, uri, photo) {
     this.hide = function () {
         $('#' + dataSourceElementId).hide();
     }
+    $('.data-source-container').hide();
 
     this.play = function () {
 
