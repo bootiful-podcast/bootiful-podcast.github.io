@@ -1,12 +1,4 @@
 [ {
-  "id" : "13",
-  "uid" : "88da739c-f196-4314-8e18-7fb8cc3ceb71",
-  "title" : "Kylie Liang and Theresa Nguyen on Microsoft's Java and Spring integrations",
-  "date" : 1554361200000,
-  "episodePhotoUri" : null,
-  "dataAndTime" : "04/04/2019",
-  "episodeUri" : "http://localhost:8080//podcasts/88da739c-f196-4314-8e18-7fb8cc3ceb71/produced-audio"
-}, {
   "id" : "10",
   "uid" : "221b362c-d419-4c8a-af1c-69609e6b9675",
   "title" : "Codota's Dror Weiss",
@@ -14,4 +6,12 @@
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/nkt8h6/221b362c-d419-4c8a-af1c-69609e6b9675.jpg",
   "dataAndTime" : "02/07/2019",
   "episodeUri" : "http://localhost:8080//podcasts/221b362c-d419-4c8a-af1c-69609e6b9675/produced-audio"
+}, {
+  "id" : "13",
+  "uid" : "88da739c-f196-4314-8e18-7fb8cc3ceb71",
+  "title" : "Kylie Liang and Theresa Nguyen on Microsoft's Java and Spring integrations",
+  "date" : 1554361200000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/zurimu/88da739c-f196-4314-8e18-7fb8cc3ceb71.jpg",
+  "dataAndTime" : "04/04/2019",
+  "episodeUri" : "http://localhost:8080//podcasts/88da739c-f196-4314-8e18-7fb8cc3ceb71/produced-audio"
 } ]
