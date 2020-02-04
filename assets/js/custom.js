@@ -46,8 +46,6 @@ $(document).ready(function () {
 
 /// the following controls the playing of podcasts
 
-var podcasts = {};
-
 
 function initializePlayerForLatest(podcast) {
 
@@ -80,10 +78,6 @@ function initializePlayerForLatest(podcast) {
 function PodcastPlayerView(p) {
 
 
-    function buildMetaArtistHtml(title) {
-        return;
-    }
-
     function buildDataSourceForPodcast(podcast) {
         var html = "<span class=\"meta-artist\"><span class=\"the-artist\"> " + podcast.title + "</span></span>";
         var dataSourceElementId = podcast.uid + '-data-source';
@@ -108,11 +102,14 @@ function PodcastPlayerView(p) {
     this.container.appendChild(this.dataSourceElement);
 
     this.play = function () {
-
+        console.log('playing (' + this.uid + ')');
         document.getElementById(elementId).api_change_media(this.element, pargs);
-
     };
 
+    this.show = function () {
+        console.log('showing (' + this.uid + ')');
+        this.container.show();
+    };
 
 }
 
