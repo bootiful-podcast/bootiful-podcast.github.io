@@ -125,6 +125,9 @@ function Podcast(id, uid, title, uri, photo) {
     this.episodePhotoUri = photo;
 }
 
+const bootiful = {
+    podcasts: {}
+};
 
 // init the player
 jQuery(document).ready(function () {
@@ -148,11 +151,12 @@ jQuery(document).ready(function () {
                 const podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
                 const view = new PodcastPlayerView(podcast);
                 const uid = podcast.uid;
-                podcasts[uid] = {podcast: podcast, view: view};
+                bootiful.podcasts[uid] = {podcast: podcast, view: view};
 
                 const playFunction = (e) => {
-                    podcasts[uid].view.show();
-                    podcasts[uid].view.play();
+                    const theViewForPodcast = bootiful.podcasts [uid].view;
+                    theViewForPodcast.show();
+                    theViewForPodcast.play();
                     resetEpisodePlayStatus();
                     jQuery('#episode-play-' + uid + '-status').html('Listening Now');
                     return false;
