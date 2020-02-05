@@ -107,7 +107,10 @@ function PodcastPlayerView(p) {
 
     this.play = function () {
         console.log('playing (' + this.uid + ')');
-        document.getElementById(getDataSourceElementIdFor(this.uid)).api_change_media(this.element, pargs);
+        document.getElementById(getDataSourceElementIdFor(this.uid)).api_change_media(this.dataSourceElement, {
+            type: "audio",
+            fakeplayer_is_feeder: "off"
+        });
     };
 
     this.show = function () {
