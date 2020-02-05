@@ -5,27 +5,13 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-
-    $('.tab-pane-toggle').each(function (evt) {
-        var id = this.id;
+    $('.tab-pane-toggle').click(function (e) {
+        var id = e.currentTarget.id;
         var contentDiv = id.split('-tab')[0] + '-content';
-        console.log('the id is', id, 'and the contentDiv is', contentDiv);
-        document.getElementById(id).addEventListener('click', function () {
-            console.log('clicked ', id);
-        })
-        $('#' + id).click(function () {
-            console.log('clicking ', id);
-            $('.tab-pane-content').hide();
-            $('#' + contentDiv).show();
-        });
-
+        $('.tab-pane-content').removeClass('active');
+        $('#' + contentDiv).addClass('active');
     });
 });
-
-
-jQuery(document).ready(function () {
-    $('.nav-link').attr('target', '_blank')
-})
 
 $(document).ready(function () {
 
@@ -44,12 +30,22 @@ $(document).ready(function () {
 });
 
 
-/// the following controls the playing of podcasts
+var playerId = '#globalPlayerDataSource';
+var containerId = '#containerOfDataSources';
+var container = jQuery(containerId);
 
+function buildMetaArtistHtml(title) {
+    return "<span class=\"meta-artist\"><span class=\"the-artist\"> " + title + "</span></span>";
+}
 
 function initializePlayerForLatest(podcast) {
+    console.log('initializing the latest with the episode information');
+    var playerNode = jQuery(playerId);
+    playerNode.attr('data-source', podcast.episodeUri);
+    playerNode.attr('data-thumb', podcast.episodePhotoUri);
+    playerNode.html(buildMetaArtistHtml(podcast.title));
 
-    dzsap_init(getDataSourceElementIdFor(podcast.uid), {
+    dzsap_init(playerId, {
         autoplay: "off"
         , init_each: "on"
         , disable_volume: "on"
@@ -74,102 +70,86 @@ function initializePlayerForLatest(podcast) {
 
 }
 
-
-function getDataSourceElementIdFor(uid) {
-    return 'data-source-' + uid + '-element';
-}
-
-function PodcastPlayerView(p) {
-
-
-    function buildDataSourceForPodcast(podcast) {
-        var html = "<span class=\"meta-artist\"><span class=\"the-artist\"> " + podcast.title + "</span></span>";
-        var dataSourceElementId = getDataSourceElementIdFor(podcast.uid);
-        var e = $("<span>" + html + "</span>");
-        e.attr('data-source', podcast.uri);
-        e.attr('id', dataSourceElementId);
-        e.attr('data-type', 'audio');
-        e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
-        e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
-        e.attr('data-thumb', podcast.episodePhotoUri);
-        'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir data-source-container'.split(' ').forEach(function (clz) {
-            e.addClass(clz.trim());
-        });
-        return e;
-    }
-
-    const containerId = 'containerOfDataSources';
-    this.container = jQuery('#' + containerId);
-    this.podcast = p;
-    this.uid = this.podcast.uid;
-    this.dataSourceElement = buildDataSourceForPodcast(this.podcast);
-    this.container.append(this.dataSourceElement);
-
-    this.play = function () {
-        console.log('playing (' + this.uid + ')');
-        document.getElementById(getDataSourceElementIdFor(this.uid)).api_change_media(this.dataSourceElement, {
-            type: "audio",
-            fakeplayer_is_feeder: "off"
-        });
-    };
-
-    this.show = function () {
-        console.log('showing (' + this.uid + ')');
-        this.container.show();
-    };
-
-}
-
 function Podcast(id, uid, title, uri, photo) {
-    this.uid = uid;
+
+
+    this.uid = (uid != null && uid !== '' && uid) ? uid : 'data-source-' + uid;
     this.title = title;
     this.uri = uri;
     this.id = id;
     this.episodePhotoUri = photo;
+
+    var e = $("<span>" + buildMetaArtistHtml(this.title) + "</span>");
+    e.attr('data-source', this.uri);
+    e.attr('id', this.uid);
+    e.attr('data-type', 'audio');
+    e.attr('data-scrubbg', 'assets/soundplugin/audioplayer/img/dzsplugins.png');
+    e.attr('data-scrubprog', 'assets/soundplugin/audioplayer/img/bgminion.jpg');
+    e.attr('data-thumb', this.episodePhotoUri);
+    'aptest-with-play skin-wave-mode-small audioplayer-tobe skin-wave button-aspect-noir'.split(' ').forEach(function (clz) {
+        e.addClass(clz.trim());
+    });
+    container.append(e);
+    this.element = e;
+    this.play = function () {
+        var pargs = {
+            type: "audio",
+            fakeplayer_is_feeder: "off"
+        };
+        console.log('playing ' + this.title + ' with URI ' + this.uri);
+        // var dataSource = jQuery(this.uid);
+        document.getElementById(playerId.substr(1)).api_change_media(this.element, pargs);
+    }
 }
 
-const bootiful = {
-    podcasts: {}
-};
 
 // init the player
-jQuery(document).ready(function () {
+jQuery(document).ready(function ($) {
+
 
     function resetEpisodePlayStatus() {
-        jQuery('.play-status').html('Listen Now');
+        $('.play-status').html('Listen Now');
+    }
+
+    function renderPodcast(value) {
+        var p = value;
+        var playFunction = function (e) {
+            p.play();
+            e.stopPropagation();
+            e.preventDefault();
+            resetEpisodePlayStatus();
+            $('#episode-play-' + p.uid + '-status').html('Listening Now');
+            return false;
+        };
+        $('#top3-play-' + p.uid).click(playFunction);
+        $('#episode-play-' + p.uid).click(playFunction);
     }
 
     fetch('/podcasts.json')
-        .then((response) => {
+        .then(function (response) {
             return response.json();
         })
-        .then((podcasts) => {
+        .then(function (podcasts) {
+            console.log(podcasts);
             resetEpisodePlayStatus();
 
-            podcasts.sort((a, b) => {
+            podcasts.sort(function (a, b) {
                 return b.date - a.date;
             });
-
-            podcasts.forEach((p) => {
-                const podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
-                const view = new PodcastPlayerView(podcast);
-                const uid = podcast.uid;
-                bootiful.podcasts[uid] = {podcast: podcast, view: view};
-
-                const playFunction = (e) => {
-                    const theViewForPodcast = bootiful.podcasts [uid].view;
-                    theViewForPodcast.show();
-                    theViewForPodcast.play();
-                    resetEpisodePlayStatus();
-                    jQuery('#episode-play-' + uid + '-status').html('Listening Now');
-                    return false;
-                };
-                jQuery('#top3-play-' + uid).click(playFunction);
-                jQuery('#episode-play-' + uid).click(playFunction);
+            podcasts.forEach(function (p) {
+                var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
+                console.log('the podcast is ', podcast);
+                renderPodcast(podcast);
             });
 
             if (podcasts.length > 0) {
-                initializePlayerForLatest(podcasts[0]);
+                var max = podcasts [0];
+                console.log('the latest podcast is ', max);
+                initializePlayerForLatest(max);
             }
         });
 });
+
+jQuery(document).ready(function () {
+    $('.nav-link').attr('target', '_blank')
+})
