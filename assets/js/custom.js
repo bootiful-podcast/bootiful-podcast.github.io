@@ -78,9 +78,13 @@ function initializePlayerForLatest(podcast) {
 function PodcastPlayerView(p) {
 
 
+    function getDataSourceElementIdFor(uid) {
+        return 'data-source-' + uid + '-element';
+    }
+
     function buildDataSourceForPodcast(podcast) {
         var html = "<span class=\"meta-artist\"><span class=\"the-artist\"> " + podcast.title + "</span></span>";
-        var dataSourceElementId = podcast.uid + '-data-source';
+        var dataSourceElementId = getDataSourceElementIdFor(podcast.uid);
         var e = $("<span>" + html + "</span>");
         e.attr('data-source', podcast.uri);
         e.attr('id', dataSourceElementId);
@@ -103,7 +107,7 @@ function PodcastPlayerView(p) {
 
     this.play = function () {
         console.log('playing (' + this.uid + ')');
-        document.getElementById(elementId).api_change_media(this.element, pargs);
+        document.getElementById(getDataSourceElementIdFor(this.uid)).api_change_media(this.element, pargs);
     };
 
     this.show = function () {
@@ -123,11 +127,10 @@ function Podcast(id, uid, title, uri, photo) {
 
 
 // init the player
-jQuery(document).ready(function ($) {
-
+jQuery(document).ready(function () {
 
     function resetEpisodePlayStatus() {
-        $('.play-status').html('Listen Now');
+        jQuery('.play-status').html('Listen Now');
     }
 
     fetch('/podcasts.json')
@@ -144,29 +147,25 @@ jQuery(document).ready(function ($) {
             podcasts.forEach(function (p) {
                 var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
                 var view = new PodcastPlayerView(podcast);
-
-                podcasts[podcast.uid] = {podcast: podcast, view: view};
-                podcasts[podcast.uid].view.show();
+                var uid = podcast.uid;
+                podcasts[uid] = {
+                    podcast: podcast,
+                    view: view
+                };
 
                 var playFunction = function (e) {
-                    podcasts[podcast.uid].view.show();
-                    podcasts[podcast.uid].view.play();
-
-                    e.stopPropagation();
-                    e.preventDefault();
+                    podcasts[uid].view.show();
+                    podcasts[uid].view.play();
                     resetEpisodePlayStatus();
-                    $('#episode-play-' + p1.uid + '-status').html('Listening Now');
+                    jQuery('#episode-play-' + uid + '-status').html('Listening Now');
                     return false;
                 };
-                var p1 = podcasts[podcast.uid].podcast;
-                $('#top3-play-' + p1.uid).click(playFunction);
-                $('#episode-play-' + p1.uid).click(playFunction);
+                jQuery('#top3-play-' + uid).click(playFunction);
+                jQuery('#episode-play-' + uid).click(playFunction);
             });
 
-            /*if (podcasts.length > 0) {
-                var max = podcasts[0];
-                /!*console.log('the latest podcast is ', max);
-                initializePlayerForLatest(max);*!/
-            }*/
+            if (podcasts.length > 0) {
+                initializePlayerForLatest(podcasts[0]);
+            }
         });
 });
