@@ -49,7 +49,7 @@ $(document).ready(function () {
 
 function initializePlayerForLatest(podcast) {
 
-    dzsap_init(playerId, {
+    dzsap_init(getDataSourceElementIdFor(podcast.uid), {
         autoplay: "off"
         , init_each: "on"
         , disable_volume: "on"
@@ -75,12 +75,12 @@ function initializePlayerForLatest(podcast) {
 }
 
 
+function getDataSourceElementIdFor(uid) {
+    return 'data-source-' + uid + '-element';
+}
+
 function PodcastPlayerView(p) {
 
-
-    function getDataSourceElementIdFor(uid) {
-        return 'data-source-' + uid + '-element';
-    }
 
     function buildDataSourceForPodcast(podcast) {
         var html = "<span class=\"meta-artist\"><span class=\"the-artist\"> " + podcast.title + "</span></span>";
@@ -98,7 +98,7 @@ function PodcastPlayerView(p) {
         return e;
     }
 
-    var containerId = 'containerOfDataSources';
+    const containerId = 'containerOfDataSources';
     this.container = jQuery('#' + containerId);
     this.podcast = p;
     this.uid = this.podcast.uid;
@@ -134,26 +134,23 @@ jQuery(document).ready(function () {
     }
 
     fetch('/podcasts.json')
-        .then(function (response) {
+        .then((response) => {
             return response.json();
         })
-        .then(function (podcasts) {
+        .then((podcasts) => {
             resetEpisodePlayStatus();
 
-            podcasts.sort(function (a, b) {
+            podcasts.sort((a, b) => {
                 return b.date - a.date;
             });
 
-            podcasts.forEach(function (p) {
-                var podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
-                var view = new PodcastPlayerView(podcast);
-                var uid = podcast.uid;
-                podcasts[uid] = {
-                    podcast: podcast,
-                    view: view
-                };
+            podcasts.forEach((p) => {
+                const podcast = new Podcast(p.id, p.uid, p.title, p.episodeUri, p.episodePhotoUri);
+                const view = new PodcastPlayerView(podcast);
+                const uid = podcast.uid;
+                podcasts[uid] = {podcast: podcast, view: view};
 
-                var playFunction = function (e) {
+                const playFunction = (e) => {
                     podcasts[uid].view.show();
                     podcasts[uid].view.play();
                     resetEpisodePlayStatus();
