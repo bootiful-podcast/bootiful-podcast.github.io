@@ -2,456 +2,456 @@
   "id" : "172",
   "uid" : "ed2466e8-a739-4be8-9b14-4881137b834f",
   "title" : "Spring Framework co-founder and lead Juergen Hoeller on Spring Framework 5.2 and more",
-  "date" : 1568246400000,
+  "date" : 1568271600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4a2mvb/ed2466e8-a739-4be8-9b14-4881137b834f.jpg",
   "dataAndTime" : "09/12/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/ed2466e8-a739-4be8-9b14-4881137b834f/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/ed2466e8-a739-4be8-9b14-4881137b834f/produced-audio"
 }, {
   "id" : "175",
   "uid" : "f6aaf7fa-8cc8-4bef-9e39-177524b7298f",
   "title" : "Gradle Developer Advocate Jenn Strater",
-  "date" : 1564617600000,
+  "date" : 1564642800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/5piipj/f6aaf7fa-8cc8-4bef-9e39-177524b7298f.jpg",
   "dataAndTime" : "08/01/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f6aaf7fa-8cc8-4bef-9e39-177524b7298f/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/f6aaf7fa-8cc8-4bef-9e39-177524b7298f/produced-audio"
 }, {
   "id" : "178",
   "uid" : "75983beb-8fa6-45e9-a33f-9760e5d4c3e5",
   "title" : "Rabobank's Roy Braam",
-  "date" : 1554940800000,
+  "date" : 1554966000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ji5f2b/75983beb-8fa6-45e9-a33f-9760e5d4c3e5.jpg",
   "dataAndTime" : "04/11/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/75983beb-8fa6-45e9-a33f-9760e5d4c3e5/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/75983beb-8fa6-45e9-a33f-9760e5d4c3e5/produced-audio"
 }, {
   "id" : "130",
   "uid" : "a00968ac-fb9b-4228-9d50-8a0375f7dec3",
   "title" : "Jon Schneider on his project metrics collection facade Micrometer",
-  "date" : 1545264000000,
+  "date" : 1545292800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/9bdyfg/a00968ac-fb9b-4228-9d50-8a0375f7dec3.jpg",
   "dataAndTime" : "12/20/2018",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a00968ac-fb9b-4228-9d50-8a0375f7dec3/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/a00968ac-fb9b-4228-9d50-8a0375f7dec3/produced-audio"
 }, {
   "id" : "112",
   "uid" : "8182415b-d8d6-4238-9141-83d845d98498",
   "title" : "Twitter's Chris Thalinger on Java, Graal, JVMs, JITs, Sao Paolo, Hawaii, and more",
-  "date" : 1558656000000,
+  "date" : 1558681200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/xrr8dm/8182415b-d8d6-4238-9141-83d845d98498.jpg",
   "dataAndTime" : "05/24/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/8182415b-d8d6-4238-9141-83d845d98498/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/8182415b-d8d6-4238-9141-83d845d98498/produced-audio"
 }, {
   "id" : "124",
   "uid" : "fe8afa8f-f73a-42fd-b133-473c693ae6bd",
   "title" : "Go-lang and Kubernetes legend Verónica Lopez",
-  "date" : 1559174400000,
+  "date" : 1559199600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/5nkjw2/fe8afa8f-f73a-42fd-b133-473c693ae6bd.jpg",
   "dataAndTime" : "05/30/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/fe8afa8f-f73a-42fd-b133-473c693ae6bd/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/fe8afa8f-f73a-42fd-b133-473c693ae6bd/produced-audio"
 }, {
   "id" : "136",
   "uid" : "eaae6699-6e67-438c-a1a5-0762aa1a1434",
   "title" : "Hibernate community legend Vlad Mihalcea on the project, Hibernate, databases and more",
-  "date" : 1572480000000,
+  "date" : 1572505200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4bfbri/eaae6699-6e67-438c-a1a5-0762aa1a1434.jpg",
   "dataAndTime" : "10/31/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/eaae6699-6e67-438c-a1a5-0762aa1a1434/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/eaae6699-6e67-438c-a1a5-0762aa1a1434/produced-audio"
 }, {
   "id" : "145",
   "uid" : "291814bf-1fb3-43f9-adc0-12ec96d91b1a",
   "title" : "Oracle's Geertjan Wielenga on his new book \"Developer, Advocate!\"",
-  "date" : 1570147200000,
+  "date" : 1570172400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/gbfaba/291814bf-1fb3-43f9-adc0-12ec96d91b1a.jpg",
   "dataAndTime" : "10/04/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/291814bf-1fb3-43f9-adc0-12ec96d91b1a/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/291814bf-1fb3-43f9-adc0-12ec96d91b1a/produced-audio"
 }, {
   "id" : "109",
   "uid" : "9e69e673-3dbc-4860-9209-b2a6360e7f12",
   "title" : "Dr. Venkat Subramaniam on Kotlin, Java, Spring, open-source, being productive, and so much more",
-  "date" : 1562198400000,
+  "date" : 1562223600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/9q4ajp/9e69e673-3dbc-4860-9209-b2a6360e7f12.jpg",
   "dataAndTime" : "07/04/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/9e69e673-3dbc-4860-9209-b2a6360e7f12/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/9e69e673-3dbc-4860-9209-b2a6360e7f12/produced-audio"
 }, {
   "id" : "118",
   "uid" : "d525acbf-3f65-4431-ae47-a7e856f4691a",
   "title" : "Michael Simons on Spring Boot, reactive Spring Data Neo4j, and more",
-  "date" : 1573084800000,
+  "date" : 1573113600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/vazbxf/d525acbf-3f65-4431-ae47-a7e856f4691a.jpg",
   "dataAndTime" : "11/07/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d525acbf-3f65-4431-ae47-a7e856f4691a/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/d525acbf-3f65-4431-ae47-a7e856f4691a/produced-audio"
 }, {
   "id" : "163",
   "uid" : "c106105d-fc05-4321-ad4b-5b7b18e0e722",
   "title" : "Bytebuddy and Mockito maestro Rafael Winterhalter",
-  "date" : 1571356800000,
+  "date" : 1571382000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fxitbn/c106105d-fc05-4321-ad4b-5b7b18e0e722.jpg",
   "dataAndTime" : "10/18/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c106105d-fc05-4321-ad4b-5b7b18e0e722/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/c106105d-fc05-4321-ad4b-5b7b18e0e722/produced-audio"
 }, {
   "id" : "166",
   "uid" : "35df7bc5-d7c6-403b-a2c8-fd9a1a40c196",
   "title" : "Datadog's Jason Yee on observability, operations, metrics, Kubernetes, language and more",
-  "date" : 1561593600000,
+  "date" : 1561618800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/539sx3/35df7bc5-d7c6-403b-a2c8-fd9a1a40c196.jpg",
   "dataAndTime" : "06/27/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/35df7bc5-d7c6-403b-a2c8-fd9a1a40c196/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/35df7bc5-d7c6-403b-a2c8-fd9a1a40c196/produced-audio"
 }, {
   "id" : "139",
   "uid" : "91c4de22-69d8-44ad-a120-d859acbe251e",
   "title" : "Neo4j's mad scientist Michael Hunger on graphs, databases and relationships",
-  "date" : 1579737600000,
+  "date" : 1579766400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/xfazsh/91c4de22-69d8-44ad-a120-d859acbe251e.jpg",
   "dataAndTime" : "01/23/2020",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/91c4de22-69d8-44ad-a120-d859acbe251e/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/91c4de22-69d8-44ad-a120-d859acbe251e/produced-audio"
 }, {
   "id" : "199",
   "uid" : "c102dbe9-5464-4e6b-9c36-b6e2001e76b4",
   "title" : "Microsoft's Jialin Dai on Spring for Azure",
-  "date" : 1577318400000,
+  "date" : 1577347200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/cve6tq/c102dbe9-5464-4e6b-9c36-b6e2001e76b4.jpg",
   "dataAndTime" : "12/26/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c102dbe9-5464-4e6b-9c36-b6e2001e76b4/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/c102dbe9-5464-4e6b-9c36-b6e2001e76b4/produced-audio"
 }, {
   "id" : "148",
   "uid" : "d65ae607-5298-4436-91a9-2b4976c96242",
   "title" : "Spring Integration lead Gary Russell on Apache Kafka, RabbitMQ, Spring Integration and more",
-  "date" : 1567728000000,
+  "date" : 1567753200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/yzdadb/d65ae607-5298-4436-91a9-2b4976c96242.jpg",
   "dataAndTime" : "09/06/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d65ae607-5298-4436-91a9-2b4976c96242/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/d65ae607-5298-4436-91a9-2b4976c96242/produced-audio"
 }, {
   "id" : "151",
   "uid" : "70c3fa93-ffd1-458e-b2d3-4b9321a99f88",
   "title" : "Devops luminary and all around great guy John Willis",
-  "date" : 1565222400000,
+  "date" : 1565247600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4ibta7/70c3fa93-ffd1-458e-b2d3-4b9321a99f88.jpg",
   "dataAndTime" : "08/08/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/70c3fa93-ffd1-458e-b2d3-4b9321a99f88/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/70c3fa93-ffd1-458e-b2d3-4b9321a99f88/produced-audio"
 }, {
   "id" : "154",
   "uid" : "8affbc01-89c8-4cdf-adc8-29daf4f78bec",
   "title" : "Spring Contributor and \"Learning Spring Boot 2.0\" author Greg Turnquist",
-  "date" : 1550102400000,
+  "date" : 1550131200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/nkj47c/8affbc01-89c8-4cdf-adc8-29daf4f78bec.jpg",
   "dataAndTime" : "02/14/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/8affbc01-89c8-4cdf-adc8-29daf4f78bec/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/8affbc01-89c8-4cdf-adc8-29daf4f78bec/produced-audio"
 }, {
   "id" : "196",
   "uid" : "07d32ead-cb0a-418f-bd0f-0d508ea86f54",
   "title" : "Pivotal's Senior Director of Technology Cornelia Davis",
-  "date" : 1539129600000,
+  "date" : 1539154800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/2sqnjf/07d32ead-cb0a-418f-bd0f-0d508ea86f54.jpg",
   "dataAndTime" : "10/10/2018",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/07d32ead-cb0a-418f-bd0f-0d508ea86f54/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/07d32ead-cb0a-418f-bd0f-0d508ea86f54/produced-audio"
 }, {
   "id" : "229",
   "uid" : "ac45826d-ffaa-414f-9895-9511b2f9a363",
   "title" : "Josh Mckenty - \"Better Josh\" - on data sovereignty, Python, the cloud, Pivotal, and more",
-  "date" : 1553731200000,
+  "date" : 1553756400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/sejwj3/ac45826d-ffaa-414f-9895-9511b2f9a363.jpg",
   "dataAndTime" : "03/28/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/ac45826d-ffaa-414f-9895-9511b2f9a363/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/ac45826d-ffaa-414f-9895-9511b2f9a363/produced-audio"
 }, {
   "id" : "268",
   "uid" : "d99dcb7f-8aec-427b-8940-bc13eabcff67",
   "title" : "Codota's Dror Weiss",
-  "date" : 1549497600000,
+  "date" : 1549526400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fj9ssw/d99dcb7f-8aec-427b-8940-bc13eabcff67.jpg",
   "dataAndTime" : "02/07/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d99dcb7f-8aec-427b-8940-bc13eabcff67/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/d99dcb7f-8aec-427b-8940-bc13eabcff67/produced-audio"
 }, {
   "id" : "97",
   "uid" : "61e314c4-763a-4746-abdd-39406c14f08c",
   "title" : "Matt Raible and James Ward at Devnexus 2019",
-  "date" : 1551916800000,
+  "date" : 1551945600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/h64vnr/61e314c4-763a-4746-abdd-39406c14f08c.jpg",
   "dataAndTime" : "03/07/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/61e314c4-763a-4746-abdd-39406c14f08c/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/61e314c4-763a-4746-abdd-39406c14f08c/produced-audio"
 }, {
   "id" : "103",
   "uid" : "47b9e94f-4314-4a52-8fb0-3c9ca317b48c",
   "title" : "CQRS with AxonIQ's Steven van Beelen and Pivotal's Ben Wilcock",
-  "date" : 1553126400000,
+  "date" : 1553151600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4c63g7/47b9e94f-4314-4a52-8fb0-3c9ca317b48c.jpg",
   "dataAndTime" : "03/21/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/47b9e94f-4314-4a52-8fb0-3c9ca317b48c/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/47b9e94f-4314-4a52-8fb0-3c9ca317b48c/produced-audio"
 }, {
   "id" : "100",
   "uid" : "484c3fea-c15c-4a6c-b7d6-05def2b9ee7c",
   "title" : "Azul CTO Gil Tene on JVMs, Garbage Collection, Performance and so much More",
-  "date" : 1563494400000,
+  "date" : 1563519600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/st9m3a/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c.jpg",
   "dataAndTime" : "07/19/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c/produced-audio"
 }, {
   "id" : "106",
   "uid" : "59f63044-5c25-40d9-8c9f-232083137be5",
   "title" : "Spring Cloud Services teammate Bella (Yuxin) Bai",
-  "date" : 1579132800000,
+  "date" : 1579161600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/65tcrc/59f63044-5c25-40d9-8c9f-232083137be5.jpg",
   "dataAndTime" : "01/16/2020",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/59f63044-5c25-40d9-8c9f-232083137be5/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/59f63044-5c25-40d9-8c9f-232083137be5/produced-audio"
 }, {
   "id" : "133",
   "uid" : "a92a98a8-3d87-48a0-9038-15036041ef02",
   "title" : "\"Mr. REST\" Mike Amundsen on APIs, Microservices, HTTP and more",
-  "date" : 1562889600000,
+  "date" : 1562914800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/im6hj5/a92a98a8-3d87-48a0-9038-15036041ef02.jpg",
   "dataAndTime" : "07/12/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a92a98a8-3d87-48a0-9038-15036041ef02/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/a92a98a8-3d87-48a0-9038-15036041ef02/produced-audio"
 }, {
   "id" : "115",
   "uid" : "edeb6cb9-294c-41f6-8c4f-7f89e2ad9136",
   "title" : "Spring Cloud Data Flow legend Ilayaperumal Gopinathan",
-  "date" : 1567036800000,
+  "date" : 1567062000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/um2vsa/edeb6cb9-294c-41f6-8c4f-7f89e2ad9136.jpg",
   "dataAndTime" : "08/29/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/edeb6cb9-294c-41f6-8c4f-7f89e2ad9136/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/edeb6cb9-294c-41f6-8c4f-7f89e2ad9136/produced-audio"
 }, {
   "id" : "121",
   "uid" : "b852db47-14eb-4188-bbfc-9a16f54c8996",
   "title" : "IBM's Pratik Patel on function-as-a-service, Spring Cloud Function, Spring, Java and Devnexus",
-  "date" : 1561075200000,
+  "date" : 1561100400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/sibdm3/b852db47-14eb-4188-bbfc-9a16f54c8996.jpg",
   "dataAndTime" : "06/21/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b852db47-14eb-4188-bbfc-9a16f54c8996/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/b852db47-14eb-4188-bbfc-9a16f54c8996/produced-audio"
 }, {
   "id" : "142",
   "uid" : "1d189c9e-5679-4b8f-821d-1bad2a8cd501",
   "title" : "RedHat / IBM's Sébastien Blanc on OAuth, KeyCloak, the French riviera, and more",
-  "date" : 1573776000000,
+  "date" : 1573804800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/weepre/1d189c9e-5679-4b8f-821d-1bad2a8cd501.jpg",
   "dataAndTime" : "11/15/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/1d189c9e-5679-4b8f-821d-1bad2a8cd501/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/1d189c9e-5679-4b8f-821d-1bad2a8cd501/produced-audio"
 }, {
   "id" : "205",
   "uid" : "155d863c-5dd5-4431-b0ae-300417d7805e",
   "title" : "Pivotal Field CTO and OG Cloud Native Matt Stine on Architecture",
-  "date" : 1555545600000,
+  "date" : 1555570800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/unmew7/155d863c-5dd5-4431-b0ae-300417d7805e.jpg",
   "dataAndTime" : "04/18/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/155d863c-5dd5-4431-b0ae-300417d7805e/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/155d863c-5dd5-4431-b0ae-300417d7805e/produced-audio"
 }, {
   "id" : "208",
   "uid" : "df2f53a6-0d32-4302-9d1b-0e49622f2e8e",
   "title" : "James Ward, Matt Raible, and Ryan Knight",
-  "date" : 1566518400000,
+  "date" : 1566543600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/wryxum/df2f53a6-0d32-4302-9d1b-0e49622f2e8e.jpg",
   "dataAndTime" : "08/23/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/df2f53a6-0d32-4302-9d1b-0e49622f2e8e/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/df2f53a6-0d32-4302-9d1b-0e49622f2e8e/produced-audio"
 }, {
   "id" : "214",
   "uid" : "974acc14-5396-4122-8f07-765352c7e558",
   "title" : "Nicolas Frankel on application security, integration testing, Kotlin and more",
-  "date" : 1557964800000,
+  "date" : 1557990000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ytv8sf/974acc14-5396-4122-8f07-765352c7e558.jpg",
   "dataAndTime" : "05/16/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/974acc14-5396-4122-8f07-765352c7e558/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/974acc14-5396-4122-8f07-765352c7e558/produced-audio"
 }, {
   "id" : "211",
   "uid" : "4bf03a77-495d-4e58-9ef1-c4583b400681",
   "title" : "\"The Phoenix Project\" author Gene Kim",
-  "date" : 1580342400000,
+  "date" : 1580371200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/w4k9cy/4bf03a77-495d-4e58-9ef1-c4583b400681.jpg",
   "dataAndTime" : "01/30/2020",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/4bf03a77-495d-4e58-9ef1-c4583b400681/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/4bf03a77-495d-4e58-9ef1-c4583b400681/produced-audio"
 }, {
   "id" : "181",
   "uid" : "13d87c27-cba4-46b4-b978-9b472353992c",
   "title" : "Joe Grandja on Spring Security 5's OAuth Support",
-  "date" : 1552521600000,
+  "date" : 1552546800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/6c5rzf/13d87c27-cba4-46b4-b978-9b472353992c.jpg",
   "dataAndTime" : "03/14/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/13d87c27-cba4-46b4-b978-9b472353992c/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/13d87c27-cba4-46b4-b978-9b472353992c/produced-audio"
 }, {
   "id" : "187",
   "uid" : "15a96291-9267-476d-b743-60d1cab2f6c6",
   "title" : "Google Developer Advocate Ray Tsang",
-  "date" : 1547596800000,
+  "date" : 1547625600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/c5xczf/15a96291-9267-476d-b743-60d1cab2f6c6.jpg",
   "dataAndTime" : "01/16/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/15a96291-9267-476d-b743-60d1cab2f6c6/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/15a96291-9267-476d-b743-60d1cab2f6c6/produced-audio"
 }, {
   "id" : "235",
   "uid" : "a9c1eb1a-8efd-4bae-97b1-7b24c4cf9ca5",
   "title" : "Spring Security engineer Ria Stein",
-  "date" : 1574294400000,
+  "date" : 1574323200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/cped4h/a9c1eb1a-8efd-4bae-97b1-7b24c4cf9ca5.jpg",
   "dataAndTime" : "11/21/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a9c1eb1a-8efd-4bae-97b1-7b24c4cf9ca5/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/a9c1eb1a-8efd-4bae-97b1-7b24c4cf9ca5/produced-audio"
 }, {
   "id" : "232",
   "uid" : "2b956f1a-9407-4556-a19d-03a0ec68c076",
   "title" : "Spring Tools lead Martin Lippert",
-  "date" : 1574899200000,
+  "date" : 1574928000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/27tfry/2b956f1a-9407-4556-a19d-03a0ec68c076.jpg",
   "dataAndTime" : "11/28/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/2b956f1a-9407-4556-a19d-03a0ec68c076/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/2b956f1a-9407-4556-a19d-03a0ec68c076/produced-audio"
 }, {
   "id" : "238",
   "uid" : "f96eaaa5-3beb-4bc4-b21b-2d70980ff96b",
   "title" : "Spring team legend Oliver Drotbohm on Spring Data, HATEOAS, Hypermedia, and more",
-  "date" : 1564099200000,
+  "date" : 1564124400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fjapmy/f96eaaa5-3beb-4bc4-b21b-2d70980ff96b.jpg",
   "dataAndTime" : "07/26/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f96eaaa5-3beb-4bc4-b21b-2d70980ff96b/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/f96eaaa5-3beb-4bc4-b21b-2d70980ff96b/produced-audio"
 }, {
   "id" : "157",
   "uid" : "3d0c5700-8e81-4220-a9b2-9ebc7a29b88a",
   "title" : "The Good Dr. Dave Syer",
-  "date" : 1578009600000,
+  "date" : 1578038400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/76k85c/3d0c5700-8e81-4220-a9b2-9ebc7a29b88a.jpg",
   "dataAndTime" : "01/03/2020",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/3d0c5700-8e81-4220-a9b2-9ebc7a29b88a/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/3d0c5700-8e81-4220-a9b2-9ebc7a29b88a/produced-audio"
 }, {
   "id" : "241",
   "uid" : "7d5cb1e4-1c74-4474-b80c-329ad504e5cd",
   "title" : "Java Champion and Jetbrains Developer Advocate Mala Gupta",
-  "date" : 1569456000000,
+  "date" : 1569481200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/wj7ftw/7d5cb1e4-1c74-4474-b80c-329ad504e5cd.jpg",
   "dataAndTime" : "09/26/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/7d5cb1e4-1c74-4474-b80c-329ad504e5cd/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/7d5cb1e4-1c74-4474-b80c-329ad504e5cd/produced-audio"
 }, {
   "id" : "220",
   "uid" : "91847c03-82f4-4575-8801-8a7c74976313",
   "title" : "Spring Cloud Engineer Olga Maciaszek-Sharma",
-  "date" : 1556841600000,
+  "date" : 1556866800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ecew65/91847c03-82f4-4575-8801-8a7c74976313.jpg",
   "dataAndTime" : "05/03/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/91847c03-82f4-4575-8801-8a7c74976313/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/91847c03-82f4-4575-8801-8a7c74976313/produced-audio"
 }, {
   "id" : "223",
   "uid" : "c19fc45e-16b4-4d7f-b87c-8d5e23ac7cfd",
   "title" : "Reactor team Simon Baslé",
-  "date" : 1576800000000,
+  "date" : 1576828800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/7r4mxp/c19fc45e-16b4-4d7f-b87c-8d5e23ac7cfd.jpg",
   "dataAndTime" : "12/20/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c19fc45e-16b4-4d7f-b87c-8d5e23ac7cfd/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/c19fc45e-16b4-4d7f-b87c-8d5e23ac7cfd/produced-audio"
 }, {
   "id" : "169",
   "uid" : "05b4ae01-52ce-4e19-a3d3-0bdf286f7b3d",
   "title" : "Kylie Liang and Theresa Nguyen on Microsoft's Java and Spring integrations",
-  "date" : 1554336000000,
+  "date" : 1554361200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/zfrhcq/05b4ae01-52ce-4e19-a3d3-0bdf286f7b3d.jpg",
   "dataAndTime" : "04/04/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/05b4ae01-52ce-4e19-a3d3-0bdf286f7b3d/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/05b4ae01-52ce-4e19-a3d3-0bdf286f7b3d/produced-audio"
 }, {
   "id" : "244",
   "uid" : "bbbbfbc4-fe9b-4f0c-ab4f-10279d739875",
   "title" : "Pivotal Application Platform Security Senior Manager Sree Tummidi",
-  "date" : 1550707200000,
+  "date" : 1550736000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/88c4ci/bbbbfbc4-fe9b-4f0c-ab4f-10279d739875.jpg",
   "dataAndTime" : "02/21/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/bbbbfbc4-fe9b-4f0c-ab4f-10279d739875/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/bbbbfbc4-fe9b-4f0c-ab4f-10279d739875/produced-audio"
 }, {
   "id" : "247",
   "uid" : "564af652-f099-4d4d-9930-85c725567dea",
   "title" : "Spring Batch and Spring Cloud Task lead Michael Minella",
-  "date" : 1556150400000,
+  "date" : 1556175600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ehfqg7/564af652-f099-4d4d-9930-85c725567dea.jpg",
   "dataAndTime" : "04/25/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/564af652-f099-4d4d-9930-85c725567dea/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/564af652-f099-4d4d-9930-85c725567dea/produced-audio"
 }, {
   "id" : "250",
   "uid" : "b7a9786d-fdef-419a-8da7-5475a90b4631",
   "title" : "Pivotal Labs Sydney director David Julia",
-  "date" : 1578528000000,
+  "date" : 1578556800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/j3758t/b7a9786d-fdef-419a-8da7-5475a90b4631.jpg",
   "dataAndTime" : "01/09/2020",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b7a9786d-fdef-419a-8da7-5475a90b4631/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/b7a9786d-fdef-419a-8da7-5475a90b4631/produced-audio"
 }, {
   "id" : "253",
   "uid" : "9d421c4d-bf5b-4ed4-96cf-b8e1413f7dfb",
   "title" : "Spring Cloud lead Spencer Gibb",
-  "date" : 1559779200000,
+  "date" : 1559804400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/z7fjfy/9d421c4d-bf5b-4ed4-96cf-b8e1413f7dfb.jpg",
   "dataAndTime" : "06/06/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/9d421c4d-bf5b-4ed4-96cf-b8e1413f7dfb/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/9d421c4d-bf5b-4ed4-96cf-b8e1413f7dfb/produced-audio"
 }, {
   "id" : "256",
   "uid" : "b6aaf914-7ea8-4292-a79c-e5587e9407da",
   "title" : "Pivotal SVP Ian Andrews on our customers, new announcements, Kubernetes, and more",
-  "date" : 1560384000000,
+  "date" : 1560409200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/utw8yr/b6aaf914-7ea8-4292-a79c-e5587e9407da.jpg",
   "dataAndTime" : "06/13/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b6aaf914-7ea8-4292-a79c-e5587e9407da/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/b6aaf914-7ea8-4292-a79c-e5587e9407da/produced-audio"
 }, {
   "id" : "262",
   "uid" : "aa3da822-e1c0-4e22-b794-a54c249e2319",
   "title" : "Apache Tomcat, Netty and Spring Framework contributor Violeta Georgieva",
-  "date" : 1571875200000,
+  "date" : 1571900400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ssjge2/aa3da822-e1c0-4e22-b794-a54c249e2319.jpg",
   "dataAndTime" : "10/24/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/aa3da822-e1c0-4e22-b794-a54c249e2319/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/aa3da822-e1c0-4e22-b794-a54c249e2319/produced-audio"
 }, {
   "id" : "184",
   "uid" : "e9d5a15b-fabf-4d7b-8852-907d2d313307",
   "title" : "Spring teammate Brian Clozel on new features in Spring 5.2 and Spring Boot 2.2",
-  "date" : 1565827200000,
+  "date" : 1565852400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/7b79aq/e9d5a15b-fabf-4d7b-8852-907d2d313307.jpg",
   "dataAndTime" : "08/15/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/e9d5a15b-fabf-4d7b-8852-907d2d313307/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/e9d5a15b-fabf-4d7b-8852-907d2d313307/produced-audio"
 }, {
   "id" : "190",
   "uid" : "71ba05ed-7a4a-44b3-b20f-028a35185484",
   "title" : "Kotlin team engineer Roman Elisarov",
-  "date" : 1557360000000,
+  "date" : 1557385200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/q6eeu2/71ba05ed-7a4a-44b3-b20f-028a35185484.jpg",
   "dataAndTime" : "05/09/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/71ba05ed-7a4a-44b3-b20f-028a35185484/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/71ba05ed-7a4a-44b3-b20f-028a35185484/produced-audio"
 }, {
   "id" : "202",
   "uid" : "31e0f731-398d-43d9-bacb-f2c7b578c1f7",
   "title" : "Spring Boot engineer Madhura Bhave",
-  "date" : 1548374400000,
+  "date" : 1548403200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/n9paux/31e0f731-398d-43d9-bacb-f2c7b578c1f7.jpg",
   "dataAndTime" : "01/25/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/31e0f731-398d-43d9-bacb-f2c7b578c1f7/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/31e0f731-398d-43d9-bacb-f2c7b578c1f7/produced-audio"
 }, {
   "id" : "217",
   "uid" : "863c6399-c65d-4a60-ba24-327ac3db4c44",
   "title" : "Reactor project lead Stéphane Maldini",
-  "date" : 1551312000000,
+  "date" : 1551340800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ssu4mn/863c6399-c65d-4a60-ba24-327ac3db4c44.jpg",
   "dataAndTime" : "02/28/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/863c6399-c65d-4a60-ba24-327ac3db4c44/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/863c6399-c65d-4a60-ba24-327ac3db4c44/produced-audio"
 }, {
   "id" : "265",
   "uid" : "520f6c5d-25f1-4d59-8ad3-3d02c63e0bd0",
   "title" : "Spring Cloud Stream lead Oleg Zhurakousky",
-  "date" : 1548892800000,
+  "date" : 1548921600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ae6eph/520f6c5d-25f1-4d59-8ad3-3d02c63e0bd0.jpg",
   "dataAndTime" : "01/31/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/520f6c5d-25f1-4d59-8ad3-3d02c63e0bd0/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/520f6c5d-25f1-4d59-8ad3-3d02c63e0bd0/produced-audio"
 }, {
   "id" : "271",
   "uid" : "f40131bf-1501-4e3d-9ff3-6324f206e26d",
   "title" : "Spring mad scientist Andy Clement on AspectJ, SpEL, Eclipse, Graal and more",
-  "date" : 1570665600000,
+  "date" : 1570690800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/8bthb4/f40131bf-1501-4e3d-9ff3-6324f206e26d.jpg",
   "dataAndTime" : "10/10/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f40131bf-1501-4e3d-9ff3-6324f206e26d/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/f40131bf-1501-4e3d-9ff3-6324f206e26d/produced-audio"
 }, {
   "id" : "274",
   "uid" : "2545ebeb-6949-4bdb-9f07-12e8463b7f58",
   "title" : "Pivotal's Katrina Bakas on Pivotal Healthwatch, Kubernetes, Cloud Foundry and more",
-  "date" : 1575504000000,
+  "date" : 1575532800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/srgm37/2545ebeb-6949-4bdb-9f07-12e8463b7f58.jpg",
   "dataAndTime" : "12/05/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/2545ebeb-6949-4bdb-9f07-12e8463b7f58/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/2545ebeb-6949-4bdb-9f07-12e8463b7f58/produced-audio"
 }, {
   "id" : "277",
   "uid" : "5734a058-2bc9-4930-acc4-61bb730edf40",
   "title" : "Nicolai Parlog on Java modularity",
-  "date" : 1568851200000,
+  "date" : 1568876400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/wjy3p6/5734a058-2bc9-4930-acc4-61bb730edf40.jpg",
   "dataAndTime" : "09/19/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/5734a058-2bc9-4930-acc4-61bb730edf40/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/5734a058-2bc9-4930-acc4-61bb730edf40/produced-audio"
 }, {
   "id" : "280",
   "uid" : "4677643c-a921-4fef-a30f-64c813d7e8ca",
   "title" : "I need to talk about my father, Clark \"Bud\" Long, who just passed away",
-  "date" : 1576108800000,
+  "date" : 1576137600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/43dztt/4677643c-a921-4fef-a30f-64c813d7e8ca.jpg",
   "dataAndTime" : "12/12/2019",
-  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/4677643c-a921-4fef-a30f-64c813d7e8ca/produced-audio"
+  "episodeUri" : "http://localhost:8080/podcasts/4677643c-a921-4fef-a30f-64c813d7e8ca/produced-audio"
 } ]
