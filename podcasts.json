@@ -4,6 +4,7 @@
   "title" : "Spring Framework co-founder and lead Juergen Hoeller on Spring Framework 5.2 and more",
   "date" : 1568246400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4a2mvb/ed2466e8-a739-4be8-9b14-4881137b834f.jpg",
+  "description" : "Hi, Spring fans! Welcome to another extra-special, extra-long installment of A Bootiful Podcast. In this episode, I talk to Spring Framework lead and #2 co-founder of Spring itself, the one, the only, the amazing Juergen Hoeller. We talk about his tenure as the longest and most prolific contributor to Spring; designing clean code; the early days of Spring the project; new features in Spring Framework 5.2; the role of Kotlin, Project Loom, Graal in the Spring ecosystem; Spring's role in the ecosystem; Java's place and possibilities; and so much more. \n\n* Juergen on Twitter: @SpringJuergen\n* Spring Framework on Github: https://github.com/spring-projects/spring-framework",
   "dataAndTime" : "09/12/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/ed2466e8-a739-4be8-9b14-4881137b834f/produced-audio"
 }, {
@@ -12,6 +13,7 @@
   "title" : "Gradle Developer Advocate Jenn Strater",
   "date" : 1564617600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/5piipj/f6aaf7fa-8cc8-4bef-9e39-177524b7298f.jpg",
+  "description" : "Hi Spring fans! In today's installment I talk to Gradle Developer Advocate Jenn Strater about Gradle, Groovy, Spring REST Docs, and so much more. \n\n* Jenn on Twitter: https://twitter.com/codeJENNerator",
   "dataAndTime" : "08/01/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f6aaf7fa-8cc8-4bef-9e39-177524b7298f/produced-audio"
 }, {
@@ -20,6 +22,7 @@
   "title" : "Rabobank's Roy Braam",
   "date" : 1554940800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ji5f2b/75983beb-8fa6-45e9-a33f-9760e5d4c3e5.jpg",
+  "description" : "Hi Spring fans! In this installment Josh Long talks to Roy Braam, a solutions architect at Rabobank, a bank in the Netherlands, about how they are able to quickly iterate despite regulation and size. \n\nRoy Braam on Twitter: http://twitter.com/rbraam\nRabobank: https://www.rabobank.com/en/home/index.html\nJosh Long on Twitter: http://twitter.com/starbuxman",
   "dataAndTime" : "04/11/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/75983beb-8fa6-45e9-a33f-9760e5d4c3e5/produced-audio"
 }, {
@@ -28,6 +31,7 @@
   "title" : "Jon Schneider on his project metrics collection facade Micrometer",
   "date" : 1545264000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/9bdyfg/a00968ac-fb9b-4228-9d50-8a0375f7dec3.jpg",
+  "description" : "In this installment we talk to Jon Schneider, lead of the Micrometer project that supports dimensional metrics instrumentation. It aims to be \"SLF4J, but for metrics,\" and it has already seen uptake in a number of JVM community projects including the RabbitMQ JVM driver and Spring Boot.\n\nTwitter: https://twitter.com/jon_k_schneider \nTwitter: https://twitter.com/MicrometerIO\n\nRecorded: May 25, 2018\nNotes:\n- Check out the Micrometer project http://Micrometer.io",
   "dataAndTime" : "12/20/2018",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a00968ac-fb9b-4228-9d50-8a0375f7dec3/produced-audio"
 }, {
@@ -36,6 +40,7 @@
   "title" : "Twitter's Chris Thalinger on Java, Graal, JVMs, JITs, Sao Paolo, Hawaii, and more",
   "date" : 1558656000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/xrr8dm/8182415b-d8d6-4238-9141-83d845d98498.jpg",
+  "description" : "Hi Spring fans! In this installment of a Bootiful Podcast Josh Long (@starbuxman) talks to Twitter's Chris Thalinger (@christhalinger) about Graal VM; JITs; Compilers; Hawaii, USA; Sao Paolo, Brazil; and so much more.\n\nChris Thalinger on Twitter: @christhalinger\nGraalVM: https://www.graalvm.org/",
   "dataAndTime" : "05/24/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/8182415b-d8d6-4238-9141-83d845d98498/produced-audio"
 }, {
@@ -44,6 +49,7 @@
   "title" : "Go-lang and Kubernetes legend Verónica Lopez",
   "date" : 1559174400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/5nkjw2/fe8afa8f-f73a-42fd-b133-473c693ae6bd.jpg",
+  "description" : "Hi Spring fans! In this episode I talk to Go-lang and Kubernetes-legend Verónica Lopez about community, physics, distributed systems and more. \n\nVerónica on Twitter: http://twitter.com/maria_fibonacci",
   "dataAndTime" : "05/30/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/fe8afa8f-f73a-42fd-b133-473c693ae6bd/produced-audio"
 }, {
@@ -52,6 +58,7 @@
   "title" : "Hibernate community legend Vlad Mihalcea on the project, Hibernate, databases and more",
   "date" : 1572480000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4bfbri/eaae6699-6e67-438c-a1a5-0762aa1a1434.jpg",
+  "description" : "Hi, Spring fans! in today's episode Josh Long (@starbuxman) talks to Vlad Mihalcea (@vlad_mihalcea) about Hibernate, databases, optimizations, and more. \n\n* Vlad on Twitter: http://twitter.com/vlad_mihalcea\n* Vlad's blog: https://vladmihalcea.com",
   "dataAndTime" : "10/31/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/eaae6699-6e67-438c-a1a5-0762aa1a1434/produced-audio"
 }, {
@@ -60,6 +67,7 @@
   "title" : "Oracle's Geertjan Wielenga on his new book \"Developer, Advocate!\"",
   "date" : 1570147200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/gbfaba/291814bf-1fb3-43f9-adc0-12ec96d91b1a.jpg",
+  "description" : "Hi Spring fans! In this episode, Josh Long (@starbuxman) interviews Oracle's Geertjan Wielenga (@GeertjanW) about his new book (on developer advocacy) \"Developer, Advocate!\"",
   "dataAndTime" : "10/04/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/291814bf-1fb3-43f9-adc0-12ec96d91b1a/produced-audio"
 }, {
@@ -68,6 +76,7 @@
   "title" : "Dr. Venkat Subramaniam on Kotlin, Java, Spring, open-source, being productive, and so much more",
   "date" : 1562198400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/9q4ajp/9e69e673-3dbc-4860-9209-b2a6360e7f12.jpg",
+  "description" : "Hi, Spring fans! In today's episode, I talk to the man, the myth, the legend, the good Dr. Venkat Subramaniam on Kotlin, the future of Java, Spring, open-source, being productive and awesome, and so much more. \n\n* Dr. Subramaniam on Twitter - http://twitter.com/Venkat_S\n* https://twitter.com/starbuxman/status/1103810728883040256 - a tweet asking that whatever recording I do with Dr. Subramaniam for the Bootiful Podcast be longer than an hour (wish granted!)\n* The image from today's episode comes from a joint-talk that the good Dr. Subramaniam and I did in Atlanta, GA for the epic Devnexus conference. I am using the photo from [Matt Raible's tweet](https://twitter.com/mraible/status/1103692771028803590)\n* Dr. Subramaniam's new book Programming Kotlin: https://pragprog.com/book/vskotlin/programming-kotlin",
   "dataAndTime" : "07/04/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/9e69e673-3dbc-4860-9209-b2a6360e7f12/produced-audio"
 }, {
@@ -76,6 +85,7 @@
   "title" : "Michael Simons on Spring Boot, reactive Spring Data Neo4j, and more",
   "date" : 1573084800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/vazbxf/d525acbf-3f65-4431-ae47-a7e856f4691a.jpg",
+  "description" : "Hi, Spring fans! In this installment Josh Long talks to \"Spring Boot Buch\"  author, Spring community legend and an engineer working on the new, reactive Spring Data Neo4j project Michael Simons \n\n* Reactive Spring Data Neo4j: https://github.com/neo4j/sdn-rx\n* Neo4j NODES 2019: https://neo4j.com/online-summit\n* Michael's Twitter: https://twitter.com/@rotnroll666\n* His blog: https://info.michael-simons.eu",
   "dataAndTime" : "11/07/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d525acbf-3f65-4431-ae47-a7e856f4691a/produced-audio"
 }, {
@@ -84,6 +94,7 @@
   "title" : "Bytebuddy and Mockito maestro Rafael Winterhalter",
   "date" : 1571356800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fxitbn/c106105d-fc05-4321-ad4b-5b7b18e0e722.jpg",
+  "description" : "Hi, Spring fans! Welcome to another installment of a Bootiful Podcast! In this week's installment @starbuxman (Josh Long) talks to Rafael Winterhalter (@rafaelcodes) about Bytebuddy; Mockito; the JVM; bytecode; Oslo, Norway; and so much more.\n\n* Rafael on Twitter: @rafaelcodes\n* ByteBuddy: https://bytebuddy.net/\n* Mockito: https://site.mockito.org \n* JavaZone: http://JavaZone.no",
   "dataAndTime" : "10/18/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c106105d-fc05-4321-ad4b-5b7b18e0e722/produced-audio"
 }, {
@@ -92,6 +103,7 @@
   "title" : "Datadog's Jason Yee on observability, operations, metrics, Kubernetes, language and more",
   "date" : 1561593600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/539sx3/35df7bc5-d7c6-403b-a2c8-fd9a1a40c196.jpg",
+  "description" : "Hi Spring fans! In this installment Josh Long (@starbuxman) talks to @Datadog 's Jason Yee (@gitbisect) about observability, operations, metrics, Kubernetes, language and more. \n\n* Jason on Twitter: http://twitter.com/GitBisect\n* a great post on the (brief) history of Observability: https://www.cncf.io/blog/2019/05/21/a-brief-history-of-opentelemetry-so-far/\n* DevoxxUK: http://twitter.com/DevoxxUK",
   "dataAndTime" : "06/27/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/35df7bc5-d7c6-403b-a2c8-fd9a1a40c196/produced-audio"
 }, {
@@ -100,6 +112,7 @@
   "title" : "Neo4j's mad scientist Michael Hunger on graphs, databases and relationships",
   "date" : 1579737600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/xfazsh/91c4de22-69d8-44ad-a120-d859acbe251e.jpg",
+  "description" : "Hi, Spring fans! In this episode Josh Long (http://twitter.com/starbuxman) talks to Neo4j's mad scientist, and one of the most brilliant and generous people around, Michael Hunger (http://twitter.com/mesirii), about all things graph, relationships and more.",
   "dataAndTime" : "01/23/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/91c4de22-69d8-44ad-a120-d859acbe251e/produced-audio"
 }, {
@@ -108,6 +121,7 @@
   "title" : "Microsoft's Jialin Dai on Spring for Azure",
   "date" : 1577318400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/cve6tq/c102dbe9-5464-4e6b-9c36-b6e2001e76b4.jpg",
+  "description" : "Hi, Spring fans! Welcome to another installment of \"A Bootiful Podcast\"! In this installment, Josh Long (@starbuxman) talks to Microsoft's Jialin Dai about the various Spring for Azure Spring Boot starters and auto-configuration! \n\nHappy holidays from the @BootifulPodcast team to you!",
   "dataAndTime" : "12/26/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c102dbe9-5464-4e6b-9c36-b6e2001e76b4/produced-audio"
 }, {
@@ -116,6 +130,7 @@
   "title" : "Spring Integration lead Gary Russell on Apache Kafka, RabbitMQ, Spring Integration and more",
   "date" : 1567728000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/yzdadb/d65ae607-5298-4436-91a9-2b4976c96242.jpg",
+  "description" : "Hi, Spring fans! In this installment, @starbuxman talks to Spring Integration lead Gary Russell about Apache Kafka, RabbitMQ, Spring Integration and more. \n\n* Gary on Twitter: https://twitter.com/gprussell?lang=en",
   "dataAndTime" : "09/06/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d65ae607-5298-4436-91a9-2b4976c96242/produced-audio"
 }, {
@@ -124,6 +139,7 @@
   "title" : "Devops luminary and all around great guy John Willis",
   "date" : 1565222400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4ibta7/70c3fa93-ffd1-458e-b2d3-4b9321a99f88.jpg",
+  "description" : "Hi Spring fans! In this week's installment, Josh Long (@starbuxman) talk to DevOps luminary, cloud-computing visionary, and all-around-great-guy John Willis (@botchagalupe). This a white-knuckle rollercoaster ride of knowledge, so buckle up and enjoy!",
   "dataAndTime" : "08/08/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/70c3fa93-ffd1-458e-b2d3-4b9321a99f88/produced-audio"
 }, {
@@ -132,6 +148,7 @@
   "title" : "Spring Contributor and \"Learning Spring Boot 2.0\" author Greg Turnquist",
   "date" : 1550102400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/nkj47c/8affbc01-89c8-4cdf-adc8-29daf4f78bec.jpg",
+  "description" : "It was a lot of fun to talk to Greg Turnquist, one of the more industrious and variously applied members of the Spring family, about how he found his way to the Spring team and community, Python, his new book, Spring team legends like Keith Donald and Brian Dussault, and so much more. \n\nhttp://twitter.com/GregTurn\nhttp://Spring.io/team/gturnquist",
   "dataAndTime" : "02/14/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/8affbc01-89c8-4cdf-adc8-29daf4f78bec/produced-audio"
 }, {
@@ -140,6 +157,7 @@
   "title" : "Pivotal's Senior Director of Technology Cornelia Davis",
   "date" : 1539129600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/2sqnjf/07d32ead-cb0a-418f-bd0f-0d508ea86f54.jpg",
+  "description" : "Today's interview is with Cornelia Davis, senior director of technology at Pivotal and author of Manning's upcoming, and epic, \"Cloud Native.\" I first met Cornelia when she was working in the office of the CTO at EMC. She took the proverbial plunge and joined the then nascent cloud computing effort, Cloud Foundry, and has never looked back. Corenlia has, over the course of her 30+ years as an engineer, also become a champion for diversity and inclusion in computing.\n\nTwitter: http://twitter.com/cdavisafc\nRecorded: May 29, 2018\nNotes:\n- Her book is available here https://www.manning.com/books/cloud-native",
   "dataAndTime" : "10/10/2018",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/07d32ead-cb0a-418f-bd0f-0d508ea86f54/produced-audio"
 }, {
@@ -148,6 +166,7 @@
   "title" : "Josh Mckenty - \"Better Josh\" - on data sovereignty, Python, the cloud, Pivotal, and more",
   "date" : 1553731200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/sejwj3/ac45826d-ffaa-414f-9895-9511b2f9a363.jpg",
+  "description" : "Hi Spring fans! In this week's installment of a Bootiful Podcast I, Josh Long, welcome Josh Mckenty - or \"better Josh,\" as I affectionately call him - to the show to discuss Pivotal, Cloud Foundry, Python, microservices, and data sovereignty, among other things. \n\nJosh Mckenty on Twitter: http://twitter.com/jmckenty",
   "dataAndTime" : "03/28/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/ac45826d-ffaa-414f-9895-9511b2f9a363/produced-audio"
 }, {
@@ -156,6 +175,7 @@
   "title" : "Codota's Dror Weiss",
   "date" : 1549497600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fj9ssw/d99dcb7f-8aec-427b-8940-bc13eabcff67.jpg",
+  "description" : "Hi Spring fans! In this installment I talk to Dror Weiss, CEO of Codota, a company that seeks to make smart code completion in your IDE even smarter.\n\nhttps://www.linkedin.com/in/drorwe\nhttps://www.codota.com/about",
   "dataAndTime" : "02/07/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d99dcb7f-8aec-427b-8940-bc13eabcff67/produced-audio"
 }, {
@@ -164,6 +184,7 @@
   "title" : "Matt Raible and James Ward at Devnexus 2019",
   "date" : 1551916800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/h64vnr/61e314c4-763a-4746-abdd-39406c14f08c.jpg",
+  "description" : "Hi Spring fans! In this extra-long installment I talk with longtime friends and fellow developer advocates, Okta's Matt Raible and Google's James Ward. We talked about Java, Kotlin, cloud computing technologies, security, Go, paradigm changes, web frameworks past and present, Macromedia, Scala, and a MILLION more things! This was a ton of fun for me so I'm hoping you'll enjoy it too. \n\nMatt on Twitter: http://twitter.com/mraible\nJames on Twitter: http://twitter.com/_jamesward",
   "dataAndTime" : "03/07/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/61e314c4-763a-4746-abdd-39406c14f08c/produced-audio"
 }, {
@@ -172,6 +193,7 @@
   "title" : "CQRS with AxonIQ's Steven van Beelen and Pivotal's Ben Wilcock",
   "date" : 1553126400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4c63g7/47b9e94f-4314-4a52-8fb0-3c9ca317b48c.jpg",
+  "description" : "Hi Spring fans! In this week's installment Josh Long talks to AxonIQ's Steven van Beelen, lead of the Axon project, and Pivotal's Ben Wilcock, on CQRS, event-sourcing, event-storming, microservices, Spring Boot and the long camaraderie  shared by the Spring and Axon teams\n\nSteve van Beelen: https://twitter.com/smcvbeelen \nBen Wilcock: http://twitter.com/benbravo73\nAllard Buijze: http://twitter.com/allardbz\nAxonIQ: https://axoniq.io/",
   "dataAndTime" : "03/21/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/47b9e94f-4314-4a52-8fb0-3c9ca317b48c/produced-audio"
 }, {
@@ -180,6 +202,7 @@
   "title" : "Azul CTO Gil Tene on JVMs, Garbage Collection, Performance and so much More",
   "date" : 1563494400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/st9m3a/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c.jpg",
+  "description" : "Hi Spring fans! Welcome to another installment of a Bootiful Podcast! In this week I'm joined by my old friend, Azul CTO, Gil Tene as we discuss Java, JVMs, garbage collection, and a ton more in this extra packed 90 minute-plus episode. \n\n* Gil on Twitter - http://twitter.com/GilTene\n* Azul Systems - https://www.azul.com/\n* Zing - https://www.azul.com/products/zing/",
   "dataAndTime" : "07/19/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/484c3fea-c15c-4a6c-b7d6-05def2b9ee7c/produced-audio"
 }, {
@@ -188,6 +211,7 @@
   "title" : "Spring Cloud Services teammate Bella (Yuxin) Bai",
   "date" : 1579132800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/65tcrc/59f63044-5c25-40d9-8c9f-232083137be5.jpg",
+  "description" : "Hi, Spring fans! Int his week's installment Josh Long (@starbuxman) talks to Spring Cloud Services teammate Bella (Yuxin) Bai. \n\n* https://pivotal.io/platform/services-marketplace/microservices-management/spring-cloud-services",
   "dataAndTime" : "01/16/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/59f63044-5c25-40d9-8c9f-232083137be5/produced-audio"
 }, {
@@ -196,6 +220,7 @@
   "title" : "\"Mr. REST\" Mike Amundsen on APIs, Microservices, HTTP and more",
   "date" : 1562889600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/im6hj5/a92a98a8-3d87-48a0-9038-15036041ef02.jpg",
+  "description" : "Hi Spring fans! Welcome to another installment of a Bootiful Podcast! This week Josh Long (@starbuxman) talks to \"Mr. REST\" Mike Amundsen (@mamund) to talk about APIs, Microservices, HTTP and much more! \n\n* http://twitter.com/mamund",
   "dataAndTime" : "07/12/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a92a98a8-3d87-48a0-9038-15036041ef02/produced-audio"
 }, {
@@ -204,6 +229,7 @@
   "title" : "Spring Cloud Data Flow legend Ilayaperumal Gopinathan",
   "date" : 1567036800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/um2vsa/edeb6cb9-294c-41f6-8c4f-7f89e2ad9136.jpg",
+  "description" : "Hi Spring fans! In this week's episode I talk to Spring Cloud Data Flow legend Ilayaperumal Gopinathan (\"Illaya\") about his journey to open-source, batch processing and messaging, integration, and Spring Cloud Data Flow, and so much more. Enjoy!\n\n* Illaya on Twitter: ilayaperumalg\n* http://Dataflow.Spring.io",
   "dataAndTime" : "08/29/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/edeb6cb9-294c-41f6-8c4f-7f89e2ad9136/produced-audio"
 }, {
@@ -212,6 +238,7 @@
   "title" : "IBM's Pratik Patel on function-as-a-service, Spring Cloud Function, Spring, Java and Devnexus",
   "date" : 1561075200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/sibdm3/b852db47-14eb-4188-bbfc-9a16f54c8996.jpg",
+  "description" : "Hi Spring fans! This week Josh Long (@starbuxman) speaks to @IBM's Pratik Patel (@prpatel) about function-as-a-service, Spring Cloud Function, Spring, @Java and @Devnexus",
   "dataAndTime" : "06/21/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b852db47-14eb-4188-bbfc-9a16f54c8996/produced-audio"
 }, {
@@ -220,6 +247,7 @@
   "title" : "RedHat / IBM's Sébastien Blanc on OAuth, KeyCloak, the French riviera, and more",
   "date" : 1573776000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/weepre/1d189c9e-5679-4b8f-821d-1bad2a8cd501.jpg",
+  "description" : "Hi, Spring fans! This week Josh Long (@starbuxman) talks to [RedHat / IBM's Sébastien Blanc (@sebi2706) about OAuth, KeyCloak, RivieraDev, the French Riviera, and more.\n\n* Sébastien on Twitter: http://twitter.com/Sebi2706\n* KeyCloak: https://www.keycloak.org/\n* Sébastien's legendary conference, RivieraDev: https://twitter.com/RivieraDEV",
   "dataAndTime" : "11/15/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/1d189c9e-5679-4b8f-821d-1bad2a8cd501/produced-audio"
 }, {
@@ -228,6 +256,7 @@
   "title" : "Pivotal Field CTO and OG Cloud Native Matt Stine on Architecture",
   "date" : 1555545600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/unmew7/155d863c-5dd5-4431-b0ae-300417d7805e.jpg",
+  "description" : "Hi Spring fans! Welcome to another installment of a Bootiful Podcast. In this episode, recorded in lovely Johannesburg, South Africa for the SpringOne Tour event, I'm joined by my buddy and one of the original cloud natives, Matt Stine!\n\n\nMatt's twitter: http://twitter.com/mstine",
   "dataAndTime" : "04/18/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/155d863c-5dd5-4431-b0ae-300417d7805e/produced-audio"
 }, {
@@ -236,6 +265,7 @@
   "title" : "James Ward, Matt Raible, and Ryan Knight",
   "date" : 1566518400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/wryxum/df2f53a6-0d32-4302-9d1b-0e49622f2e8e.jpg",
+  "description" : "Hi Spring fans and welcome to another installment of a Bootiful Podcast! This week I had the pleasure of talking with Ryan Knight and with the two people with whom I am copresenting at SpringOne Platform 2019, James Ward and Matt Raible.\n\n* James Ward on Twitter: @_JamesWard \n* Matt Raible on Twitter: @mraible \n* Ryan Knight on Twitter: @knight_cloud",
   "dataAndTime" : "08/23/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/df2f53a6-0d32-4302-9d1b-0e49622f2e8e/produced-audio"
 }, {
@@ -244,6 +274,7 @@
   "title" : "Nicolas Frankel on application security, integration testing, Kotlin and more",
   "date" : 1557964800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ytv8sf/974acc14-5396-4122-8f07-765352c7e558.jpg",
+  "description" : "HI Spring fans! In this installment Josh Long (@starbuxman) talks to Nicolas Frankel (@nicolas_frankel) about integration testing, blogging, Kotlin, application security, living on the French/Swiss border, blogging consistently, and much more. It's an interview with one of my favorite voices in the community.\n\nNicolas on Twitter: http://twitter.com/nicolas_frankel\nNicolas' epic blog: https://blog.frankel.ch/",
   "dataAndTime" : "05/16/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/974acc14-5396-4122-8f07-765352c7e558/produced-audio"
 }, {
@@ -252,6 +283,7 @@
   "title" : "\"The Phoenix Project\" author Gene Kim",
   "date" : 1580342400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/w4k9cy/4bf03a77-495d-4e58-9ef1-c4583b400681.jpg",
+  "description" : "Hi, Spring fans! In this episode, Josh Long (@starbuxman) talks to \"The Phoenix Project\" and \"The Unicorn Project\" author Gene Kim (@RealGeneKim) about DevOps, his experience of the industry, IT organizations and a MILLION TRILLION other things. I'd listen to this one first!",
   "dataAndTime" : "01/30/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/4bf03a77-495d-4e58-9ef1-c4583b400681/produced-audio"
 }, {
@@ -260,6 +292,7 @@
   "title" : "Joe Grandja on Spring Security 5's OAuth Support",
   "date" : 1552521600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/6c5rzf/13d87c27-cba4-46b4-b978-9b472353992c.jpg",
+  "description" : "Hi Spring fans! Welcome to another installment of a Bootiful Podcast! This week @starbuxman talks to Joe Grandja who, not coincidentally, just celebrated his third anniversary working on the Spring team!  Joe has been instrumental in building Spring Security 5.x and its OAuth client and resource-server support. \n\nJoe's team page: https://spring.io/team/pivotal-joe-grandja \nJoe on Twitter: https://twitter.com/joe_grandja",
   "dataAndTime" : "03/14/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/13d87c27-cba4-46b4-b978-9b472353992c/produced-audio"
 }, {
@@ -268,6 +301,7 @@
   "title" : "Google Developer Advocate Ray Tsang",
   "date" : 1547596800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/c5xczf/15a96291-9267-476d-b743-60d1cab2f6c6.jpg",
+  "description" : "In this episode I talk to my friend and Google Cloud Developer Advocate Ray Tsang on his Twitter handle, technology (Kubernetes, Spring), the Pivotal and Google collaborations, our collaborations, Spring Cloud, Taiwan, Southern California and NYC, and a ton more. \n\nRay Tsang\nhttp://twitter.com/Saturnism",
   "dataAndTime" : "01/16/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/15a96291-9267-476d-b743-60d1cab2f6c6/produced-audio"
 }, {
@@ -276,6 +310,7 @@
   "title" : "Spring Security engineer Ria Stein",
   "date" : 1574294400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/cped4h/a9c1eb1a-8efd-4bae-97b1-7b24c4cf9ca5.jpg",
+  "description" : "Hi, Spring fans! In this installment, Josh Long talks to Spring Security engineer Ria Stein. Ria is a new, but impactful, engineer on the Spring Security team working on things like Josh's beloved lambda DSL.\n\n* Eleftheria Stein-Kousathana's page on the Spring team roster: https://spring.io/team/eleftherias",
   "dataAndTime" : "11/21/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a9c1eb1a-8efd-4bae-97b1-7b24c4cf9ca5/produced-audio"
 }, {
@@ -284,6 +319,7 @@
   "title" : "Spring Tools lead Martin Lippert",
   "date" : 1574899200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/27tfry/2b956f1a-9407-4556-a19d-03a0ec68c076.jpg",
+  "description" : "Hi, Spring fans! In today's episode Josh Long (@starbuxman) talks to Spring Tools lead Martin Lippert (@martinlippert) about his time at Pivotal, and on the Spring team, his work on Spring Tools, and his work on language servers that now serve as the foundational integration for Spring users using Microsoft's Visual Studio Code, emacs and Atom, among other things.\n\nThanks, dear listener, and Happy Thanksgiving!\n\n* Spring Tools http://spring.io/tools\n* Martin Lippert's profile page http://spring.io/team/mlippert\n* the Wikipedia description for Thanksgiving https://en.wikipedia.org/wiki/Thanksgiving",
   "dataAndTime" : "11/28/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/2b956f1a-9407-4556-a19d-03a0ec68c076/produced-audio"
 }, {
@@ -292,6 +328,7 @@
   "title" : "Spring team legend Oliver Drotbohm on Spring Data, HATEOAS, Hypermedia, and more",
   "date" : 1564099200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/fjapmy/f96eaaa5-3beb-4bc4-b21b-2d70980ff96b.jpg",
+  "description" : "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to former Spring Data lead, creator of Spring HATEOAS, vocal hypermedia advocate and musician Oliver Drotbohm (@odrotbohm) on Spring Data, HATEOAS, Hypermedia, and more.\n\n* Oliver on Twitter: @odrotbohm",
   "dataAndTime" : "07/26/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f96eaaa5-3beb-4bc4-b21b-2d70980ff96b/produced-audio"
 }, {
@@ -300,6 +337,7 @@
   "title" : "The Good Dr. Dave Syer",
   "date" : 1578009600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/76k85c/3d0c5700-8e81-4220-a9b2-9ebc7a29b88a.jpg",
+  "description" : "Hi, Spring fans! In this episode, Josh Long (@starbuxman) talks to the one, the only, the inimitable, the amazing, my hero, the good Dr. Dave Syer (@david_syer), Spring Framework committer, former Spring Batch lead, former Spring Security OAuth lead, co-founder of both Spring Boot and Spring Cloud, etc. Statistically, if you're using Spring today, you're probably using code he wrote. \n\n* Dave on Github: https://github.com/dsyer \n* Dave on Twitter: http://twitter.com/david_syer",
   "dataAndTime" : "01/03/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/3d0c5700-8e81-4220-a9b2-9ebc7a29b88a/produced-audio"
 }, {
@@ -308,6 +346,7 @@
   "title" : "Java Champion and Jetbrains Developer Advocate Mala Gupta",
   "date" : 1569456000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/wj7ftw/7d5cb1e4-1c74-4474-b80c-329ad504e5cd.jpg",
+  "description" : "Hi Spring fans! In this installment, Josh Long (@starbuxman) talks to  fellow Java Champion, industry legend, New Delhi JUG leader, author of several books on Java and Java certification, teacher, and @Jetbrains Developer Advocate Mala Gupta (@eMalaGupta) about @Java, learning new features in Java, and more.",
   "dataAndTime" : "09/26/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/7d5cb1e4-1c74-4474-b80c-329ad504e5cd/produced-audio"
 }, {
@@ -316,6 +355,7 @@
   "title" : "Spring Cloud Engineer Olga Maciaszek-Sharma",
   "date" : 1556841600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ecew65/91847c03-82f4-4575-8801-8a7c74976313.jpg",
+  "description" : "Hi Spring fans! In this installment Josh Long talks to Spring Cloud engineeer Olga Maciaszek-Sharma about joining the Sping team, testing, consumer driven contracts and consumer driven contract testing, and so much more. \n\nOlga's Twitter: http://twitter.com/olga_maciaszek",
   "dataAndTime" : "05/03/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/91847c03-82f4-4575-8801-8a7c74976313/produced-audio"
 }, {
@@ -324,6 +364,7 @@
   "title" : "Reactor team Simon Baslé",
   "date" : 1576800000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/7r4mxp/c19fc45e-16b4-4d7f-b87c-8d5e23ac7cfd.jpg",
+  "description" : "Hi, Spring fans! In this episode, I talk to Reactor teammate Simon Baslé about Nantes, France; DevFest Nantes;  Project Reactor operators, and so much more.\n\n* Simon Baslé on Twitter: http://twitter.com/SimonBasle\n* Project Reactor: http://ProjectReactor.io",
   "dataAndTime" : "12/20/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c19fc45e-16b4-4d7f-b87c-8d5e23ac7cfd/produced-audio"
 }, {
@@ -332,6 +373,7 @@
   "title" : "Kylie Liang and Theresa Nguyen on Microsoft's Java and Spring integrations",
   "date" : 1554336000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/zfrhcq/05b4ae01-52ce-4e19-a3d3-0bdf286f7b3d.jpg",
+  "description" : "Hi Spring fans! In this week's episode Josh talks to Microsoft's Kylie Liang and Theresa Nguyen about the Microsoft Java and Spring integrations, the Java ecosystem, open-source, and more. \n\nKylie (the right most person in the photo) on Twitter: https://twitter.com/liangkylie\n\nTheresa (the left most person in the photo) on Twitter: http://twitter.com/RockClimberT\n\nJosh on Twitter: http://twitter.com/starbuxman\n\nThe \"Spring Tips\" screencast introducing the Spring and Microsoft Azure integration: https://www.youtube.com/watch?v=jRgZe7kWDnU",
   "dataAndTime" : "04/04/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/05b4ae01-52ce-4e19-a3d3-0bdf286f7b3d/produced-audio"
 }, {
@@ -340,6 +382,7 @@
   "title" : "Pivotal Application Platform Security Senior Manager Sree Tummidi",
   "date" : 1550707200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/88c4ci/bbbbfbc4-fe9b-4f0c-ab4f-10279d739875.jpg",
+  "description" : "Hi Spring fans! This week I'm excited to welcome Sreee Tummidi, a senior product manager working at the intersection of application security and platform at Pivotal. We talked about security, Spring Security OAuth, OAuth, OIDC and OIDC Connect, SAML, and of course the Cloud Foundry UAA, and tons more.\n\nhttp://twitter.com/sreetummidi \nhttps://github.com/cloudfoundry/uaa",
   "dataAndTime" : "02/21/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/bbbbfbc4-fe9b-4f0c-ab4f-10279d739875/produced-audio"
 }, {
@@ -348,6 +391,7 @@
   "title" : "Spring Batch and Spring Cloud Task lead Michael Minella",
   "date" : 1556150400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ehfqg7/564af652-f099-4d4d-9930-85c725567dea.jpg",
+  "description" : "Hi Spring fans! In this episode we talk to Spring Batch and Spring Cloud Task lead Michael Minella about all things task and batch processing with Spring, South Africa, and so much more. \n\nMichael Minella on Twitter: http://twitter.com/michaelminella",
   "dataAndTime" : "04/25/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/564af652-f099-4d4d-9930-85c725567dea/produced-audio"
 }, {
@@ -356,6 +400,7 @@
   "title" : "Pivotal Labs Sydney director David Julia",
   "date" : 1578528000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/j3758t/b7a9786d-fdef-419a-8da7-5475a90b4631.jpg",
+  "description" : "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Pivotal Labs Sydney director David Julia (@DavidJulia) about applied agile, testing strategy, architecture and more.",
   "dataAndTime" : "01/09/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b7a9786d-fdef-419a-8da7-5475a90b4631/produced-audio"
 }, {
@@ -364,6 +409,7 @@
   "title" : "Spring Cloud lead Spencer Gibb",
   "date" : 1559779200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/z7fjfy/9d421c4d-bf5b-4ed4-96cf-b8e1413f7dfb.jpg",
+  "description" : "Hi Spring fans! In this installment Josh interviews Spring Cloud lead Spencer Gibb about open-source, Brazil, microservices, Spring, his journey to the Spring team, and more. \n\nTwitter:   http://Twittter.com/SpencerBGibb",
   "dataAndTime" : "06/06/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/9d421c4d-bf5b-4ed4-96cf-b8e1413f7dfb/produced-audio"
 }, {
@@ -372,6 +418,7 @@
   "title" : "Pivotal SVP Ian Andrews on our customers, new announcements, Kubernetes, and more",
   "date" : 1560384000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/utw8yr/b6aaf914-7ea8-4292-a79c-e5587e9407da.jpg",
+  "description" : "Hi Spring fans! In this installment Josh Long (@starbuxman) talks to Pivotal SVP Ian Andrews about Pivotal, Cloud Foundry, why he hasn't fired me yet, exciting new product announcements, frequent flyers, and more. \n\nIan on Twitter: http://twitter.com/IanAndrewsDC",
   "dataAndTime" : "06/13/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b6aaf914-7ea8-4292-a79c-e5587e9407da/produced-audio"
 }, {
@@ -380,6 +427,7 @@
   "title" : "Apache Tomcat, Netty and Spring Framework contributor Violeta Georgieva",
   "date" : 1571875200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ssjge2/aa3da822-e1c0-4e22-b794-a54c249e2319.jpg",
+  "description" : "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Apache Tomcat, Netty and Spring Framework contributor Violeta Georgieva (@violeta_g_g).\n\n* Violeta on [Twitter (@violeta_g_g): http://twitter.com/violeta_g_g \n* Violeta and Spencer Gibb at SpringOne Platform 2019:  https://springoneplatform.io/2017/speakers/violeta-georgieva\n* Benefits of Reactive Programming with Reactor and Spring Boot 2:  https://content.pivotal.io/slides/benefits-of-reactive-programming-with-reactor-and-spring-boot-2-violeta-georgieva\n* Project Reactor: http://projectReactor.io",
   "dataAndTime" : "10/24/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/aa3da822-e1c0-4e22-b794-a54c249e2319/produced-audio"
 }, {
@@ -388,6 +436,7 @@
   "title" : "Spring teammate Brian Clozel on new features in Spring 5.2 and Spring Boot 2.2",
   "date" : 1565827200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/7b79aq/e9d5a15b-fabf-4d7b-8852-907d2d313307.jpg",
+  "description" : "Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to Spring Boot and Spring Framework engineer Brian Clozel (@bclozel) about all the new features - RSocket support, performance improvements and more -  in Spring Framework 5.2 and Spring Boot 2.2.\n\n* Brian on Twitter: @bclozel \n* Spring Boot on Twitter: @SpringBoot \n* the place to get started with all things Spring: start.Spring.io",
   "dataAndTime" : "08/15/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/e9d5a15b-fabf-4d7b-8852-907d2d313307/produced-audio"
 }, {
@@ -396,6 +445,7 @@
   "title" : "Kotlin team engineer Roman Elisarov",
   "date" : 1557360000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/q6eeu2/71ba05ed-7a4a-44b3-b20f-028a35185484.jpg",
+  "description" : "Hi Spring fans! In today's installment Josh Long (@starbuxman) sits down with Jetbrain's Roman Elizarov (@relizarov). Roman works on the Kotlin team and, among other things, focuses on asynchronous programming with things like coroutines. This interview was a very detailed dive into the opportunities for asynchronous programming for Spring developers using Kotlin, especially in light of the new coroutine support coming in Spring Framework 5.2.  \n\nTwitter: Roman Elizarov (@relizarov)\nA great blog by Sebastien Deleuze on our new support: https://spring.io/blog/2019/04/12/going-reactive-with-spring-coroutines-and-kotlin-flow",
   "dataAndTime" : "05/09/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/71ba05ed-7a4a-44b3-b20f-028a35185484/produced-audio"
 }, {
@@ -404,6 +454,7 @@
   "title" : "Spring Boot engineer Madhura Bhave",
   "date" : 1548374400000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/n9paux/31e0f731-398d-43d9-bacb-f2c7b578c1f7.jpg",
+  "description" : "In this installment of the pod we talk to Madhura Bhave, an engineer on the Spring Boot team who has improved the project in big ways - working on things like security, actuator, OAuth and more - since she moved from her epic run on the Cloud Foundry and UAA teams. We recorded this interview in August of 2018. \n\nTwitter: http://twitter.com/madhurabhave23\nTwitter: http://twitter.com/SpringBoot",
   "dataAndTime" : "01/25/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/31e0f731-398d-43d9-bacb-f2c7b578c1f7/produced-audio"
 }, {
@@ -412,6 +463,7 @@
   "title" : "Reactor project lead Stéphane Maldini",
   "date" : 1551312000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ssu4mn/863c6399-c65d-4a60-ba24-327ac3db4c44.jpg",
+  "description" : "Hi Spring fans! This week I'm excited to sit down and talk with mr. Reactive himself, Reactor project lead Stéphane Maldini. In this interview we talk about the history of the reactive programming for Spring, the Reactor project's evolution over time, from then to now and looking forward.\n\nhttps://projectreactor.io/\nhttp://twitter.com/smaldini",
   "dataAndTime" : "02/28/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/863c6399-c65d-4a60-ba24-327ac3db4c44/produced-audio"
 }, {
@@ -420,6 +472,7 @@
   "title" : "Spring Cloud Stream lead Oleg Zhurakousky",
   "date" : 1548892800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/ae6eph/520f6c5d-25f1-4d59-8ad3-3d02c63e0bd0.jpg",
+  "description" : "In this installment we talk to Oleg Zhurakousky, lead of the Spring Cloud Stream project, an application integration and messaging wonk, and a prolific contributor to Spring Integration. Oleg also has the dubious honor of being one of my oldest friends on the Spring team - poor guy! \n\nTwitter: twitter.com/z_oleg\nTwitter: twitter.com/SpringCloud",
   "dataAndTime" : "01/31/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/520f6c5d-25f1-4d59-8ad3-3d02c63e0bd0/produced-audio"
 }, {
@@ -428,6 +481,7 @@
   "title" : "Spring mad scientist Andy Clement on AspectJ, SpEL, Eclipse, Graal and more",
   "date" : 1570665600000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/8bthb4/f40131bf-1501-4e3d-9ff3-6324f206e26d.jpg",
+  "description" : "Hi, Spring fans! In this SpringOne Platform 2019 episode, Josh Long (@starbuxman) interviews Spring mad scientist Andy Clement (@ andy_clement) on AspectJ, SpEL, Eclipse, the new Graal native image feature, being an Iron-Man triathlete, and more. \n\n* Andy Clement on Twitter: http://twitter.com/andy_clement \n* the Spring Expression Language: https://github.com/spring-projects/spring-framework/tree/master/spring-expression\n* AspectJ: https://en.wikipedia.org/wiki/AspectJ\n* the Graal native image feature: https://github.com/spring-projects-experimental/spring-graal-native",
   "dataAndTime" : "10/10/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f40131bf-1501-4e3d-9ff3-6324f206e26d/produced-audio"
 }, {
@@ -436,6 +490,7 @@
   "title" : "Pivotal's Katrina Bakas on Pivotal Healthwatch, Kubernetes, Cloud Foundry and more",
   "date" : 1575504000000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/srgm37/2545ebeb-6949-4bdb-9f07-12e8463b7f58.jpg",
+  "description" : "Hi, Spring fans! This week Josh Long (@starbuxman) talks to Pivotal's Katrina Bakas about the Pivotal HealthWatch product, Kubernetes, Cloud Foundry and so much more.\n\n* Katrina's Medium blog https://medium.com/@kvbakas",
   "dataAndTime" : "12/05/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/2545ebeb-6949-4bdb-9f07-12e8463b7f58/produced-audio"
 }, {
@@ -444,6 +499,7 @@
   "title" : "Nicolai Parlog on Java modularity",
   "date" : 1568851200000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/wjy3p6/5734a058-2bc9-4930-acc4-61bb730edf40.jpg",
+  "description" : "Hi Spring fans! In this installment, Josh Long (@starbuxman) talks to Manning's The Java Module System author Nicolai Parlog (@nipafx) about Java modularity. \n\n* Nicolai Parlog on Twitter: @nipfax \n* NIcolai's new book: https://www.manning.com/books/the-java-module-system",
   "dataAndTime" : "09/19/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/5734a058-2bc9-4930-acc4-61bb730edf40/produced-audio"
 }, {
@@ -452,6 +508,7 @@
   "title" : "I need to talk about my father, Clark \"Bud\" Long, who just passed away",
   "date" : 1576108800000,
   "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/43dztt/4677643c-a921-4fef-a30f-64c813d7e8ca.jpg",
+  "description" : "Hi, Spring fans. I really wanted to publish an episode this week. But my father, Clark \"Bud\" Long, passed away yesterday, Wednesday, December 11th, 2019, at 5:45 pm / 17:45. \n\nI'm having a hard time mustering the usual joy I feel when I publish this podcast. So, I will publish another interview next week. I've got more than a dozen already record and ready for the publishing. But this week, I want to talk, if not bawl my eyes out, a little about my dad. \n\nThanks for indulging me.",
   "dataAndTime" : "12/12/2019",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/4677643c-a921-4fef-a30f-64c813d7e8ca/produced-audio"
 } ]
