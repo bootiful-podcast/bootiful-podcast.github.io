@@ -547,4 +547,13 @@
   "description" : "<p>Hi, Spring fans! Welcome to another installment of A Bootiful Podcast! In today's installment <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Spring Cloud teammember lead <a href=\"http://twitter.com/MGrzejszczak\">Marcin Grzejszczak</a>.</p>\n<ul>\n<li><a href=\"https://spring.io/projects/spring-cloud-contract\">Spring Cloud Contract</a></li>\n<li><a href=\"https://spring.io/projects/spring-cloud-sleuth\">Spring Cloud Sleuth</a></li>\n<li><a href=\"http://twitter.com/MGrzejszczak\">Marcin on Twitter</a></li>\n</ul>",
   "dataAndTime" : "02/28/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/ed5d9a39-7ca5-477d-a743-3cb74ebc866f/produced-audio"
+}, {
+  "id" : "299",
+  "uid" : "456c2f06-502f-41ca-a8c9-4430849066c3",
+  "title" : "Spring I/O organizer and Spring trainer extraordinairre Sergi Almar ",
+  "date" : 1583452800000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/tvyuye/456c2f06-502f-41ca-a8c9-4430849066c3.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode <a href=\"https://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks with <a href=\"https://twitter.com/SergiAlmar\">Sergi Almar (@sergiAlmar) </a> about organizing one of the best JVM community shows in the business, Barcelona's <a href=\"https://springio.net/\">Spring I/O</a>, being a trainer, and so much more.</p>",
+  "dataAndTime" : "03/06/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/456c2f06-502f-41ca-a8c9-4430849066c3/produced-audio"
 } ]
