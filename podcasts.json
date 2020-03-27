@@ -557,6 +557,15 @@
   "dataAndTime" : "02/28/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/ed5d9a39-7ca5-477d-a743-3cb74ebc866f/produced-audio"
 }, {
+  "id" : "311",
+  "uid" : "0bfe08cd-3443-4f7e-9d62-5da50408621c",
+  "title" : "Apache Groovy, Testcontainers, and Reactor committer Sergei Egorov",
+  "date" : 1585267200000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/u4wjwz/0bfe08cd-3443-4f7e-9d62-5da50408621c.jpg",
+  "description" : "<p>Hi Spring fans! In this installment <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to fellow Java Champion, Oracle Groundbreaker, and Apache Groovy, Testcontainers, and Reactor committer <a href=\"http://twitter.com/bsideup\">Sergei Egorov (@bsideup)</a>.</p>",
+  "dataAndTime" : "03/27/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/0bfe08cd-3443-4f7e-9d62-5da50408621c/produced-audio"
+}, {
   "id" : "299",
   "uid" : "456c2f06-502f-41ca-a8c9-4430849066c3",
   "title" : "Spring I/O organizer and Spring trainer extraordinairre Sergi Almar ",
