@@ -583,4 +583,13 @@
   "description" : "<p>Hi, Spring fans! In this installment, Josh Long (@starbuxman) talks to the inimitable, smile-inducing and hope-renewing Glenn Renfro about Spring Cloud Data Flow, Spring Cloud Task and so much more.</p>\n<ul>\n<li><a href=\"http://twitter.com/cppwfs\">Glenn Renfro (@cppwfs)</a></li>\n<li><a href=\"https://connect.tanzu.vmware.com/Spring_Live.html\">Spring Live</a> and click &quot;Join this Session&quot;</li>\n</ul>",
   "dataAndTime" : "03/20/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/f2533aba-2850-410c-aeec-2f8f3833f075/produced-audio"
+}, {
+  "id" : "315",
+  "uid" : "faf00426-0b5d-4a0d-912a-20504ae6f694",
+  "title" : "Kubernetes co-creator Joe Beda ",
+  "date" : 1585872000000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/6bame2/faf00426-0b5d-4a0d-912a-20504ae6f694.jpg",
+  "description" : "<p>Hi, Spring fans! In this installment Josh Long (@starbuxman) talks to fellow cloud native at <a href=\"http://twitter.com/vmware\">VMWare (@VMWare)</a> and <a href=\"http://twitter.com/KubernetesIO\">Kubernetes (@KubernetesIO)</a> co-creator <a href=\"http://twitter.com/jbeda\">Joe Beda (@jbeda)</a></p>",
+  "dataAndTime" : "04/03/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/faf00426-0b5d-4a0d-912a-20504ae6f694/produced-audio"
 } ]
