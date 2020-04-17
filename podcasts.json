@@ -530,6 +530,15 @@
   "dataAndTime" : "03/12/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/7c73e1a6-47a2-4d11-8be2-0aa763053b9a/produced-audio"
 }, {
+  "id" : "323",
+  "uid" : "98e8d404-ff07-42ed-9100-cc3c5c20eef5",
+  "title" : "Jetbrains developer advocacy head and Kotlin rockstar Hadi Hariri",
+  "date" : 1587081600000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/49ws68/98e8d404-ff07-42ed-9100-cc3c5c20eef5.jpg",
+  "description" : "<p>Hi, Spring fans! In today's installment, Josh Long (@starbuxman) talks to Jetbrains developer advocacy head, &quot;Talking Kotlin&quot; podcast host, and Kotlin rockstar Hadi Hariri (@hhariri) about all things Kotlin, ecosystem, Jetbrains, and more.</p>",
+  "dataAndTime" : "04/17/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/98e8d404-ff07-42ed-9100-cc3c5c20eef5/produced-audio"
+}, {
   "id" : "287",
   "uid" : "d1dc9637-bb9d-483c-93d3-e989db4cfff7",
   "title" : "Vedran Pavic on Spring Session, Croatia, and so much more",
