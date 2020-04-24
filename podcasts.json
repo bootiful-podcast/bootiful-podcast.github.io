@@ -548,6 +548,15 @@
   "dataAndTime" : "02/13/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d1dc9637-bb9d-483c-93d3-e989db4cfff7/produced-audio"
 }, {
+  "id" : "327",
+  "uid" : "16c8789f-5562-4062-b88a-61770e2af9db",
+  "title" : "Linux Kernel hacker and Real Time patch founder Steve Rostedt on how the kernel sees our busy Spring applications",
+  "date" : 1587686400000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/g4wtyp/16c8789f-5562-4062-b88a-61770e2af9db.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode  <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Linux kernel hacker and Linux Real Time patch founder Steve Rostedt about observing the Linux kernel and on what it sees when it looks at our busy Java and Spring applications.</p>\n<ul>\n<li>Steve is on IRC on #LINUX-RT on OFT</li>\n<li>LWN.net</li>\n</ul>",
+  "dataAndTime" : "04/24/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/16c8789f-5562-4062-b88a-61770e2af9db/produced-audio"
+}, {
   "id" : "291",
   "uid" : "fee894b7-62e5-48b0-9bd1-12dd84e3e5e6",
   "title" : "Building China Scale Infrastructure at Alibaba with Spring Cloud, RSocket, and more",
