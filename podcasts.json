@@ -698,4 +698,14 @@
   "dateAndTime" : "04/10/2020",
   "dataAndTime" : "04/10/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/e4fa038c-8a13-4c1d-acb6-734f5f543f13/produced-audio"
+}, {
+  "id" : "335",
+  "uid" : "7d323056-84e8-4026-a783-4704db38709d",
+  "title" : "Spring and Java community member Eddú Meléndez about working in open-source, his journey to Spring and its community, contributing to Spring and more.",
+  "date" : 1588809600000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/1q2q2j/7d323056-84e8-4026-a783-4704db38709d.jpg",
+  "description" : "<p>Hi, Spring fans! This week I rant about push-button simple deployments and then talk to our friend and Spring and Java community member Eddú Meléndez about working in open-source, his journey to Spring and its community, his various contributions to Spring and more.</p>",
+  "dateAndTime" : "05/07/2020",
+  "dataAndTime" : "05/07/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/7d323056-84e8-4026-a783-4704db38709d/produced-audio"
 } ]
