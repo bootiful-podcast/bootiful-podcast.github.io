@@ -708,4 +708,14 @@
   "dateAndTime" : "05/07/2020",
   "dataAndTime" : "05/07/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/7d323056-84e8-4026-a783-4704db38709d/produced-audio"
+}, {
+  "id" : "339",
+  "uid" : "b2bbe730-2e31-46d1-a391-1a6270211de2",
+  "title" : "VMWare COO Sanjay Poonen",
+  "date" : 1589414400000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/hdmwlj/b2bbe730-2e31-46d1-a391-1a6270211de2.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode Josh Long (@starbuxman) talks to industry legend VMWare COO Sanjay Poonen (@spoonen).</p>",
+  "dateAndTime" : "05/14/2020",
+  "dataAndTime" : "05/14/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b2bbe730-2e31-46d1-a391-1a6270211de2/produced-audio"
 } ]
