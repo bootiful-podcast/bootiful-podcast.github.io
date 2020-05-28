@@ -709,6 +709,16 @@
   "dataAndTime" : "05/07/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/7d323056-84e8-4026-a783-4704db38709d/produced-audio"
 }, {
+  "id" : "347",
+  "uid" : "60026531-40a7-4e6b-a404-7bc033172af9",
+  "title" : "A Bootiful Podcast: Dr. Malini Bhandaru on EdgeX and the opportunities for developers in the IoT space",
+  "date" : 1590624000000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/sc6axi/60026531-40a7-4e6b-a404-7bc033172af9.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Dr. Malini Bhandaru about EdgeX and the opportunities for developers in the IoT space.</p>",
+  "dateAndTime" : "05/28/2020",
+  "dataAndTime" : "05/28/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/60026531-40a7-4e6b-a404-7bc033172af9/produced-audio"
+}, {
   "id" : "339",
   "uid" : "b2bbe730-2e31-46d1-a391-1a6270211de2",
   "title" : "VMWare COO Sanjay Poonen",
