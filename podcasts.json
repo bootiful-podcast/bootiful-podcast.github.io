@@ -729,6 +729,16 @@
   "dataAndTime" : "05/14/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b2bbe730-2e31-46d1-a391-1a6270211de2/produced-audio"
 }, {
+  "id" : "359",
+  "uid" : "49689040-28d8-4434-afa4-7f41d22b9c37",
+  "title" : "Nisha Kumar and Rose Judge on the Linux Foundation's Tern",
+  "date" : 1592524800000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/i6cp7t/49689040-28d8-4434-afa4-7f41d22b9c37.jpg",
+  "description" : "<p>Hi Spring fans! In this installment Josh Long (@starbuxman) talks to Nisha Kumar and Rose Judge who work on the Linux Foundation's project Tern.</p>\n<ul>\n<li><a href=\"https://www.linuxfoundation.org/blog/2019/12/tern-1-0-0-is-generally-available/\">Tern from the Linux Foundation</a></li>\n<li><a href=\"https://en.wikipedia.org/wiki/Shift-left_testing\">Shift Left testing</a></li>\n<li><a href=\"https://spdx.org/licenses/\">SPDX</a></li>\n<li><a href=\"https://github.com/spdx/spdx-maven-plugin\">A Maven plugin supporting SPDX</a></li>\n</ul>",
+  "dateAndTime" : "06/19/2020",
+  "dataAndTime" : "06/19/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/49689040-28d8-4434-afa4-7f41d22b9c37/produced-audio"
+}, {
   "id" : "343",
   "uid" : "6c26eeff-ac5d-4b69-ab05-c351d12e6c5e",
   "title" : "Jenkins founder and Launchable founder Kohsuke Kawaguchi",
