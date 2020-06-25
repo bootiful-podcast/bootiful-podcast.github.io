@@ -768,4 +768,14 @@
   "dateAndTime" : "06/05/2020",
   "dataAndTime" : "06/05/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/85dc9285-ba68-4180-aec2-52cccc140655/produced-audio"
+}, {
+  "id" : "363",
+  "uid" : "4b743f6c-fdf6-4d0f-9bcc-fb47537fc0e7",
+  "title" : "VMware Principal Engineer and Tanzu Wavefront co-founder Clement Pang",
+  "date" : 1593043200000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/eh3zk6/4b743f6c-fdf6-4d0f-9bcc-fb47537fc0e7.jpg",
+  "description" : "<p>Hi Spring fans! In this installment <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Tanzu Wavefront co-founder and VMware Principal Engineer <a href=\"https://twitter.com/panghy\">Clement Pang (@panghy)</a>.</p>",
+  "dateAndTime" : "06/25/2020",
+  "dataAndTime" : "06/25/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/4b743f6c-fdf6-4d0f-9bcc-fb47537fc0e7/produced-audio"
 } ]
