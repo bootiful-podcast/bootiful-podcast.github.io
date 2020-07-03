@@ -778,4 +778,14 @@
   "dateAndTime" : "06/25/2020",
   "dataAndTime" : "06/25/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/4b743f6c-fdf6-4d0f-9bcc-fb47537fc0e7/produced-audio"
+}, {
+  "id" : "367",
+  "uid" : "c1b8b860-8e1a-4b16-bfc2-9db88b7754ab",
+  "title" : "Dr. Yordan Karadzhov on instrumenting and visualizing the Linux Kernel",
+  "date" : 1593734400000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/4oto7u/c1b8b860-8e1a-4b16-bfc2-9db88b7754ab.jpg",
+  "description" : "<p>Hi Spring fans! In this installment Josh Long (@starbuxman) talks to Dr. Yordan Karadzhov about instrumenting and visualizing the Linux Kernel, and understanding what's happening from the perspective of the platform, containers, and cloud-native Spring applications.</p>",
+  "dateAndTime" : "07/03/2020",
+  "dataAndTime" : "07/03/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c1b8b860-8e1a-4b16-bfc2-9db88b7754ab/produced-audio"
 } ]
