@@ -639,6 +639,16 @@
   "dataAndTime" : "02/21/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/fee894b7-62e5-48b0-9bd1-12dd84e3e5e6/produced-audio"
 }, {
+  "id" : "371",
+  "uid" : "a0f59cfb-d9e7-405b-8f5e-0c34894332b1",
+  "title" : "Spring Data JDBC co-founder on JDBC, JPA and domain driven design",
+  "date" : 1594339200000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/qqg99u/a0f59cfb-d9e7-405b-8f5e-0c34894332b1.jpg",
+  "description" : "<p>Hi Spring fans! Welcome to another installment of  a Bootiful Podcast! In this installment <a href=\"http://twitter.com/starbuxman\">Josh Long</a> talks about the week that was and talks to the amazing Spring Data JDBC cofounder <a href=\"https://twitter.com/jensschauder\">Jens Schauder</a> about JPA, JDBC and domain driven design.</p>",
+  "dateAndTime" : "07/10/2020",
+  "dataAndTime" : "07/10/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a0f59cfb-d9e7-405b-8f5e-0c34894332b1/produced-audio"
+}, {
   "id" : "295",
   "uid" : "ed5d9a39-7ca5-477d-a743-3cb74ebc866f",
   "title" : "Spring Cloud Contract lead Marcin Grzejszczak on Spring Cloud Contract, Spring Cloud Sleuth, Continuous Integration and more",
