@@ -798,4 +798,14 @@
   "dateAndTime" : "07/03/2020",
   "dataAndTime" : "07/03/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/c1b8b860-8e1a-4b16-bfc2-9db88b7754ab/produced-audio"
+}, {
+  "id" : "375",
+  "uid" : "70c31ba4-f424-43a3-bbec-6f891aee6610",
+  "title" : "Intuit's Katie Levy on Spring Boot, Kotlin, Android and more ",
+  "date" : 1594944000000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/p38fxj/70c31ba4-f424-43a3-bbec-6f891aee6610.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Intuit's <a href=\"http://twitter.com/\">Katie Levy (@klevy110)</a> about how Intuit uses Spring Boot, Kotlin, Android and more to help tens of millions of users every year with their taxes.</p>",
+  "dateAndTime" : "07/17/2020",
+  "dataAndTime" : "07/17/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/70c31ba4-f424-43a3-bbec-6f891aee6610/produced-audio"
 } ]
