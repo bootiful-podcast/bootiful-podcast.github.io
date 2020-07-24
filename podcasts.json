@@ -808,4 +808,14 @@
   "dateAndTime" : "07/17/2020",
   "dataAndTime" : "07/17/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/70c31ba4-f424-43a3-bbec-6f891aee6610/produced-audio"
+}, {
+  "id" : "379",
+  "uid" : "b564a312-5a03-4f5d-928f-cb27d0047e3c",
+  "title" : "Spring Data lead Mark Paluch",
+  "date" : 1595548800000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/6ldivc/b564a312-5a03-4f5d-928f-cb27d0047e3c.jpg",
+  "description" : "<p>Hi, Spring fans! In this installment <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Spring Data lead <a href=\"http://twitter.com/mp911de\">Mark Paluch (@mp911de)</a> about all things reactive and data: R2DBC, transactions, etc.</p>",
+  "dateAndTime" : "07/24/2020",
+  "dataAndTime" : "07/24/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/b564a312-5a03-4f5d-928f-cb27d0047e3c/produced-audio"
 } ]
