@@ -839,6 +839,16 @@
   "dataAndTime" : "08/21/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/97942784-2299-42f4-b647-9e896ac6debf/produced-audio"
 }, {
+  "id" : "399",
+  "uid" : "241d560b-0f20-455f-b8ea-551c6d949ba1",
+  "title" : "Soby Chacko and Dave Turanski on Messaging in Spring, Spring Cloud Stream App Starters and More ",
+  "date" : 1598486400000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/8ek23p/241d560b-0f20-455f-b8ea-551c6d949ba1.jpg",
+  "description" : "<p>Hi Spring fans! In this episode <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> looks at the week that was and then talks to Spring team members <a href=\"https://twitter.com/sobychacko\">Soby Chacko (@sobychacko)</a> and <a href=\"https://twitter.com/dturanski\">Dave Turanski (@dturanski)</a> about messaging in Spring, Spring Cloud, Spring Integration, Spring Cloud Stream, Spring Cloud Data Flow, Spring Cloud Stream App Starters.</p>\n<ul>\n<li>register <a href=\"http://SpringOne.io\">for SpringOne 2020! It's free (and virtual) </a></li>\n<li>follow me <a href=\"https://www.twitch.tv/javajoshlong\">on Twitch (javajoshlong)</a></li>\n</ul>",
+  "dateAndTime" : "08/27/2020",
+  "dataAndTime" : "08/27/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/241d560b-0f20-455f-b8ea-551c6d949ba1/produced-audio"
+}, {
   "id" : "387",
   "uid" : "30740b6f-7781-4c17-b4d2-f7a2536ab245",
   "title" : "10 Years on the Spring team and JFrog's Baruch Sag",
