@@ -878,4 +878,14 @@
   "dateAndTime" : "08/14/2020",
   "dataAndTime" : "08/14/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/95f7ed9e-11b6-4b80-aca6-733921b073d2/produced-audio"
+}, {
+  "id" : "407",
+  "uid" : "83ae4357-fb6c-404d-8acf-0788b79f0c71",
+  "title" : "Legendary Spring contributor Rossen Stoyanchev on all things web, reactive and RSocket ",
+  "date" : 1599696000000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/xoya5e/83ae4357-fb6c-404d-8acf-0788b79f0c71.jpg",
+  "description" : "<p>Hi, Spring fans! In this installment of a <em>Bootiful Podcast</em>, <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks about the week that was, his new book &quot;Reactive Spring,&quot; and then talks to one of the most senior engineers on the Spring team and a longtime contributor to all things web and reactive - <a href=\"http://twitter.com/rstoya08\">Rossen Stoyanchev (@rstoya08)</a>.</p>",
+  "dateAndTime" : "09/10/2020",
+  "dataAndTime" : "09/10/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/83ae4357-fb6c-404d-8acf-0788b79f0c71/produced-audio"
 } ]
