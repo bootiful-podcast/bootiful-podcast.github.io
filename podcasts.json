@@ -849,6 +849,16 @@
   "dataAndTime" : "08/27/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/241d560b-0f20-455f-b8ea-551c6d949ba1/produced-audio"
 }, {
+  "id" : "411",
+  "uid" : "45acdf3e-e8bd-4e66-bc8d-62dd5b092b69",
+  "title" : "Lightbend CTO Jonas Bonér on his epic, aspect-oriented, distributed, reactive work ",
+  "date" : 1600300800000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/b01dqx/45acdf3e-e8bd-4e66-bc8d-62dd5b092b69.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to Lightbend CTO <a href=\"http://twitter.com/jboner\">Jonas Bonér (@jboner)</a> about his epic, aspect-oriented, distributed and reactive work.</p>",
+  "dateAndTime" : "09/17/2020",
+  "dataAndTime" : "09/17/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/45acdf3e-e8bd-4e66-bc8d-62dd5b092b69/produced-audio"
+}, {
   "id" : "403",
   "uid" : "64ba7927-685d-429c-a4a4-135425fa6cac",
   "title" : "SpringOne 2020, Azure Spring Cloud and fellow Java Champion and Microsoft Java architect Jonathan Giles",
