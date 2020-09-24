@@ -898,4 +898,14 @@
   "dateAndTime" : "09/10/2020",
   "dataAndTime" : "09/10/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/83ae4357-fb6c-404d-8acf-0788b79f0c71/produced-audio"
+}, {
+  "id" : "415",
+  "uid" : "53a8a31e-f454-482a-a7ec-1db83c509918",
+  "title" : "Sentry CTO David Cramer on Automated Error Capture and Analysis",
+  "date" : 1600905600000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/up2pcl/53a8a31e-f454-482a-a7ec-1db83c509918.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks about the wide world of webdevelopment with CSS, Figma, AdobeXD and more, and then talks to Sentry CTO <a href=\"https://twitter.com/zeeg\">David Cramer (@zeeg)</a> about easy error capture and analysis with Sentry and Spring.</p>\n<ul>\n<li>Want to see the worldwide flurry of activity as errors make their way to Sentry? <a href=\"https://live.sentry.io\">Check this out</a></li>\n</ul>",
+  "dateAndTime" : "09/24/2020",
+  "dataAndTime" : "09/24/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/53a8a31e-f454-482a-a7ec-1db83c509918/produced-audio"
 } ]
