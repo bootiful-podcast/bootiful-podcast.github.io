@@ -908,4 +908,14 @@
   "dateAndTime" : "09/24/2020",
   "dataAndTime" : "09/24/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/53a8a31e-f454-482a-a7ec-1db83c509918/produced-audio"
+}, {
+  "id" : "419",
+  "uid" : "d8b01a23-a4d1-479d-85f6-52d0485dc6c2",
+  "title" : "Longtime Spring Framework engineer  Arjen Poutsma on Spring's web support, Scala, API Design, Reactive programming and more",
+  "date" : 1601596800000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/2d9ppz/d8b01a23-a4d1-479d-85f6-52d0485dc6c2.jpg",
+  "description" : "<p>Hi, Spring fans! Welcome to another installment of <em>A Bootiful Podcast</em>. In this installment <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks to longtime Spring Framework engineer  and team &quot;bass player&quot; <a href=\"http://twitter.com/poutsma\">Arjen Poutsma (@poutsma)</a></p>",
+  "dateAndTime" : "10/02/2020",
+  "dataAndTime" : "10/02/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/d8b01a23-a4d1-479d-85f6-52d0485dc6c2/produced-audio"
 } ]
