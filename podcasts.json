@@ -928,4 +928,14 @@
   "dateAndTime" : "10/08/2020",
   "dataAndTime" : "10/08/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/fce25c42-1439-42d5-a3d1-4a97ee3fab57/produced-audio"
+}, {
+  "id" : "427",
+  "uid" : "053f0141-2910-4fef-9e4a-08c939506874",
+  "title" : "DataStax's Patrick McFadin on DataStax Astra, Cassandra, Cassandra data modeling patterns, and more",
+  "date" : 1602720000000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/myoe73/053f0141-2910-4fef-9e4a-08c939506874.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode <a href=\"http://twitter.com/starbuxman\">Josh Long (@starbuxman)</a> talks about all the wonderful shows he's been at, the epic new support for Kubernetes-ready native images in Spring Boot 2.3 and Spring Boot 2.4, and then he talks to DataStax's own <a href=\"http://twitter.com/PatrickMcFadin\">Patrick McFadin (@PatrickMcFadin)</a>, a legend in the JVM and Cassandra communities, and an all around amiable gent.</p>",
+  "dateAndTime" : "10/15/2020",
+  "dataAndTime" : "10/15/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/053f0141-2910-4fef-9e4a-08c939506874/produced-audio"
 } ]
