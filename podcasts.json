@@ -958,4 +958,14 @@
   "dateAndTime" : "10/29/2020",
   "dataAndTime" : "10/29/2020",
   "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/a07248d7-4aa3-4e90-bb45-0c90ab8671f3/produced-audio"
+}, {
+  "id" : "439",
+  "uid" : "dc4a4262-a7e2-4af0-879d-328a57fd86b4",
+  "title" : "Spring legend Thomas Risberg on JDBC, Spring Cloud Data Flow, Kubernetes and so much more",
+  "date" : 1604534400000,
+  "episodePhotoUri" : "https://mcdn.podbean.com/mf/web/102mui/dc4a4262-a7e2-4af0-879d-328a57fd86b4.jpg",
+  "description" : "<p>Hi, Spring fans! In this episode Josh talks to Spring legend <a href=\"http://twitter.com/trisberg\">Thomas Risberg (@trisberg)</a>.</p>",
+  "dateAndTime" : "11/05/2020",
+  "dataAndTime" : "11/05/2020",
+  "episodeUri" : "https://bootiful-podcast-api.cfapps.io/podcasts/dc4a4262-a7e2-4af0-879d-328a57fd86b4/produced-audio"
 } ]
